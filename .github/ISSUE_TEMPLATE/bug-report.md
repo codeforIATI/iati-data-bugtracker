@@ -21,6 +21,8 @@ assignees: ''
 > 
 > Have you contacted the publisher, and/or [IATI Support](mailto:support@iatistandard.org)?
 > 
+> If not, you can use [this email template](https://github.com/codeforIATI/iati-data-bugtracker/blob/main/email-template.md).
+>
 > ### Additional context
 > 
 > Add any other context about the problem here.
