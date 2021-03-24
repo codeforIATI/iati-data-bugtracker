@@ -1,0 +1,19 @@
+# Number of days of inactivity before an Issue or Pull Request becomes stale
+daysUntilStale: 30
+
+# Number of days of inactivity before an Issue or Pull Request with the stale label is closed.
+# Set to false to disable. If disabled, issues still need to be closed manually, but will remain marked as stale.
+daysUntilClose: false
+
+# Issues or Pull Requests with these labels will never be considered stale. Set to `[]` to disable
+exemptLabels:
+  - evergreen
+  - meta
+
+# Label to use when marking as stale
+staleLabel: awaiting_update
+
+# Comment to post when marking as stale. Set to `false` to disable
+markComment: >
+  This issue has been automatically marked as "awaiting update".
+  If you’ve checked and the issue is still applicable, please add a message to that effect.
