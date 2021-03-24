@@ -11,9 +11,15 @@ exemptLabels:
   - meta
 
 # Label to use when marking as stale
-staleLabel: awaiting_update
+staleLabel: Awaiting update
 
 # Comment to post when marking as stale. Set to `false` to disable
-markComment: >
-  This issue has been automatically marked as "awaiting update".
-  If you’ve checked and the issue is still applicable, please add a message to that effect.
+markComment: |
+  Hello! There has been no activity on this issue in the last 30 days. I wonder if it has now been resolved?!
+
+  If you’re reading this, would you mind checking to see if the issue is still applicable?
+
+   * If it has been resolved, please add a message to that effect, and (if you’re able to) close it.
+   * If the problem still applies, please add a message to let us know. I’ll remove the "Awaiting update" label, and will check in again next month.
+
+  Thank you!
