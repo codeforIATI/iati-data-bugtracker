@@ -1,1277 +1,5121 @@
 labels:
+ - name: awaiting update
+   color: "#2BE1C4"
+   description: "Waiting for someone to check and confirm the issue is still relevant"
+
+ - name: meta
+   color: "#0847F0"
+   description: "An issue concerning this issue tracker"
+
+ - name: metadata issue
+   color: "#785D1F"
+   description: "An issue with a publisher’s metadata on the IATI registry"
+
+ - name: data issue
+   color: "#D73A4A"
+   description: "An issue with a publisher’s IATI data"
+
  - name: "~publisher~ ausgov"
+   new_name: "publisher: ausgov"
+   description: "Issue concerns data published by Australia - Department of  Foreign Affairs and Trade"
+
  - name: "~publisher~ worldbank"
+   new_name: "publisher: worldbank"
+   description: "Issue concerns data published by The World Bank"
+
  - name: "~publisher~ hewlett-foundation"
+   new_name: "publisher: hewlett-foundation"
+   description: "Issue concerns data published by The William and Flora Hewlett Foundation"
+
  - name: "~publisher~ unops"
+   new_name: "publisher: unops"
+   description: "Issue concerns data published by United Nations Office for Project Services (UNOPS)"
+
  - name: "~publisher~ f-aids"
+   new_name: "publisher: f-aids"
+   description: "Issue concerns data published by Frontline AIDS"
+
  - name: "~publisher~ ec-devco"
+   new_name: "publisher: ec-devco"
+   description: "Issue concerns data published by European Commission - Directorate-General for International Cooperation and Development"
+
  - name: "~publisher~ sida"
+   new_name: "publisher: sida"
+   description: "Issue concerns data published by Sweden, through Swedish International Development Cooperation Agency (Sida)"
+
  - name: "~publisher~ ewb_canada"
+   new_name: "publisher: ewb_canada"
+   description: "Issue concerns data published by Engineers Without Borders Canada"
+
  - name: "~publisher~ undp"
+   new_name: "publisher: undp"
+   description: "Issue concerns data published by United Nations Development Programme (UNDP)"
+
  - name: "~publisher~ indtrust"
+   new_name: "publisher: indtrust"
+   description: "Issue concerns data published by Indigo Trust"
+
  - name: "~publisher~ oxfamgb"
+   new_name: "publisher: oxfamgb"
+   description: "Issue concerns data published by Oxfam GB"
+
  - name: "~publisher~ finland_mfa"
+   new_name: "publisher: finland_mfa"
+   description: "Issue concerns data published by Finland - Ministry for Foreign Affairs"
+
  - name: "~publisher~ self-help-africa"
+   new_name: "publisher: self-help-africa"
+   description: "Issue concerns data published by Self Help Africa"
+
  - name: "~publisher~ theglobalfund"
+   new_name: "publisher: theglobalfund"
+   description: "Issue concerns data published by The Global Fund to Fight AIDS, Tuberculosis and Malaria"
+
  - name: "~publisher~ asdb"
+   new_name: "publisher: asdb"
+   description: "Issue concerns data published by Asian Development Bank"
+
  - name: "~publisher~ pwyf"
+   new_name: "publisher: pwyf"
+   description: "Issue concerns data published by Publish What You Fund"
+
  - name: "~publisher~ nrc"
+   new_name: "publisher: nrc"
+   description: "Issue concerns data published by Norwegian Refugee Council"
+
  - name: "~publisher~ spark"
+   new_name: "publisher: spark"
+   description: "Issue concerns data published by SPARK"
+
  - name: "~publisher~ danida"
+   new_name: "publisher: danida"
+   description: "Issue concerns data published by Denmark - Ministry of Foreign Affairs, Danida"
+
  - name: "~publisher~ cafod"
+   new_name: "publisher: cafod"
+   description: "Issue concerns data published by Catholic Agency For Overseas Development (CAFOD)"
+
  - name: "~publisher~ gavi"
+   new_name: "publisher: gavi"
+   description: "Issue concerns data published by Gavi, the vaccine alliance"
+
  - name: "~publisher~ globalgiving"
+   new_name: "publisher: globalgiving"
+   description: "Issue concerns data published by GlobalGiving.org"
+
  - name: "~publisher~ camfed"
+   new_name: "publisher: camfed"
+   description: "Issue concerns data published by Camfed International"
+
  - name: "~publisher~ allwecan"
+   new_name: "publisher: allwecan"
+   description: "Issue concerns data published by All We Can (formerly Methodist Relief and Development Fund)"
+
  - name: "~publisher~ art19"
+   new_name: "publisher: art19"
+   description: "Issue concerns data published by Article19"
+
  - name: "~publisher~ childhopeuk"
+   new_name: "publisher: childhopeuk"
+   description: "Issue concerns data published by ChildHope UK"
+
  - name: "~publisher~ concernuk"
+   new_name: "publisher: concernuk"
+   description: "Issue concerns data published by Concern Worldwide UK"
+
  - name: "~publisher~ lead_international"
+   new_name: "publisher: lead_international"
+   description: "Issue concerns data published by LEAD International"
+
  - name: "~publisher~ transparency-international"
+   new_name: "publisher: transparency-international"
+   description: "Issue concerns data published by Transparency International Secretariat"
+
  - name: "~publisher~ afrikids"
+   new_name: "publisher: afrikids"
+   description: "Issue concerns data published by AfriKids"
+
  - name: "~publisher~ evc"
+   new_name: "publisher: evc"
+   description: "Issue concerns data published by EveryChild"
+
  - name: "~publisher~ mapaction"
+   new_name: "publisher: mapaction"
+   description: "Issue concerns data published by MapAction"
+
  - name: "~publisher~ theict"
+   new_name: "publisher: theict"
+   description: "Issue concerns data published by The International Children's Trust"
+
  - name: "~publisher~ troc"
+   new_name: "publisher: troc"
+   description: "Issue concerns data published by Trocaire (Northern Ireland)"
+
  - name: "~publisher~ iww_publish"
+   new_name: "publisher: iww_publish"
+   description: "Issue concerns data published by Interact Worldwide"
+
  - name: "~publisher~ hpa"
+   new_name: "publisher: hpa"
+   description: "Issue concerns data published by Health Poverty Action"
+
  - name: "~publisher~ aet"
+   new_name: "publisher: aet"
+   description: "Issue concerns data published by Africa Educational Trust"
+
  - name: "~publisher~ livingearth12"
+   new_name: "publisher: livingearth12"
+   description: "Issue concerns data published by Living Earth Foundation"
+
  - name: "~publisher~ ffi_publisher"
+   new_name: "publisher: ffi_publisher"
+   description: "Issue concerns data published by Fauna & Flora International"
+
  - name: "~publisher~ cic"
+   new_name: "publisher: cic"
+   description: "Issue concerns data published by Children in Crisis"
+
  - name: "~publisher~ icauk"
+   new_name: "publisher: icauk"
+   description: "Issue concerns data published by ICA:UK"
+
  - name: "~publisher~ buildafrica"
+   new_name: "publisher: buildafrica"
+   description: "Issue concerns data published by Build Africa"
+
  - name: "~publisher~ tearfund"
+   new_name: "publisher: tearfund"
+   description: "Issue concerns data published by Tearfund"
+
  - name: "~publisher~ waronwant"
+   new_name: "publisher: waronwant"
+   description: "Issue concerns data published by War on Want"
+
  - name: "~publisher~ icn"
+   new_name: "publisher: icn"
+   description: "Issue concerns data published by InterClimate Network"
+
  - name: "~publisher~ wacc-uk"
+   new_name: "publisher: wacc-uk"
+   description: "Issue concerns data published by World Association for Christian Communication (UK)"
+
  - name: "~publisher~ ai_1064413"
+   new_name: "publisher: ai_1064413"
+   description: "Issue concerns data published by African Initiatives"
+
  - name: "~publisher~ opportunity-international-uk"
+   new_name: "publisher: opportunity-international-uk"
+   description: "Issue concerns data published by Opportunity International UK"
+
  - name: "~publisher~ mce"
+   new_name: "publisher: mce"
+   description: "Issue concerns data published by Mercy Corps Europe"
+
  - name: "~publisher~ akfuk73"
+   new_name: "publisher: akfuk73"
+   description: "Issue concerns data published by Aga Khan Foundation (United Kingdom)"
+
  - name: "~publisher~ spuk"
+   new_name: "publisher: spuk"
+   description: "Issue concerns data published by Samaritan's Purse UK"
+
  - name: "~publisher~ karuna"
+   new_name: "publisher: karuna"
+   description: "Issue concerns data published by Karuna Trust"
+
  - name: "~publisher~ acord"
+   new_name: "publisher: acord"
+   description: "Issue concerns data published by Agency for Cooperation and Research in Development (ACORD)"
+
  - name: "~publisher~ bond"
+   new_name: "publisher: bond"
+   description: "Issue concerns data published by Bond"
+
  - name: "~publisher~ twin-iati"
+   new_name: "publisher: twin-iati"
+   description: "Issue concerns data published by Twin"
+
  - name: "~publisher~ power"
+   new_name: "publisher: power"
+   description: "Issue concerns data published by Power International"
+
  - name: "~publisher~ canoncollinstrust"
+   new_name: "publisher: canoncollinstrust"
+   description: "Issue concerns data published by Canon Collins Trust"
+
  - name: "~publisher~ wsup"
+   new_name: "publisher: wsup"
+   description: "Issue concerns data published by Water & Sanitation for the Urban Poor (WSUP)"
+
  - name: "~publisher~ cdc"
+   new_name: "publisher: cdc"
+   description: "Issue concerns data published by CDC Group plc"
+
  - name: "~publisher~ womankindworld"
+   new_name: "publisher: womankindworld"
+   description: "Issue concerns data published by Womankind Worldwide"
+
  - name: "~publisher~ foe_ewni"
+   new_name: "publisher: foe_ewni"
+   description: "Issue concerns data published by Friends of the Earth England, Wales and Northern Ireland"
+
  - name: "~publisher~ cu"
+   new_name: "publisher: cu"
+   description: "Issue concerns data published by United Purpose"
+
  - name: "~publisher~ pont"
+   new_name: "publisher: pont"
+   description: "Issue concerns data published by PONT"
+
  - name: "~publisher~ rfuk"
+   new_name: "publisher: rfuk"
+   description: "Issue concerns data published by Rainforest Foundation UK"
+
  - name: "~publisher~ unhabitat"
+   new_name: "publisher: unhabitat"
+   description: "Issue concerns data published by UN-Habitat"
+
  - name: "~publisher~ pri"
+   new_name: "publisher: pri"
+   description: "Issue concerns data published by Penal Reform International"
+
  - name: "~publisher~ wateraid"
+   new_name: "publisher: wateraid"
+   description: "Issue concerns data published by WaterAid"
+
  - name: "~publisher~ jeevika_trust"
+   new_name: "publisher: jeevika_trust"
+   description: "Issue concerns data published by Jeevika Trust"
+
  - name: "~publisher~ vso"
+   new_name: "publisher: vso"
+   description: "Issue concerns data published by Voluntary Service Overseas (VSO)"
+
  - name: "~publisher~ plan_uk"
+   new_name: "publisher: plan_uk"
+   description: "Issue concerns data published by Plan International UK"
+
  - name: "~publisher~ psi"
+   new_name: "publisher: psi"
+   description: "Issue concerns data published by Population Service International"
+
  - name: "~publisher~ scuk"
+   new_name: "publisher: scuk"
+   description: "Issue concerns data published by Save the Children UK"
+
  - name: "~publisher~ stichting_hivos"
+   new_name: "publisher: stichting_hivos"
+   description: "Issue concerns data published by Hivos"
+
  - name: "~publisher~ sacbc"
+   new_name: "publisher: sacbc"
+   description: "Issue concerns data published by Southern African Catholic Bishops' Conference Aids Office"
+
  - name: "~publisher~ gain"
+   new_name: "publisher: gain"
+   description: "Issue concerns data published by The Global Alliance for Improved Nutrition"
+
  - name: "~publisher~ si"
+   new_name: "publisher: si"
+   description: "Issue concerns data published by StreetInvest"
+
  - name: "~publisher~ cr"
+   new_name: "publisher: cr"
+   description: "Issue concerns data published by Conciliation Resources"
+
  - name: "~publisher~ bracuk"
+   new_name: "publisher: bracuk"
+   description: "Issue concerns data published by BRAC UK"
+
  - name: "~publisher~ gl"
+   new_name: "publisher: gl"
+   description: "Issue concerns data published by Gender Links"
+
  - name: "~publisher~ lcd_admin"
+   new_name: "publisher: lcd_admin"
+   description: "Issue concerns data published by Leonard Cheshire Disability"
+
  - name: "~publisher~ diltuk"
+   new_name: "publisher: diltuk"
+   description: "Issue concerns data published by Developments In Literacy Trust UK"
+
  - name: "~publisher~ ciuk"
+   new_name: "publisher: ciuk"
+   description: "Issue concerns data published by CARE International UK"
+
  - name: "~publisher~ irw"
+   new_name: "publisher: irw"
+   description: "Issue concerns data published by Islamic Relief Worldwide"
+
  - name: "~publisher~ ippf"
+   new_name: "publisher: ippf"
+   description: "Issue concerns data published by International Planned Parenthood Federation"
+
  - name: "~publisher~ cprojects"
+   new_name: "publisher: cprojects"
+   description: "Issue concerns data published by Charity Projects Ltd (Comic Relief)"
+
  - name: "~publisher~ uncdf"
+   new_name: "publisher: uncdf"
+   description: "Issue concerns data published by United Nations Capital Development Fund"
+
  - name: "~publisher~ bracintl"
+   new_name: "publisher: bracintl"
+   description: "Issue concerns data published by BRAC International"
+
  - name: "~publisher~ ri-uk"
+   new_name: "publisher: ri-uk"
+   description: "Issue concerns data published by Relief International UK"
+
  - name: "~publisher~ tbalert"
+   new_name: "publisher: tbalert"
+   description: "Issue concerns data published by TB Alert"
+
  - name: "~publisher~ unw"
+   new_name: "publisher: unw"
+   description: "Issue concerns data published by UN Women"
+
  - name: "~publisher~ twaweza"
+   new_name: "publisher: twaweza"
+   description: "Issue concerns data published by Twaweza"
+
  - name: "~publisher~ mlf"
+   new_name: "publisher: mlf"
+   description: "Issue concerns data published by MicroLoan Foundation"
+
  - name: "~publisher~ ctc"
+   new_name: "publisher: ctc"
+   description: "Issue concerns data published by Child-to-Child"
+
  - name: "~publisher~ caid"
+   new_name: "publisher: caid"
+   description: "Issue concerns data published by Christian Aid"
+
  - name: "~publisher~ growmovement_admin"
+   new_name: "publisher: growmovement_admin"
+   description: "Issue concerns data published by Grow Movement"
+
  - name: "~publisher~ motivation"
+   new_name: "publisher: motivation"
+   description: "Issue concerns data published by Motivation"
+
  - name: "~publisher~ drf"
+   new_name: "publisher: drf"
+   description: "Issue concerns data published by Disability Rights Fund"
+
  - name: "~publisher~ unitedstates"
+   new_name: "publisher: unitedstates"
+   description: "Issue concerns data published by United States"
+
  - name: "~publisher~ wwf-uk"
+   new_name: "publisher: wwf-uk"
+   description: "Issue concerns data published by WWF-UK"
+
  - name: "~publisher~ msi"
+   new_name: "publisher: msi"
+   description: "Issue concerns data published by MSI Reproductive Choices"
+
  - name: "~publisher~ ss-org"
+   new_name: "publisher: ss-org"
+   description: "Issue concerns data published by Sightsavers"
+
  - name: "~publisher~ tripleline_crownagents"
+   new_name: "publisher: tripleline_crownagents"
+   description: "Issue concerns data published by Triple Line"
+
  - name: "~publisher~ aai"
+   new_name: "publisher: aai"
+   description: "Issue concerns data published by ActionAid International"
+
  - name: "~publisher~ iadb"
+   new_name: "publisher: iadb"
+   description: "Issue concerns data published by Inter-American Development Bank"
+
  - name: "~publisher~ zet"
+   new_name: "publisher: zet"
+   description: "Issue concerns data published by Zimbabwe Educational Trust"
+
  - name: "~publisher~ pa"
+   new_name: "publisher: pa"
+   description: "Issue concerns data published by Practical Action"
+
  - name: "~publisher~ restless"
+   new_name: "publisher: restless"
+   description: "Issue concerns data published by Restless Development"
+
  - name: "~publisher~ international-alert"
+   new_name: "publisher: international-alert"
+   description: "Issue concerns data published by International Alert"
+
  - name: "~publisher~ bmz"
+   new_name: "publisher: bmz"
+   description: "Issue concerns data published by Germany - Ministry for Economic Cooperation and Development"
+
  - name: "~publisher~ malariaconsortium"
+   new_name: "publisher: malariaconsortium"
+   description: "Issue concerns data published by Malaria Consortium"
+
  - name: "~publisher~ peopleinaid"
+   new_name: "publisher: peopleinaid"
+   description: "Issue concerns data published by People In Aid"
+
  - name: "~publisher~ cif"
+   new_name: "publisher: cif"
+   description: "Issue concerns data published by Climate Investment Funds"
+
  - name: "~publisher~ mamta_himc"
+   new_name: "publisher: mamta_himc"
+   description: "Issue concerns data published by MAMTA - Health Institute for Mother and Child"
+
  - name: "~publisher~ ciks"
+   new_name: "publisher: ciks"
+   description: "Issue concerns data published by Centre for Indian Knowledge Systems"
+
  - name: "~publisher~ cord"
+   new_name: "publisher: cord"
+   description: "Issue concerns data published by Cord"
+
  - name: "~publisher~ homeoffice"
+   new_name: "publisher: homeoffice"
+   description: "Issue concerns data published by UK - Home Office"
+
  - name: "~publisher~ pact"
+   new_name: "publisher: pact"
+   description: "Issue concerns data published by Pact"
+
  - name: "~publisher~ wcuk"
+   new_name: "publisher: wcuk"
+   description: "Issue concerns data published by War Child UK"
+
  - name: "~publisher~ goal"
+   new_name: "publisher: goal"
+   description: "Issue concerns data published by GOAL"
+
  - name: "~publisher~ eti"
+   new_name: "publisher: eti"
+   description: "Issue concerns data published by Ethical Trading Initiative"
+
  - name: "~publisher~ dapp"
+   new_name: "publisher: dapp"
+   description: "Issue concerns data published by Development Aid from People to People (DAPP) Malawi"
+
  - name: "~publisher~ unicef"
+   new_name: "publisher: unicef"
+   description: "Issue concerns data published by United Nations Children's Fund (UNICEF)"
+
  - name: "~publisher~ cda"
+   new_name: "publisher: cda"
+   description: "Issue concerns data published by CDA Collaborative Learning Projects"
+
  - name: "~publisher~ mrc-sierra-leone"
+   new_name: "publisher: mrc-sierra-leone"
+   description: "Issue concerns data published by Medical Research Centre (MRC), Sierra Leone"
+
  - name: "~publisher~ sinda"
+   new_name: "publisher: sinda"
+   description: "Issue concerns data published by Scotland's International Development Alliance"
+
  - name: "~publisher~ wfp"
+   new_name: "publisher: wfp"
+   description: "Issue concerns data published by United Nations World Food Programme (WFP)"
+
  - name: "~publisher~ acodev"
+   new_name: "publisher: acodev"
+   description: "Issue concerns data published by ACODEV"
+
  - name: "~publisher~ dochas"
+   new_name: "publisher: dochas"
+   description: "Issue concerns data published by D√≥chas - Irish Association of Non Governmental Development Organisations"
+
  - name: "~publisher~ wfwiuk"
+   new_name: "publisher: wfwiuk"
+   description: "Issue concerns data published by Women for Women International (UK)"
+
  - name: "~publisher~ aauk"
+   new_name: "publisher: aauk"
+   description: "Issue concerns data published by ActionAid UK"
+
  - name: "~publisher~ arfh"
+   new_name: "publisher: arfh"
+   description: "Issue concerns data published by Association for Reproductive and Family Health"
+
  - name: "~publisher~ afdb"
+   new_name: "publisher: afdb"
+   description: "Issue concerns data published by African Development Bank"
+
  - name: "~publisher~ akvo"
+   new_name: "publisher: akvo"
+   description: "Issue concerns data published by Akvo Foundation"
+
  - name: "~publisher~ saferworld"
+   new_name: "publisher: saferworld"
+   description: "Issue concerns data published by Saferworld"
+
  - name: "~publisher~ unfpa"
+   new_name: "publisher: unfpa"
+   description: "Issue concerns data published by United Nations Population Fund"
+
  - name: "~publisher~ ff"
+   new_name: "publisher: ff"
+   description: "Issue concerns data published by Freedom Forum"
+
  - name: "~publisher~ afghanaid"
+   new_name: "publisher: afghanaid"
+   description: "Issue concerns data published by Afghanaid"
+
  - name: "~publisher~ mfat"
+   new_name: "publisher: mfat"
+   description: "Issue concerns data published by New Zealand - Ministry of Foreign Affairs and Trade - New Zealand Aid Programme"
+
  - name: "~publisher~ gac-amc"
+   new_name: "publisher: gac-amc"
+   description: "Issue concerns data published by Canada - Global Affairs Canada | Affaires mondiales Canada"
+
  - name: "~publisher~ ec-fpi"
+   new_name: "publisher: ec-fpi"
+   description: "Issue concerns data published by European Commission - Service for Foreign Policy Instruments"
+
  - name: "~publisher~ ec-near"
+   new_name: "publisher: ec-near"
+   description: "Issue concerns data published by European Commission - Neighbourhood and Enlargement Negotiations"
+
  - name: "~publisher~ maec"
+   new_name: "publisher: maec"
+   description: "Issue concerns data published by Spain - Ministry of Foreign Affairs and Cooperation"
+
  - name: "~publisher~ helpage_international"
+   new_name: "publisher: helpage_international"
+   description: "Issue concerns data published by HelpAge International"
+
  - name: "~publisher~ sacu"
+   new_name: "publisher: sacu"
+   description: "Issue concerns data published by Send a Cow Uganda"
+
  - name: "~publisher~ irishaid"
+   new_name: "publisher: irishaid"
+   description: "Issue concerns data published by Ireland - Department of Foreign Affairs and Trade"
+
  - name: "~publisher~ dwp"
+   new_name: "publisher: dwp"
+   description: "Issue concerns data published by UK - Department for Work and Pensions"
+
  - name: "~publisher~ network4africa"
+   new_name: "publisher: network4africa"
+   description: "Issue concerns data published by Network for Africa"
+
  - name: "~publisher~ blueventures"
+   new_name: "publisher: blueventures"
+   description: "Issue concerns data published by Blue Ventures Conservation"
+
  - name: "~publisher~ ip-india"
+   new_name: "publisher: ip-india"
+   description: "Issue concerns data published by iPartner India"
+
  - name: "~publisher~ lcds"
+   new_name: "publisher: lcds"
+   description: "Issue concerns data published by Link Community Development Scotland"
+
  - name: "~publisher~ dc"
+   new_name: "publisher: dc"
+   description: "Issue concerns data published by Digital Campus"
+
  - name: "~publisher~ hsa"
+   new_name: "publisher: hsa"
+   description: "Issue concerns data published by Heifer International South Africa"
+
  - name: "~publisher~ ec-echo"
+   new_name: "publisher: ec-echo"
+   description: "Issue concerns data published by European Commission - Humanitarian Aid & Civil Protection"
+
  - name: "~publisher~ cuammtrustees"
+   new_name: "publisher: cuammtrustees"
+   description: "Issue concerns data published by CUAMM Trustees"
+
  - name: "~publisher~ dhsc"
+   new_name: "publisher: dhsc"
+   description: "Issue concerns data published by UK - Department of Health and Social Care (DHSC)"
+
  - name: "~publisher~ mic-uk"
+   new_name: "publisher: mic-uk"
+   description: "Issue concerns data published by MICAIA"
+
  - name: "~publisher~ plan_usa"
+   new_name: "publisher: plan_usa"
+   description: "Issue concerns data published by Plan International USA"
+
  - name: "~publisher~ acaa"
+   new_name: "publisher: acaa"
+   description: "Issue concerns data published by Afghanistan and Central Asian Association"
+
  - name: "~publisher~ mrc"
+   new_name: "publisher: mrc"
+   description: "Issue concerns data published by UK - Medical Research Council"
+
  - name: "~publisher~ ke-ngc-3372"
+   new_name: "publisher: ke-ngc-3372"
+   description: "Issue concerns data published by I Choose Life Africa"
+
  - name: "~publisher~ irc_uk"
+   new_name: "publisher: irc_uk"
+   description: "Issue concerns data published by International Rescue Committee UK"
+
  - name: "~publisher~ htspe"
+   new_name: "publisher: htspe"
+   description: "Issue concerns data published by HTSPE"
+
  - name: "~publisher~ hauk"
+   new_name: "publisher: hauk"
+   description: "Issue concerns data published by Hospice Africa Ltd"
+
  - name: "~publisher~ ablechildafrica"
+   new_name: "publisher: ablechildafrica"
+   description: "Issue concerns data published by Able Child Africa"
+
  - name: "~publisher~ gan"
+   new_name: "publisher: gan"
+   description: "Issue concerns data published by Global Action Nepal"
+
  - name: "~publisher~ asi"
+   new_name: "publisher: asi"
+   description: "Issue concerns data published by Adam Smith International"
+
  - name: "~publisher~ foundation_center"
+   new_name: "publisher: foundation_center"
+   description: "Issue concerns data published by The Foundation Center"
+
  - name: "~publisher~ integrity_action"
+   new_name: "publisher: integrity_action"
+   description: "Issue concerns data published by Integrity Action"
+
  - name: "~publisher~ sdc_ch"
+   new_name: "publisher: sdc_ch"
+   description: "Issue concerns data published by Switzerland - Swiss Agency for Development and Cooperation (SDC)"
+
  - name: "~publisher~ beesfordevelopment"
+   new_name: "publisher: beesfordevelopment"
+   description: "Issue concerns data published by Bees for Development Trust"
+
  - name: "~publisher~ acted"
+   new_name: "publisher: acted"
+   description: "Issue concerns data published by ACTED"
+
  - name: "~publisher~ minbuza_nl"
+   new_name: "publisher: minbuza_nl"
+   description: "Issue concerns data published by Netherlands - Ministry of Foreign Affairs"
+
  - name: "~publisher~ eiuk"
+   new_name: "publisher: eiuk"
+   description: "Issue concerns data published by Emmanuel International UK"
+
  - name: "~publisher~ ftm-291333"
+   new_name: "publisher: ftm-291333"
+   description: "Issue concerns data published by Feed the Minds"
+
  - name: "~publisher~ cal"
+   new_name: "publisher: cal"
+   description: "Issue concerns data published by Crown Agents Limited"
+
  - name: "~publisher~ ark"
+   new_name: "publisher: ark"
+   description: "Issue concerns data published by ARK (Absolute Return for Kids)"
+
  - name: "~publisher~ soscvkenya"
+   new_name: "publisher: soscvkenya"
+   description: "Issue concerns data published by SOS Children's Villages Kenya"
+
  - name: "~publisher~ mag"
+   new_name: "publisher: mag"
+   description: "Issue concerns data published by MAG"
+
  - name: "~publisher~ targettb"
+   new_name: "publisher: targettb"
+   description: "Issue concerns data published by Target TB"
+
  - name: "~publisher~ unocha"
+   new_name: "publisher: unocha"
+   description: "Issue concerns data published by United Nations Office for the Coordination of Humanitarian Affairs (OCHA)"
+
  - name: "~publisher~ dai-e"
+   new_name: "publisher: dai-e"
+   description: "Issue concerns data published by DAI Europe"
+
  - name: "~publisher~ starsfoundation"
+   new_name: "publisher: starsfoundation"
+   description: "Issue concerns data published by Stars Foundation"
+
  - name: "~publisher~ phase-nepal"
+   new_name: "publisher: phase-nepal"
+   description: "Issue concerns data published by PHASE Nepal"
+
  - name: "~publisher~ france"
+   new_name: "publisher: france"
+   description: "Issue concerns data published by France - Ministry for Europe and Foreign Affairs"
+
  - name: "~publisher~ hwa-zm"
+   new_name: "publisher: hwa-zm"
+   description: "Issue concerns data published by Hilfswerk Austria Zimbabwe"
+
  - name: "~publisher~ plan_ireland"
+   new_name: "publisher: plan_ireland"
+   description: "Issue concerns data published by Plan Ireland Charitable Assistance Limited"
+
  - name: "~publisher~ afd"
+   new_name: "publisher: afd"
+   description: "Issue concerns data published by Agence Fran√ßaise de D√©veloppement"
+
  - name: "~publisher~ britishcouncil"
+   new_name: "publisher: britishcouncil"
+   description: "Issue concerns data published by British Council"
+
  - name: "~publisher~ street_child"
+   new_name: "publisher: street_child"
+   description: "Issue concerns data published by Street Child"
+
  - name: "~publisher~ vao"
+   new_name: "publisher: vao"
+   description: "Issue concerns data published by Vision Aid Overseas"
+
  - name: "~publisher~ gecfundmanagerpwc"
+   new_name: "publisher: gecfundmanagerpwc"
+   description: "Issue concerns data published by Girls‚Äô Education Challenge ‚Äì Fund Manager PwC"
+
  - name: "~publisher~ mgcubed"
+   new_name: "publisher: mgcubed"
+   description: "Issue concerns data published by GEMS Education Solutions"
+
  - name: "~publisher~ childfund"
+   new_name: "publisher: childfund"
+   description: "Issue concerns data published by ChildFund International"
+
  - name: "~publisher~ base_22"
+   new_name: "publisher: base_22"
+   description: "Issue concerns data published by Backward Society Education (BASE)"
+
  - name: "~publisher~ tfac"
+   new_name: "publisher: tfac"
+   description: "Issue concerns data published by Theatre for a Change UK"
+
  - name: "~publisher~ imc_uk"
+   new_name: "publisher: imc_uk"
+   description: "Issue concerns data published by International Medical Corps UK"
+
  - name: "~publisher~ simlab"
+   new_name: "publisher: simlab"
+   description: "Issue concerns data published by Social Impact Lab CIC"
+
  - name: "~publisher~ edt_kenya"
+   new_name: "publisher: edt_kenya"
+   description: "Issue concerns data published by Education Development Trust"
+
  - name: "~publisher~ lepra"
+   new_name: "publisher: lepra"
+   description: "Issue concerns data published by Lepra"
+
  - name: "~publisher~ arij"
+   new_name: "publisher: arij"
+   description: "Issue concerns data published by Arab Reporters for Investigative Journalism"
+
  - name: "~publisher~ ics"
+   new_name: "publisher: ics"
+   description: "Issue concerns data published by ICS"
+
  - name: "~publisher~ bmgf"
+   new_name: "publisher: bmgf"
+   description: "Issue concerns data published by Bill & Melinda Gates Foundation"
+
  - name: "~publisher~ shtrii_shakti"
+   new_name: "publisher: shtrii_shakti"
+   description: "Issue concerns data published by Shtrii Shakti"
+
  - name: "~publisher~ wcf"
+   new_name: "publisher: wcf"
+   description: "Issue concerns data published by Women and Children First (UK)"
+
  - name: "~publisher~ tfacmalawi"
+   new_name: "publisher: tfacmalawi"
+   description: "Issue concerns data published by Theatre for a Change Malawi"
+
  - name: "~publisher~ cilc"
+   new_name: "publisher: cilc"
+   description: "Issue concerns data published by Center for International Legal Cooperation (CILC)"
+
  - name: "~publisher~ treea"
+   new_name: "publisher: treea"
+   description: "Issue concerns data published by TREE AID"
+
  - name: "~publisher~ wusc"
+   new_name: "publisher: wusc"
+   description: "Issue concerns data published by World University Service of Canada"
+
  - name: "~publisher~ eel"
+   new_name: "publisher: eel"
+   description: "Issue concerns data published by Exeter Ethiopia Link"
+
  - name: "~publisher~ kpmgea"
+   new_name: "publisher: kpmgea"
+   description: "Issue concerns data published by KPMG East Africa"
+
  - name: "~publisher~ viva"
+   new_name: "publisher: viva"
+   description: "Issue concerns data published by Viva"
+
  - name: "~publisher~ af"
+   new_name: "publisher: af"
+   description: "Issue concerns data published by Adaptation Fund"
+
  - name: "~publisher~ trianglen"
+   new_name: "publisher: trianglen"
+   description: "Issue concerns data published by Trianglen"
+
  - name: "~publisher~ excellent"
+   new_name: "publisher: excellent"
+   description: "Issue concerns data published by Excellent Development"
+
  - name: "~publisher~ acf"
+   new_name: "publisher: acf"
+   description: "Issue concerns data published by Action Against Hunger UK"
+
  - name: "~publisher~ finance_canada"
+   new_name: "publisher: finance_canada"
+   description: "Issue concerns data published by Canada Department of Finance / Minist√®re des Finances Canada"
+
  - name: "~publisher~ sct"
+   new_name: "publisher: sct"
+   description: "Issue concerns data published by Sabre Education Limited"
+
  - name: "~publisher~ fairtrade_international"
+   new_name: "publisher: fairtrade_international"
+   description: "Issue concerns data published by Fairtrade Labelling Organizations International e.V."
+
  - name: "~publisher~ bothends"
+   new_name: "publisher: bothends"
+   description: "Issue concerns data published by Both ENDS"
+
  - name: "~publisher~ heifernederland"
+   new_name: "publisher: heifernederland"
+   description: "Issue concerns data published by Heifer Nederland"
+
  - name: "~publisher~ tamtf"
+   new_name: "publisher: tamtf"
+   description: "Issue concerns data published by Teach A Man To Fish"
+
  - name: "~publisher~ fairfood"
+   new_name: "publisher: fairfood"
+   description: "Issue concerns data published by Fairfood International"
+
  - name: "~publisher~ tni"
+   new_name: "publisher: tni"
+   description: "Issue concerns data published by Transnational Institute"
+
  - name: "~publisher~ amrefha"
+   new_name: "publisher: amrefha"
+   description: "Issue concerns data published by Amref Health Africa - UK"
+
  - name: "~publisher~ chs_alliance"
+   new_name: "publisher: chs_alliance"
+   description: "Issue concerns data published by Association CHS Alliance"
+
  - name: "~publisher~ foei"
+   new_name: "publisher: foei"
+   description: "Issue concerns data published by Friends of the Earth International"
+
  - name: "~publisher~ rfpap"
+   new_name: "publisher: rfpap"
+   description: "Issue concerns data published by Rahnuma-Family Planning Assocation of Pakistan"
+
  - name: "~publisher~ rojiroti"
+   new_name: "publisher: rojiroti"
+   description: "Issue concerns data published by Rojiroti UK"
+
  - name: "~publisher~ livelyminds"
+   new_name: "publisher: livelyminds"
+   description: "Issue concerns data published by Lively Minds"
+
  - name: "~publisher~ onl"
+   new_name: "publisher: onl"
+   description: "Issue concerns data published by Oxfam Novib"
+
  - name: "~publisher~ ids"
+   new_name: "publisher: ids"
+   description: "Issue concerns data published by Institute of Development Studies"
+
  - name: "~publisher~ emms"
+   new_name: "publisher: emms"
+   description: "Issue concerns data published by EMMS International"
+
  - name: "~publisher~ dla"
+   new_name: "publisher: dla"
+   description: "Issue concerns data published by Discovery Learning Alliance, Inc."
+
  - name: "~publisher~ ageintl"
+   new_name: "publisher: ageintl"
+   description: "Issue concerns data published by HelpAge International UK"
+
  - name: "~publisher~ ced"
+   new_name: "publisher: ced"
+   description: "Issue concerns data published by Christian Engineers in Development"
+
  - name: "~publisher~ defra_transparency"
+   new_name: "publisher: defra_transparency"
+   description: "Issue concerns data published by UK - Department for Environment, Food and Rural Affairs"
+
  - name: "~publisher~ asf"
+   new_name: "publisher: asf"
+   description: "Issue concerns data published by Avocats Sans Fronti√®res"
+
  - name: "~publisher~ aiddata"
+   new_name: "publisher: aiddata"
+   description: "Issue concerns data published by AidData"
+
  - name: "~publisher~ jica"
+   new_name: "publisher: jica"
+   description: "Issue concerns data published by Japan International Cooperation Agency (JICA)"
+
  - name: "~publisher~ cifal"
+   new_name: "publisher: cifal"
+   description: "Issue concerns data published by CIFAL Scotland"
+
  - name: "~publisher~ w4p"
+   new_name: "publisher: w4p"
+   description: "Issue concerns data published by Water for People"
+
  - name: "~publisher~ aqua4all"
+   new_name: "publisher: aqua4all"
+   description: "Issue concerns data published by Aqua for All"
+
  - name: "~publisher~ phase_worldwide"
+   new_name: "publisher: phase_worldwide"
+   description: "Issue concerns data published by PHASE Worldwide"
+
  - name: "~publisher~ across"
+   new_name: "publisher: across"
+   description: "Issue concerns data published by Across"
+
  - name: "~publisher~ muslimaid"
+   new_name: "publisher: muslimaid"
+   description: "Issue concerns data published by Muslim Aid"
+
  - name: "~publisher~ fyf"
+   new_name: "publisher: fyf"
+   description: "Issue concerns data published by Find Your Feet"
+
  - name: "~publisher~ gpe"
+   new_name: "publisher: gpe"
+   description: "Issue concerns data published by Global Partnership for Education"
+
  - name: "~publisher~ onetoonecf"
+   new_name: "publisher: onetoonecf"
+   description: "Issue concerns data published by One to One Children's Fund"
+
  - name: "~publisher~ mia_india"
+   new_name: "publisher: mia_india"
+   description: "Issue concerns data published by Micro Insurance Academy"
+
  - name: "~publisher~ frankwater"
+   new_name: "publisher: frankwater"
+   description: "Issue concerns data published by FRANK Water"
+
  - name: "~publisher~ coffey"
+   new_name: "publisher: coffey"
+   description: "Issue concerns data published by Coffey International Development"
+
  - name: "~publisher~ act4africa"
+   new_name: "publisher: act4africa"
+   description: "Issue concerns data published by act4africa"
+
  - name: "~publisher~ redeenkind"
+   new_name: "publisher: redeenkind"
+   description: "Issue concerns data published by Stichting Red een Kind"
+
  - name: "~publisher~ shelterbox"
+   new_name: "publisher: shelterbox"
+   description: "Issue concerns data published by ShelterBox"
+
  - name: "~publisher~ bauk"
+   new_name: "publisher: bauk"
+   description: "Issue concerns data published by Bees Abroad UK"
+
  - name: "~publisher~ crs"
+   new_name: "publisher: crs"
+   description: "Issue concerns data published by Catholic Relief Services"
+
  - name: "~publisher~ ifad"
+   new_name: "publisher: ifad"
+   description: "Issue concerns data published by International Fund for Agricultural Development (IFAD)"
+
  - name: "~publisher~ halo"
+   new_name: "publisher: halo"
+   description: "Issue concerns data published by The HALO Trust"
+
  - name: "~publisher~ icco-cooperation"
+   new_name: "publisher: icco-cooperation"
+   description: "Issue concerns data published by ICCO Cooperation"
+
  - name: "~publisher~ pumpaid"
+   new_name: "publisher: pumpaid"
+   description: "Issue concerns data published by Pump Aid"
+
  - name: "~publisher~ fh"
+   new_name: "publisher: fh"
+   description: "Issue concerns data published by Food for the Hungry UK"
+
  - name: "~publisher~ peas"
+   new_name: "publisher: peas"
+   description: "Issue concerns data published by PEAS (Promoting Equality in African Schools)"
+
  - name: "~publisher~ retrak"
+   new_name: "publisher: retrak"
+   description: "Issue concerns data published by Retrak"
+
  - name: "~publisher~ utd"
+   new_name: "publisher: utd"
+   description: "Issue concerns data published by UNITAID"
+
  - name: "~publisher~ bioclimate"
+   new_name: "publisher: bioclimate"
+   description: "Issue concerns data published by Bioclimate Research and Development"
+
  - name: "~publisher~ gb-chc-220949"
+   new_name: "publisher: gb-chc-220949"
+   description: "Issue concerns data published by British Red Cross"
+
  - name: "~publisher~ cfyas"
+   new_name: "publisher: cfyas"
+   description: "Issue concerns data published by CHOICE for Youth and Sexuality"
+
  - name: "~publisher~ rvo"
+   new_name: "publisher: rvo"
+   description: "Issue concerns data published by Netherlands Enterprise Agency"
+
  - name: "~publisher~ lftwnl"
+   new_name: "publisher: lftwnl"
+   description: "Issue concerns data published by LIGHT FOR THE WORLD The Netherlands"
+
  - name: "~publisher~ pidg"
+   new_name: "publisher: pidg"
+   description: "Issue concerns data published by Private Infrastructure Development Group"
+
  - name: "~publisher~ basicneeds"
+   new_name: "publisher: basicneeds"
+   description: "Issue concerns data published by BasicNeeds"
+
  - name: "~publisher~ cecily"
+   new_name: "publisher: cecily"
+   description: "Issue concerns data published by Cecily's Fund"
+
  - name: "~publisher~ amrefnl"
+   new_name: "publisher: amrefnl"
+   description: "Issue concerns data published by Amref Flying Doctors"
+
  - name: "~publisher~ idrccrdi"
+   new_name: "publisher: idrccrdi"
+   description: "Issue concerns data published by Canada - International Development Research Centre/Centre de recherches pour le d√©veloppement international"
+
  - name: "~publisher~ coda"
+   new_name: "publisher: coda"
+   description: "Issue concerns data published by CODA International"
+
  - name: "~publisher~ interaction"
+   new_name: "publisher: interaction"
+   description: "Issue concerns data published by InterAction"
+
  - name: "~publisher~ dthfxx12"
+   new_name: "publisher: dthfxx12"
+   description: "Issue concerns data published by Desmond Tutu HIV Foundation"
+
  - name: "~publisher~ hagar_uk"
+   new_name: "publisher: hagar_uk"
+   description: "Issue concerns data published by Hagar International UK"
+
  - name: "~publisher~ water-witness-international"
+   new_name: "publisher: water-witness-international"
+   description: "Issue concerns data published by Water Witness International"
+
  - name: "~publisher~ rainfoundation"
+   new_name: "publisher: rainfoundation"
+   description: "Issue concerns data published by RAIN Foundation (former)"
+
  - name: "~publisher~ aflatoun"
+   new_name: "publisher: aflatoun"
+   description: "Issue concerns data published by Stichting Aflatoun International"
+
  - name: "~publisher~ ukmod"
+   new_name: "publisher: ukmod"
+   description: "Issue concerns data published by UK - Ministry of Defence"
+
  - name: "~publisher~ m2m_sa"
+   new_name: "publisher: m2m_sa"
+   description: "Issue concerns data published by mothers2mothers"
+
  - name: "~publisher~ partos_nl"
+   new_name: "publisher: partos_nl"
+   description: "Issue concerns data published by partos"
+
  - name: "~publisher~ unesco"
+   new_name: "publisher: unesco"
+   description: "Issue concerns data published by United Nations Educational, Scientific and Cultural Organization (UNESCO)"
+
  - name: "~publisher~ abaseen"
+   new_name: "publisher: abaseen"
+   description: "Issue concerns data published by Abaseen Foundation UK"
+
  - name: "~publisher~ unais"
+   new_name: "publisher: unais"
+   description: "Issue concerns data published by International Service"
+
  - name: "~publisher~ ava_admin"
+   new_name: "publisher: ava_admin"
+   description: "Issue concerns data published by Avanti Communications Plc"
+
  - name: "~publisher~ foe-ghana"
+   new_name: "publisher: foe-ghana"
+   description: "Issue concerns data published by Friends of the Earth-Ghana"
+
  - name: "~publisher~ eib"
+   new_name: "publisher: eib"
+   description: "Issue concerns data published by European Investment Bank"
+
  - name: "~publisher~ wccuk"
+   new_name: "publisher: wccuk"
+   description: "Issue concerns data published by World Child Cancer UK"
+
  - name: "~publisher~ magariro"
+   new_name: "publisher: magariro"
+   description: "Issue concerns data published by Magariro"
+
  - name: "~publisher~ ebrd"
+   new_name: "publisher: ebrd"
+   description: "Issue concerns data published by European Bank for Reconstruction and Development"
+
  - name: "~publisher~ open_university"
+   new_name: "publisher: open_university"
+   description: "Issue concerns data published by The Open University"
+
  - name: "~publisher~ mifumi_uk"
+   new_name: "publisher: mifumi_uk"
+   description: "Issue concerns data published by Mifumi UK"
+
  - name: "~publisher~ phe"
+   new_name: "publisher: phe"
+   description: "Issue concerns data published by Project Harar"
+
  - name: "~publisher~ uasd"
+   new_name: "publisher: uasd"
+   description: "Issue concerns data published by Romania Ministry of Foreign Affairs"
+
  - name: "~publisher~ tccec"
+   new_name: "publisher: tccec"
+   description: "Issue concerns data published by The Coca-Cola Export Corporation"
+
  - name: "~publisher~ welbodipartnership"
+   new_name: "publisher: welbodipartnership"
+   description: "Issue concerns data published by Welbodi Partnership"
+
  - name: "~publisher~ kepa"
+   new_name: "publisher: kepa"
+   description: "Issue concerns data published by Kepa ry"
+
  - name: "~publisher~ wtk"
+   new_name: "publisher: wtk"
+   description: "Issue concerns data published by Windle Trust Kenya"
+
  - name: "~publisher~ agriterra"
+   new_name: "publisher: agriterra"
+   description: "Issue concerns data published by Stichting Agriterra"
+
  - name: "~publisher~ csu"
+   new_name: "publisher: csu"
+   description: "Issue concerns data published by Cheshire Services Uganda"
+
  - name: "~publisher~ cww"
+   new_name: "publisher: cww"
+   description: "Issue concerns data published by Carers Worldwide"
+
  - name: "~publisher~ kwaafrica"
+   new_name: "publisher: kwaafrica"
+   description: "Issue concerns data published by KwaAfrica"
+
  - name: "~publisher~ adrasom"
+   new_name: "publisher: adrasom"
+   description: "Issue concerns data published by Adventist Development and Relief Agency (ADRA Somalia)"
+
  - name: "~publisher~ adrauk"
+   new_name: "publisher: adrauk"
+   description: "Issue concerns data published by ADRA-UK"
+
  - name: "~publisher~ anda"
+   new_name: "publisher: anda"
+   description: "Issue concerns data published by ANDA"
+
  - name: "~publisher~ hha"
+   new_name: "publisher: hha"
+   description: "Issue concerns data published by Haiti Hospital Appeal"
+
  - name: "~publisher~ simone_sympany"
+   new_name: "publisher: simone_sympany"
+   description: "Issue concerns data published by Sympany+"
+
  - name: "~publisher~ ieu"
+   new_name: "publisher: ieu"
+   description: "Issue concerns data published by Internews Europe"
+
  - name: "~publisher~ gppac"
+   new_name: "publisher: gppac"
+   description: "Issue concerns data published by GPPAC Foundation"
+
  - name: "~publisher~ wowni"
+   new_name: "publisher: wowni"
+   description: "Issue concerns data published by War on Want NI"
+
  - name: "~publisher~ ybi"
+   new_name: "publisher: ybi"
+   description: "Issue concerns data published by Youth Business International"
+
  - name: "~publisher~ asil"
+   new_name: "publisher: asil"
+   description: "Issue concerns data published by Anti-Slavery International"
+
  - name: "~publisher~ be-dgd"
+   new_name: "publisher: be-dgd"
+   description: "Issue concerns data published by Belgian Development Cooperation"
+
  - name: "~publisher~ mml"
+   new_name: "publisher: mml"
+   description: "Issue concerns data published by Mott MacDonald Limited"
+
  - name: "~publisher~ taf"
+   new_name: "publisher: taf"
+   description: "Issue concerns data published by The Asia Foundation"
+
  - name: "~publisher~ cyan"
+   new_name: "publisher: cyan"
+   description: "Issue concerns data published by Cyan International"
+
  - name: "~publisher~ sciaf"
+   new_name: "publisher: sciaf"
+   description: "Issue concerns data published by Scottish Catholic International Aid Fund (SCIAF)"
+
  - name: "~publisher~ signal"
+   new_name: "publisher: signal"
+   description: "Issue concerns data published by Signal"
+
  - name: "~publisher~ crane"
+   new_name: "publisher: crane"
+   description: "Issue concerns data published by CRANE"
+
  - name: "~publisher~ bbcmediaaction"
+   new_name: "publisher: bbcmediaaction"
+   description: "Issue concerns data published by BBC Media Action"
+
  - name: "~publisher~ nrgi"
+   new_name: "publisher: nrgi"
+   description: "Issue concerns data published by Natural Resource Governance Institute (NRGI)"
+
  - name: "~publisher~ pontis"
+   new_name: "publisher: pontis"
+   description: "Issue concerns data published by Pontis Foundation"
+
  - name: "~publisher~ norad"
+   new_name: "publisher: norad"
+   description: "Issue concerns data published by Norad - Norwegian Agency for Development Cooperation"
+
  - name: "~publisher~ humana_houben"
+   new_name: "publisher: humana_houben"
+   description: "Issue concerns data published by Stichting Humana"
+
  - name: "~publisher~ stromme_ug"
+   new_name: "publisher: stromme_ug"
+   description: "Issue concerns data published by Stromme Foundation"
+
  - name: "~publisher~ interburns"
+   new_name: "publisher: interburns"
+   description: "Issue concerns data published by interburns"
+
  - name: "~publisher~ dipr"
+   new_name: "publisher: dipr"
+   description: "Issue concerns data published by Development Initiatives Poverty Research"
+
  - name: "~publisher~ rspb_"
+   new_name: "publisher: rspb_"
+   description: "Issue concerns data published by Royal Society for the Protection of Birds"
+
  - name: "~publisher~ progressio"
+   new_name: "publisher: progressio"
+   description: "Issue concerns data published by Progressio (closed)"
+
  - name: "~publisher~ rem"
+   new_name: "publisher: rem"
+   description: "Issue concerns data published by Resource Extraction Monitoring"
+
  - name: "~publisher~ hi"
+   new_name: "publisher: hi"
+   description: "Issue concerns data published by Homeless International"
+
  - name: "~publisher~ yipl"
+   new_name: "publisher: yipl"
+   description: "Issue concerns data published by Young Innovations Pvt. Ltd"
+
  - name: "~publisher~ hp_12"
+   new_name: "publisher: hp_12"
+   description: "Issue concerns data published by HealthProm"
+
  - name: "~publisher~ wvuk"
+   new_name: "publisher: wvuk"
+   description: "Issue concerns data published by World Vision UK"
+
  - name: "~publisher~ traidcraft"
+   new_name: "publisher: traidcraft"
+   description: "Issue concerns data published by Traidcraft Exchange"
+
  - name: "~publisher~ sendacow"
+   new_name: "publisher: sendacow"
+   description: "Issue concerns data published by Send a Cow"
+
  - name: "~publisher~ tao-03473165"
+   new_name: "publisher: tao-03473165"
+   description: "Issue concerns data published by Trust for Africa's Orphans"
+
  - name: "~publisher~ rc"
+   new_name: "publisher: rc"
+   description: "Issue concerns data published by Railway Children"
+
  - name: "~publisher~ fm"
+   new_name: "publisher: fm"
+   description: "Issue concerns data published by Forests Monitor"
+
  - name: "~publisher~ sossaheluk"
+   new_name: "publisher: sossaheluk"
+   description: "Issue concerns data published by SOS Sahel International UK"
+
  - name: "~publisher~ surf"
+   new_name: "publisher: surf"
+   description: "Issue concerns data published by Survivors Fund (SURF)"
+
  - name: "~publisher~ addinternational"
+   new_name: "publisher: addinternational"
+   description: "Issue concerns data published by ADD International (Action on Disability and Development)"
+
  - name: "~publisher~ sense_international"
+   new_name: "publisher: sense_international"
+   description: "Issue concerns data published by Sense International"
+
  - name: "~publisher~ nfn"
+   new_name: "publisher: nfn"
+   description: "Issue concerns data published by NGO Federation of Nepal"
+
  - name: "~publisher~ kipkelion"
+   new_name: "publisher: kipkelion"
+   description: "Issue concerns data published by Friends of Kipkelion"
+
  - name: "~publisher~ vfan"
+   new_name: "publisher: vfan"
+   description: "Issue concerns data published by Vision for a Nation Foundation"
+
  - name: "~publisher~ tlmew"
+   new_name: "publisher: tlmew"
+   description: "Issue concerns data published by The Leprosy Mission England and Wales"
+
  - name: "~publisher~ apt"
+   new_name: "publisher: apt"
+   description: "Issue concerns data published by APT Action on Poverty"
+
  - name: "~publisher~ hhc"
+   new_name: "publisher: hhc"
+   description: "Issue concerns data published by Hope and Homes for Children"
+
  - name: "~publisher~ wwfpakistan"
+   new_name: "publisher: wwfpakistan"
+   description: "Issue concerns data published by World Wide Fund for Nature - Pakistan"
+
  - name: "~publisher~ kpmgllp"
+   new_name: "publisher: kpmgllp"
+   description: "Issue concerns data published by KPMG LLP"
+
  - name: "~publisher~ pragya"
+   new_name: "publisher: pragya"
+   description: "Issue concerns data published by Pragya India"
+
  - name: "~publisher~ ycare"
+   new_name: "publisher: ycare"
+   description: "Issue concerns data published by Y Care International"
+
  - name: "~publisher~ prefa_1"
+   new_name: "publisher: prefa_1"
+   description: "Issue concerns data published by Protecting Families Against HIV/AIDS"
+
  - name: "~publisher~ wo-men"
+   new_name: "publisher: wo-men"
+   description: "Issue concerns data published by WO=MEN, Dutch Gender Platform"
+
  - name: "~publisher~ fa"
+   new_name: "publisher: fa"
+   description: "Issue concerns data published by Farm Africa"
+
  - name: "~publisher~ oxfamindia"
+   new_name: "publisher: oxfamindia"
+   description: "Issue concerns data published by Oxfam India"
+
  - name: "~publisher~ aanl"
+   new_name: "publisher: aanl"
+   description: "Issue concerns data published by Stichting ActionAId"
+
  - name: "~publisher~ ibis_denmark"
+   new_name: "publisher: ibis_denmark"
+   description: "Issue concerns data published by Oxfam IBIS"
+
  - name: "~publisher~ cordaid"
+   new_name: "publisher: cordaid"
+   description: "Issue concerns data published by Cordaid"
+
  - name: "~publisher~ aasaman"
+   new_name: "publisher: aasaman"
+   description: "Issue concerns data published by Aasaman Nepal"
+
  - name: "~publisher~ alfalit"
+   new_name: "publisher: alfalit"
+   description: "Issue concerns data published by Alfalit"
+
  - name: "~publisher~ kad"
+   new_name: "publisher: kad"
+   description: "Issue concerns data published by Kadaster International"
+
  - name: "~publisher~ ecdpm"
+   new_name: "publisher: ecdpm"
+   description: "Issue concerns data published by ECDPM"
+
  - name: "~publisher~ dotw_uk"
+   new_name: "publisher: dotw_uk"
+   description: "Issue concerns data published by Doctors of the World UK"
+
  - name: "~publisher~ ddp"
+   new_name: "publisher: ddp"
+   description: "Issue concerns data published by Disability and Development Partners"
+
  - name: "~publisher~ handinhand"
+   new_name: "publisher: handinhand"
+   description: "Issue concerns data published by Hand in Hand International"
+
  - name: "~publisher~ tib"
+   new_name: "publisher: tib"
+   description: "Issue concerns data published by Transparency International Bangladesh"
+
  - name: "~publisher~ dggf_financing_local_smes"
+   new_name: "publisher: dggf_financing_local_smes"
+   description: "Issue concerns data published by Stichting fondsbeheer DGGF lokaal MKB"
+
  - name: "~publisher~ abt"
+   new_name: "publisher: abt"
+   description: "Issue concerns data published by Abt Associates Inc"
+
  - name: "~publisher~ lithuania_mfa"
+   new_name: "publisher: lithuania_mfa"
+   description: "Issue concerns data published by Lithuania, Ministry of Foreign Affairs"
+
  - name: "~publisher~ caid_ireland"
+   new_name: "publisher: caid_ireland"
+   description: "Issue concerns data published by Christian Aid Ireland"
+
  - name: "~publisher~ freeagirl"
+   new_name: "publisher: freeagirl"
+   description: "Issue concerns data published by Free a Girl"
+
  - name: "~publisher~ umn"
+   new_name: "publisher: umn"
+   description: "Issue concerns data published by United Mission to Nepal"
+
  - name: "~publisher~ mie-1134415"
+   new_name: "publisher: mie-1134415"
+   description: "Issue concerns data published by MADE in Europe"
+
  - name: "~publisher~ said-uk"
+   new_name: "publisher: said-uk"
+   description: "Issue concerns data published by The Salvation Army International Development UK"
+
  - name: "~publisher~ ia_nam"
+   new_name: "publisher: ia_nam"
+   description: "Issue concerns data published by InterAction's NGO Aid Map"
+
  - name: "~publisher~ varkeyfoundation"
+   new_name: "publisher: varkeyfoundation"
+   description: "Issue concerns data published by Varkey Foundation"
+
  - name: "~publisher~ dance4life"
+   new_name: "publisher: dance4life"
+   description: "Issue concerns data published by dance4life"
+
  - name: "~publisher~ wvi"
+   new_name: "publisher: wvi"
+   description: "Issue concerns data published by World Vision International"
+
  - name: "~publisher~ learningforlife"
+   new_name: "publisher: learningforlife"
+   description: "Issue concerns data published by Learning for Life"
+
  - name: "~publisher~ orbis_uk"
+   new_name: "publisher: orbis_uk"
+   description: "Issue concerns data published by Orbis Charitable Trust"
+
  - name: "~publisher~ scottish_government"
+   new_name: "publisher: scottish_government"
+   description: "Issue concerns data published by UK - Scottish Government"
+
  - name: "~publisher~ options"
+   new_name: "publisher: options"
+   description: "Issue concerns data published by Options Consultancy Services"
+
  - name: "~publisher~ tdh_nl"
+   new_name: "publisher: tdh_nl"
+   description: "Issue concerns data published by Terre des Hommes Netherlands"
+
  - name: "~publisher~ wellfound"
+   new_name: "publisher: wellfound"
+   description: "Issue concerns data published by Wellfound"
+
  - name: "~publisher~ st_vluchteling"
+   new_name: "publisher: st_vluchteling"
+   description: "Issue concerns data published by Stichting Vluchteling"
+
  - name: "~publisher~ zing"
+   new_name: "publisher: zing"
+   description: "Issue concerns data published by Zing"
+
  - name: "~publisher~ zoa"
+   new_name: "publisher: zoa"
+   description: "Issue concerns data published by ZOA"
+
  - name: "~publisher~ somo"
+   new_name: "publisher: somo"
+   description: "Issue concerns data published by Stichting Onderzoek Multinationale Ondernemingen (SOMO)"
+
  - name: "~publisher~ wygi"
+   new_name: "publisher: wygi"
+   description: "Issue concerns data published by WYG International B.V."
+
  - name: "~publisher~ itad"
+   new_name: "publisher: itad"
+   description: "Issue concerns data published by Itad"
+
  - name: "~publisher~ opml"
+   new_name: "publisher: opml"
+   description: "Issue concerns data published by Oxford Policy Management"
+
  - name: "~publisher~ uq"
+   new_name: "publisher: uq"
+   description: "Issue concerns data published by Upper Quartile"
+
  - name: "~publisher~ ipa"
+   new_name: "publisher: ipa"
+   description: "Issue concerns data published by International Procurement Agency"
+
  - name: "~publisher~ nathan"
+   new_name: "publisher: nathan"
+   description: "Issue concerns data published by Nathan Associates London Ltd."
+
  - name: "~publisher~ alcis"
+   new_name: "publisher: alcis"
+   description: "Issue concerns data published by Alcis Holdings Limited"
+
  - name: "~publisher~ adpp"
+   new_name: "publisher: adpp"
+   description: "Issue concerns data published by Ajuda de Desenvolvimento de Povo para Povo (ADPP)"
+
  - name: "~publisher~ palladium"
+   new_name: "publisher: palladium"
+   description: "Issue concerns data published by Palladium International Ltd (UK)"
+
  - name: "~publisher~ planinternationalfinland"
+   new_name: "publisher: planinternationalfinland"
+   description: "Issue concerns data published by Plan International Finland"
+
  - name: "~publisher~ rutgers"
+   new_name: "publisher: rutgers"
+   description: "Issue concerns data published by Rutgers"
+
  - name: "~publisher~ mstamp"
+   new_name: "publisher: mstamp"
+   description: "Issue concerns data published by Maxwell Stamp PLC"
+
  - name: "~publisher~ lhcf"
+   new_name: "publisher: lhcf"
+   description: "Issue concerns data published by LAMB Health Care Foundation"
+
  - name: "~publisher~ pwc"
+   new_name: "publisher: pwc"
+   description: "Issue concerns data published by PwC"
+
  - name: "~publisher~ lcdi_admin"
+   new_name: "publisher: lcdi_admin"
+   description: "Issue concerns data published by Link Community Development International"
+
  - name: "~publisher~ cbi-nigeria"
+   new_name: "publisher: cbi-nigeria"
+   description: "Issue concerns data published by The Convention on Business Integrity"
+
  - name: "~publisher~ landell-mills"
+   new_name: "publisher: landell-mills"
+   description: "Issue concerns data published by Landell Mills"
+
  - name: "~publisher~ nri"
+   new_name: "publisher: nri"
+   description: "Issue concerns data published by Natural Resources Institute, University of Greenwich."
+
  - name: "~publisher~ warchildholland"
+   new_name: "publisher: warchildholland"
+   description: "Issue concerns data published by War Child Holland"
+
  - name: "~publisher~ atosuk"
+   new_name: "publisher: atosuk"
+   description: "Issue concerns data published by Atos IT Services Ltd"
+
  - name: "~publisher~ carenederland"
+   new_name: "publisher: carenederland"
+   description: "Issue concerns data published by CARE Nederland"
+
  - name: "~publisher~ iodparc"
+   new_name: "publisher: iodparc"
+   description: "Issue concerns data published by IOD PARC"
+
  - name: "~publisher~ ccc"
+   new_name: "publisher: ccc"
+   description: "Issue concerns data published by Clean Clothes Campaign"
+
  - name: "~publisher~ mck"
+   new_name: "publisher: mck"
+   description: "Issue concerns data published by McKinsey & Company"
+
  - name: "~publisher~ aktis"
+   new_name: "publisher: aktis"
+   description: "Issue concerns data published by Aktis Strategy Ltd"
+
  - name: "~publisher~ dai"
+   new_name: "publisher: dai"
+   description: "Issue concerns data published by Dorcas Aid International"
+
  - name: "~publisher~ millenniumchallenge"
+   new_name: "publisher: millenniumchallenge"
+   description: "Issue concerns data published by Millennium Challenge Corporation"
+
  - name: "~publisher~ mamac"
+   new_name: "publisher: mamac"
+   description: "Issue concerns data published by Mama Cash"
+
  - name: "~publisher~ simprints"
+   new_name: "publisher: simprints"
+   description: "Issue concerns data published by Simprints"
+
  - name: "~publisher~ waterworks"
+   new_name: "publisher: waterworks"
+   description: "Issue concerns data published by Water Works"
+
  - name: "~publisher~ pax"
+   new_name: "publisher: pax"
+   description: "Issue concerns data published by PAX"
+
  - name: "~publisher~ decp"
+   new_name: "publisher: decp"
+   description: "Issue concerns data published by DECP"
+
  - name: "~publisher~ uafla"
+   new_name: "publisher: uafla"
+   description: "Issue concerns data published by Urgent Action Fund Latin America and the Caribbean"
+
  - name: "~publisher~ uaf"
+   new_name: "publisher: uaf"
+   description: "Issue concerns data published by Urgent Action Fund for Women's Human Rights"
+
  - name: "~publisher~ tear"
+   new_name: "publisher: tear"
+   description: "Issue concerns data published by TEAR fund Nederland"
+
  - name: "~publisher~ snv"
+   new_name: "publisher: snv"
+   description: "Issue concerns data published by SNV Netherlands Development Organisation"
+
  - name: "~publisher~ skn"
+   new_name: "publisher: skn"
+   description: "Issue concerns data published by Stichting Kinderpostzegels Nederland"
+
  - name: "~publisher~ jass"
+   new_name: "publisher: jass"
+   description: "Issue concerns data published by Just Associates"
+
  - name: "~publisher~ awid"
+   new_name: "publisher: awid"
+   description: "Issue concerns data published by Association for Women's Rights in Development (AWID)"
+
  - name: "~publisher~ wvnld"
+   new_name: "publisher: wvnld"
+   description: "Issue concerns data published by World Vision Netherlands"
+
  - name: "~publisher~ scnl"
+   new_name: "publisher: scnl"
+   description: "Issue concerns data published by Save the Children Netherlands"
+
  - name: "~publisher~ irc"
+   new_name: "publisher: irc"
+   description: "Issue concerns data published by IRC"
+
  - name: "~publisher~ cerf"
+   new_name: "publisher: cerf"
+   description: "Issue concerns data published by United Nations Central Emergency Response Fund (CERF)"
+
  - name: "~publisher~ awepa"
+   new_name: "publisher: awepa"
+   description: "Issue concerns data published by AWEPA"
+
  - name: "~publisher~ simavi"
+   new_name: "publisher: simavi"
+   description: "Issue concerns data published by Simavi"
+
  - name: "~publisher~ w-d"
+   new_name: "publisher: w-d"
+   description: "Issue concerns data published by Stichting Woord en Daad"
+
  - name: "~publisher~ plannlno"
+   new_name: "publisher: plannlno"
+   description: "Issue concerns data published by Plan International Netherlands"
+
  - name: "~publisher~ ofid"
+   new_name: "publisher: ofid"
+   description: "Issue concerns data published by The OPEC Fund for International Development (OFID)"
+
  - name: "~publisher~ commonwealthsecretariat"
+   new_name: "publisher: commonwealthsecretariat"
+   description: "Issue concerns data published by The Commonwealth Secretariat"
+
  - name: "~publisher~ wemos"
+   new_name: "publisher: wemos"
+   description: "Issue concerns data published by Wemos Foundation"
+
  - name: "~publisher~ pmo-us"
+   new_name: "publisher: pmo-us"
+   description: "Issue concerns data published by Promundo-US"
+
  - name: "~publisher~ kit"
+   new_name: "publisher: kit"
+   description: "Issue concerns data published by Royal Tropical Institute"
+
  - name: "~publisher~ hai"
+   new_name: "publisher: hai"
+   description: "Issue concerns data published by Stichting Health Action International"
+
  - name: "~publisher~ fcam"
+   new_name: "publisher: fcam"
+   description: "Issue concerns data published by Fondo Centroamericano de Mujeres"
+
  - name: "~publisher~ utz"
+   new_name: "publisher: utz"
+   description: "Issue concerns data published by UTZ"
+
  - name: "~publisher~ nl-kvk-41207989"
+   new_name: "publisher: nl-kvk-41207989"
+   description: "Issue concerns data published by Aidsfonds - Soa Aids Nederland"
+
  - name: "~publisher~ achest"
+   new_name: "publisher: achest"
+   description: "Issue concerns data published by African Centre for Global Health and Social Transformation"
+
  - name: "~publisher~ fact"
+   new_name: "publisher: fact"
+   description: "Issue concerns data published by Family Aids Caring Trust"
+
  - name: "~publisher~ lstm"
+   new_name: "publisher: lstm"
+   description: "Issue concerns data published by Liverpool School of Tropical Medicine"
+
  - name: "~publisher~ uaf-africa"
+   new_name: "publisher: uaf-africa"
+   description: "Issue concerns data published by Urgent Action Fund-Africa"
+
  - name: "~publisher~ aeras"
+   new_name: "publisher: aeras"
+   description: "Issue concerns data published by Aeras"
+
  - name: "~publisher~ colalife"
+   new_name: "publisher: colalife"
+   description: "Issue concerns data published by ColaLife"
+
  - name: "~publisher~ idlo"
+   new_name: "publisher: idlo"
+   description: "Issue concerns data published by International Development Law Organization (IDLO)"
+
  - name: "~publisher~ mm1"
+   new_name: "publisher: mm1"
+   description: "Issue concerns data published by Mensen met een Missie"
+
  - name: "~publisher~ agriprofocus"
+   new_name: "publisher: agriprofocus"
+   description: "Issue concerns data published by AgriProFocus"
+
  - name: "~publisher~ dciecpatnl"
+   new_name: "publisher: dciecpatnl"
+   description: "Issue concerns data published by Defence for Children International Netherlands - ECPAT Netherlands"
+
  - name: "~publisher~ ilo"
+   new_name: "publisher: ilo"
+   description: "Issue concerns data published by International Labour Organization (ILO)"
+
  - name: "~publisher~ nimd-hq"
+   new_name: "publisher: nimd-hq"
+   description: "Issue concerns data published by Netherlands Institute for Multiparty Democracy (NIMD)"
+
  - name: "~publisher~ foenl"
+   new_name: "publisher: foenl"
+   description: "Issue concerns data published by Milieudefensie"
+
  - name: "~publisher~ friendsofpwyf"
+   new_name: "publisher: friendsofpwyf"
+   description: "Issue concerns data published by Friends of Publish What You Fund"
+
  - name: "~publisher~ hefoundation"
+   new_name: "publisher: hefoundation"
+   description: "Issue concerns data published by HE Foundation"
+
  - name: "~publisher~ amrefkenya"
+   new_name: "publisher: amrefkenya"
+   description: "Issue concerns data published by Amref Health Africa in Kenya"
+
  - name: "~publisher~ solidaridad-europe"
+   new_name: "publisher: solidaridad-europe"
+   description: "Issue concerns data published by Solidaridad Europe"
+
  - name: "~publisher~ creausa-org"
+   new_name: "publisher: creausa-org"
+   description: "Issue concerns data published by CREA"
+
  - name: "~publisher~ free_press_unlimited"
+   new_name: "publisher: free_press_unlimited"
+   description: "Issue concerns data published by Free Press Unlimited"
+
  - name: "~publisher~ waste"
+   new_name: "publisher: waste"
+   description: "Issue concerns data published by WASTE advisers on urban environment and development"
+
  - name: "~publisher~ sccf"
+   new_name: "publisher: sccf"
+   description: "Issue concerns data published by SECOURS CATHOLIQUE - CARITAS FRANCE"
+
  - name: "~publisher~ dec-uk"
+   new_name: "publisher: dec-uk"
+   description: "Issue concerns data published by Disasters Emergency Committee"
+
  - name: "~publisher~ nlrc"
+   new_name: "publisher: nlrc"
+   description: "Issue concerns data published by Netherlands Red Cross"
+
  - name: "~publisher~ bmu_iki"
+   new_name: "publisher: bmu_iki"
+   description: "Issue concerns data published by International Climate Initiative / BMU - IKI Secretariat"
+
  - name: "~publisher~ solidaridad"
+   new_name: "publisher: solidaridad"
+   description: "Issue concerns data published by Solidaridad"
+
  - name: "~publisher~ fwf"
+   new_name: "publisher: fwf"
+   description: "Issue concerns data published by Fair Wear Foundation"
+
  - name: "~publisher~ amnesty"
+   new_name: "publisher: amnesty"
+   description: "Issue concerns data published by Amnesty International The Netherlands"
+
  - name: "~publisher~ mondiaalfnv"
+   new_name: "publisher: mondiaalfnv"
+   description: "Issue concerns data published by Mondiaal FNV"
+
  - name: "~publisher~ wnf"
+   new_name: "publisher: wnf"
+   description: "Issue concerns data published by WNF Wereld Natuur Fonds"
+
  - name: "~publisher~ iwda"
+   new_name: "publisher: iwda"
+   description: "Issue concerns data published by International Women's Development Agency"
+
  - name: "~publisher~ iucn_nl"
+   new_name: "publisher: iucn_nl"
+   description: "Issue concerns data published by IUCN Nederlands Comit√©"
+
  - name: "~publisher~ tbi"
+   new_name: "publisher: tbi"
+   description: "Issue concerns data published by Tropenbos International"
+
  - name: "~publisher~ sjg"
+   new_name: "publisher: sjg"
+   description: "Issue concerns data published by Sonke Gender Justice"
+
  - name: "~publisher~ climate_centre"
+   new_name: "publisher: climate_centre"
+   description: "Issue concerns data published by Red Cross Red Crescent Climate Centre"
+
  - name: "~publisher~ wi"
+   new_name: "publisher: wi"
+   description: "Issue concerns data published by Wetlands International"
+
  - name: "~publisher~ _admin"
+   new_name: "publisher: _admin"
+   description: "Issue concerns data published by Acid Survivors Foundation"
+
  - name: "~publisher~ nl-kvk-54436222-27541"
+   new_name: "publisher: nl-kvk-54436222-27541"
+   description: "Issue concerns data published by CNV Internationaal"
+
  - name: "~publisher~ aecom"
+   new_name: "publisher: aecom"
+   description: "Issue concerns data published by AECOM"
+
  - name: "~publisher~ itm"
+   new_name: "publisher: itm"
+   description: "Issue concerns data published by Institute of Tropical Medicine"
+
  - name: "~publisher~ enabel"
+   new_name: "publisher: enabel"
+   description: "Issue concerns data published by Belgian development agency (Enabel)"
+
  - name: "~publisher~ cepr"
+   new_name: "publisher: cepr"
+   description: "Issue concerns data published by Centre for Economic Policy Research"
+
  - name: "~publisher~ sosnl"
+   new_name: "publisher: sosnl"
+   description: "Issue concerns data published by SOS Children's Villages The Netherlands"
+
  - name: "~publisher~ healthnet"
+   new_name: "publisher: healthnet"
+   description: "Issue concerns data published by HealthNet TPO"
+
  - name: "~publisher~ marysmeals"
+   new_name: "publisher: marysmeals"
+   description: "Issue concerns data published by marysmeals"
+
  - name: "~publisher~ appro-af"
+   new_name: "publisher: appro-af"
+   description: "Issue concerns data published by Afghanistan Public Policy Research Organization (APPRO)"
+
  - name: "~publisher~ manniondaniels"
+   new_name: "publisher: manniondaniels"
+   description: "Issue concerns data published by MannionDaniels"
+
  - name: "~publisher~ appro-eu"
+   new_name: "publisher: appro-eu"
+   description: "Issue concerns data published by APPRO-Europe"
+
  - name: "~publisher~ vngi"
+   new_name: "publisher: vngi"
+   description: "Issue concerns data published by VNG International"
+
  - name: "~publisher~ amrefhq"
+   new_name: "publisher: amrefhq"
+   description: "Issue concerns data published by Amref Health Africa Headquarters"
+
  - name: "~publisher~ wageningen_ur"
+   new_name: "publisher: wageningen_ur"
+   description: "Issue concerns data published by Wageningen University & Research - Stichting Wageningen Research"
+
  - name: "~publisher~ fmo"
+   new_name: "publisher: fmo"
+   description: "Issue concerns data published by FMO"
+
  - name: "~publisher~ sddirect"
+   new_name: "publisher: sddirect"
+   description: "Issue concerns data published by Social Development Direct Limited"
+
  - name: "~publisher~ cabi"
+   new_name: "publisher: cabi"
+   description: "Issue concerns data published by CABI"
+
  - name: "~publisher~ bsr_admin"
+   new_name: "publisher: bsr_admin"
+   description: "Issue concerns data published by BSR"
+
  - name: "~publisher~ cocnl_publisher"
+   new_name: "publisher: cocnl_publisher"
+   description: "Issue concerns data published by COC Nederland"
+
  - name: "~publisher~ ejc"
+   new_name: "publisher: ejc"
+   description: "Issue concerns data published by European Journalism Centre"
+
  - name: "~publisher~ odakorea"
+   new_name: "publisher: odakorea"
+   description: "Issue concerns data published by Republic of Korea"
+
  - name: "~publisher~ amrefeth"
+   new_name: "publisher: amrefeth"
+   description: "Issue concerns data published by Amref Health Africa in Ethiopia"
+
  - name: "~publisher~ imcw_admin"
+   new_name: "publisher: imcw_admin"
+   description: "Issue concerns data published by IMC WORLDWIDE"
+
  - name: "~publisher~ ipeglobal"
+   new_name: "publisher: ipeglobal"
+   description: "Issue concerns data published by IPE Global Limited"
+
  - name: "~publisher~ rnli_international"
+   new_name: "publisher: rnli_international"
+   description: "Issue concerns data published by Royal National Lifeboat Institution (RNLI)"
+
  - name: "~publisher~ cardnoem"
+   new_name: "publisher: cardnoem"
+   description: "Issue concerns data published by Cardno Emerging Markets"
+
  - name: "~publisher~ amrefmw"
+   new_name: "publisher: amrefmw"
+   description: "Issue concerns data published by Amref Health Africa Malawi"
+
  - name: "~publisher~ wai"
+   new_name: "publisher: wai"
+   description: "Issue concerns data published by WASH Alliance International"
+
  - name: "~publisher~ sdn"
+   new_name: "publisher: sdn"
+   description: "Issue concerns data published by Stakeholder Democracy Network"
+
  - name: "~publisher~ soundseekers"
+   new_name: "publisher: soundseekers"
+   description: "Issue concerns data published by Sound Seekers Limited"
+
  - name: "~publisher~ oneacrefund"
+   new_name: "publisher: oneacrefund"
+   description: "Issue concerns data published by One Acre Fund"
+
  - name: "~publisher~ bcm-cf"
+   new_name: "publisher: bcm-cf"
+   description: "Issue concerns data published by Baylor College of Medicine Children's Foundation Malawi"
+
  - name: "~publisher~ amrefug"
+   new_name: "publisher: amrefug"
+   description: "Issue concerns data published by Amref Health Africa in Uganda"
+
  - name: "~publisher~ odi"
+   new_name: "publisher: odi"
+   description: "Issue concerns data published by Overseas Development Institute"
+
  - name: "~publisher~ idh"
+   new_name: "publisher: idh"
+   description: "Issue concerns data published by IDH, the Sustainable Trade Initiative"
+
  - name: "~publisher~ yoneco1997"
+   new_name: "publisher: yoneco1997"
+   description: "Issue concerns data published by Youth Net and Counselling - YONECO"
+
  - name: "~publisher~ slovakaid"
+   new_name: "publisher: slovakaid"
+   description: "Issue concerns data published by Ministry of Foreign and European Affairs of the Slovak Republic"
+
  - name: "~publisher~ omidyarnetwork"
+   new_name: "publisher: omidyarnetwork"
+   description: "Issue concerns data published by Omidyar Network Fund Inc."
+
  - name: "~publisher~ cowater"
+   new_name: "publisher: cowater"
+   description: "Issue concerns data published by Cowater International Inc"
+
  - name: "~publisher~ caritasfin"
+   new_name: "publisher: caritasfin"
+   description: "Issue concerns data published by Caritas Finland"
+
  - name: "~publisher~ ifcwbg"
+   new_name: "publisher: ifcwbg"
+   description: "Issue concerns data published by International Finance Corporation"
+
  - name: "~publisher~ intrahealth"
+   new_name: "publisher: intrahealth"
+   description: "Issue concerns data published by IntraHealth International"
+
  - name: "~publisher~ maydayrescue"
+   new_name: "publisher: maydayrescue"
+   description: "Issue concerns data published by Stichting Mayday Rescue Foundation"
+
  - name: "~publisher~ inpud_admin"
+   new_name: "publisher: inpud_admin"
+   description: "Issue concerns data published by International Network of People who Use Drugs (INPUD)"
+
  - name: "~publisher~ tb-a"
+   new_name: "publisher: tb-a"
+   description: "Issue concerns data published by Global Alliance for TB Drug Development"
+
  - name: "~publisher~ deltares"
+   new_name: "publisher: deltares"
+   description: "Issue concerns data published by Stichting Deltares"
+
  - name: "~publisher~ npa"
+   new_name: "publisher: npa"
+   description: "Issue concerns data published by Norwegian People's Aid"
+
  - name: "~publisher~ qedjt"
+   new_name: "publisher: qedjt"
+   description: "Issue concerns data published by The Queen Elizabeth Diamond Jubilee Trust"
+
  - name: "~publisher~ orbis_africa"
+   new_name: "publisher: orbis_africa"
+   description: "Issue concerns data published by Orbis Africa"
+
  - name: "~publisher~ eif"
+   new_name: "publisher: eif"
+   description: "Issue concerns data published by Enhanced Integrated Framework"
+
  - name: "~publisher~ openmindedly"
+   new_name: "publisher: openmindedly"
+   description: "Issue concerns data published by openmindedly"
+
  - name: "~publisher~ delivery_associates"
+   new_name: "publisher: delivery_associates"
+   description: "Issue concerns data published by Delivery Associates Ltd"
+
  - name: "~publisher~ unaids"
+   new_name: "publisher: unaids"
+   description: "Issue concerns data published by United Nations Joint Programme on HIV and AIDS Secretariat (UNAIDS)"
+
  - name: "~publisher~ mainline"
+   new_name: "publisher: mainline"
+   description: "Issue concerns data published by Mainline"
+
  - name: "~publisher~ lts"
+   new_name: "publisher: lts"
+   description: "Issue concerns data published by LTS International Limited"
+
  - name: "~publisher~ hrf"
+   new_name: "publisher: hrf"
+   description: "Issue concerns data published by Human Relief Foundation"
+
  - name: "~publisher~ 3ie"
+   new_name: "publisher: 3ie"
+   description: "Issue concerns data published by International Initiative for Impact Evaluation"
+
  - name: "~publisher~ sfcg"
+   new_name: "publisher: sfcg"
+   description: "Issue concerns data published by Search for Common Ground (SFCG)"
+
  - name: "~publisher~ irc_inc"
+   new_name: "publisher: irc_inc"
+   description: "Issue concerns data published by The International Rescue Committee"
+
  - name: "~publisher~ bvs-nepal"
+   new_name: "publisher: bvs-nepal"
+   description: "Issue concerns data published by Burns Violence Survivors - Nepal"
+
  - name: "~publisher~ wpp"
+   new_name: "publisher: wpp"
+   description: "Issue concerns data published by Women Peacemakers Program"
+
  - name: "~publisher~ ecuk"
+   new_name: "publisher: ecuk"
+   description: "Issue concerns data published by Ecorys UK"
+
  - name: "~publisher~ msmgf"
+   new_name: "publisher: msmgf"
+   description: "Issue concerns data published by The Global Forum on MSM & HIV (MSMGF)"
+
  - name: "~publisher~ ipas"
+   new_name: "publisher: ipas"
+   description: "Issue concerns data published by Ipas"
+
  - name: "~publisher~ wep"
+   new_name: "publisher: wep"
+   description: "Issue concerns data published by Women Environmental Programme"
+
  - name: "~publisher~ dca"
+   new_name: "publisher: dca"
+   description: "Issue concerns data published by DanChurchAid"
+
  - name: "~publisher~ gnpplus"
+   new_name: "publisher: gnpplus"
+   description: "Issue concerns data published by Global Network of People Living with HIV (GNP+)"
+
  - name: "~publisher~ nswp"
+   new_name: "publisher: nswp"
+   description: "Issue concerns data published by Global Network of Sex Work Projects (NSWP)"
+
  - name: "~publisher~ max-foundation"
+   new_name: "publisher: max-foundation"
+   description: "Issue concerns data published by Max Foundation"
+
  - name: "~publisher~ ida"
+   new_name: "publisher: ida"
+   description: "Issue concerns data published by INTERNATIONAL DISABILITY ALLIANCE"
+
  - name: "~publisher~ draf"
+   new_name: "publisher: draf"
+   description: "Issue concerns data published by Disability Rights Advocacy Fund"
+
  - name: "~publisher~ caritas_denmark"
+   new_name: "publisher: caritas_denmark"
+   description: "Issue concerns data published by Caritas Denmark"
+
  - name: "~publisher~ wws"
+   new_name: "publisher: wws"
+   description: "Issue concerns data published by Win Win Strategies"
+
  - name: "~publisher~ healthpartners-international"
+   new_name: "publisher: healthpartners-international"
+   description: "Issue concerns data published by DAI Global Health"
+
  - name: "~publisher~ bdo"
+   new_name: "publisher: bdo"
+   description: "Issue concerns data published by BDO LLP"
+
  - name: "~publisher~ worldeconomicforum"
+   new_name: "publisher: worldeconomicforum"
+   description: "Issue concerns data published by World Economic Forum"
+
  - name: "~publisher~ itpc"
+   new_name: "publisher: itpc"
+   description: "Issue concerns data published by International Treatment Preparedness Coalition (ITPC)"
+
  - name: "~publisher~ amreftz"
+   new_name: "publisher: amreftz"
+   description: "Issue concerns data published by Amref Health Africa in Tanzania"
+
  - name: "~publisher~ wedo"
+   new_name: "publisher: wedo"
+   description: "Issue concerns data published by Women's Environment & Development Organization"
+
  - name: "~publisher~ siren"
+   new_name: "publisher: siren"
+   description: "Issue concerns data published by Siren Associates"
+
  - name: "~publisher~ cost_uk"
+   new_name: "publisher: cost_uk"
+   description: "Issue concerns data published by Construction Sector Transparency Initiative (CoST)"
+
  - name: "~publisher~ eip"
+   new_name: "publisher: eip"
+   description: "Issue concerns data published by European Institute of Peace"
+
  - name: "~publisher~ adsb"
+   new_name: "publisher: adsb"
+   description: "Issue concerns data published by Atradius Dutch State Business"
+
  - name: "~publisher~ civicus"
+   new_name: "publisher: civicus"
+   description: "Issue concerns data published by CIVICUS World Alliance for Citizen Participation"
+
  - name: "~publisher~ ccdnigeria"
+   new_name: "publisher: ccdnigeria"
+   description: "Issue concerns data published by Centre For Citizens With Disabilities"
+
  - name: "~publisher~ unpf"
+   new_name: "publisher: unpf"
+   description: "Issue concerns data published by UN Pooled Funds"
+
  - name: "~publisher~ act_alliance"
+   new_name: "publisher: act_alliance"
+   description: "Issue concerns data published by ACT Alliance"
+
  - name: "~publisher~ inbar"
+   new_name: "publisher: inbar"
+   description: "Issue concerns data published by International Network for Bamboo and Rattan (INBAR)"
+
  - name: "~publisher~ stad"
+   new_name: "publisher: stad"
+   description: "Issue concerns data published by Support Trust for Africa Development (STAD)"
+
  - name: "~publisher~ mefbenin"
+   new_name: "publisher: mefbenin"
+   description: "Issue concerns data published by Minist√®re de l'Economie et des Finances du B√©nin"
+
  - name: "~publisher~ cowi"
+   new_name: "publisher: cowi"
+   description: "Issue concerns data published by COWI"
+
  - name: "~publisher~ afewinternational"
+   new_name: "publisher: afewinternational"
+   description: "Issue concerns data published by AFEW International"
+
  - name: "~publisher~ iucn"
+   new_name: "publisher: iucn"
+   description: "Issue concerns data published by International Union for Conservation of Nature and Natural Resources"
+
  - name: "~publisher~ soneb-benin"
+   new_name: "publisher: soneb-benin"
+   description: "Issue concerns data published by Soci√©t√© Nationale des eaux du B√©nin (SONEB)"
+
  - name: "~publisher~ afemena"
+   new_name: "publisher: afemena"
+   description: "Issue concerns data published by Arab foundation for freedoms and equality"
+
  - name: "~publisher~ usaid"
+   new_name: "publisher: usaid"
+   description: "Issue concerns data published by United States Agency for International Development (USAID)"
+
  - name: "~publisher~ integrity"
+   new_name: "publisher: integrity"
+   description: "Issue concerns data published by Integrity Research and Consultancy Ltd"
+
  - name: "~publisher~ dcaf"
+   new_name: "publisher: dcaf"
+   description: "Issue concerns data published by DCAF - Geneva Centre for Security Sector Governance"
+
  - name: "~publisher~ apc"
+   new_name: "publisher: apc"
+   description: "Issue concerns data published by Association for Progressive Communication"
+
  - name: "~publisher~ uhai-eashri"
+   new_name: "publisher: uhai-eashri"
+   description: "Issue concerns data published by UHAI EASHRI"
+
  - name: "~publisher~ pin"
+   new_name: "publisher: pin"
+   description: "Issue concerns data published by People in Need"
+
  - name: "~publisher~ trias"
+   new_name: "publisher: trias"
+   description: "Issue concerns data published by Trias"
+
  - name: "~publisher~ trocaire"
+   new_name: "publisher: trocaire"
+   description: "Issue concerns data published by Trocaire"
+
  - name: "~publisher~ gif"
+   new_name: "publisher: gif"
+   description: "Issue concerns data published by Global Innovation Fund"
+
  - name: "~publisher~ icf"
+   new_name: "publisher: icf"
+   description: "Issue concerns data published by ICF Consulting Services Ltd"
+
  - name: "~publisher~ ancb_benin"
+   new_name: "publisher: ancb_benin"
+   description: "Issue concerns data published by The National Association of Municipalities of Benin (ANCB)"
+
  - name: "~publisher~ guttmacher"
+   new_name: "publisher: guttmacher"
+   description: "Issue concerns data published by Guttmacher Institute"
+
  - name: "~publisher~ fao"
+   new_name: "publisher: fao"
+   description: "Issue concerns data published by Food and Agriculture Organization of the United Nations (FAO)"
+
  - name: "~publisher~ medair"
+   new_name: "publisher: medair"
+   description: "Issue concerns data published by Medair"
+
  - name: "~publisher~ giro555"
+   new_name: "publisher: giro555"
+   description: "Issue concerns data published by Giro555 (Stichting Samenwerkende Hulporganisaties)"
+
  - name: "~publisher~ who"
+   new_name: "publisher: who"
+   description: "Issue concerns data published by World Health Organization"
+
  - name: "~publisher~ girlsnotbrides"
+   new_name: "publisher: girlsnotbrides"
+   description: "Issue concerns data published by Girls Not Brides: The Global Partnership to End Child Marriage"
+
  - name: "~publisher~ clingendael"
+   new_name: "publisher: clingendael"
+   description: "Issue concerns data published by Stichting Nederlands Instituut voor Internationale Betrekkingen 'Clingendael'"
+
  - name: "~publisher~ pumnl"
+   new_name: "publisher: pumnl"
+   description: "Issue concerns data published by PUM Netherlands"
+
  - name: "~publisher~ wfm-igp"
+   new_name: "publisher: wfm-igp"
+   description: "Issue concerns data published by World Federalist Movement - Institute for Global Policy"
+
  - name: "~publisher~ mrf"
+   new_name: "publisher: mrf"
+   description: "Issue concerns data published by Meningitis Research Foundation"
+
  - name: "~publisher~ wgnrr_iati"
+   new_name: "publisher: wgnrr_iati"
+   description: "Issue concerns data published by Women's Global Network on Reproductive Rights"
+
  - name: "~publisher~ ideo_org"
+   new_name: "publisher: ideo_org"
+   description: "Issue concerns data published by IDEO.org"
+
  - name: "~publisher~ weforum_geneva"
+   new_name: "publisher: weforum_geneva"
+   description: "Issue concerns data published by World Economic Forum Geneva"
+
  - name: "~publisher~ cibe"
+   new_name: "publisher: cibe"
+   description: "Issue concerns data published by Caritas International (Belgium)"
+
  - name: "~publisher~ hsi"
+   new_name: "publisher: hsi"
+   description: "Issue concerns data published by Helvetas Swiss Intercooperation"
+
  - name: "~publisher~ mvo_nederland"
+   new_name: "publisher: mvo_nederland"
+   description: "Issue concerns data published by MVO Nederland"
+
  - name: "~publisher~ pca-gire"
+   new_name: "publisher: pca-gire"
+   description: "Issue concerns data published by DNH Mali (Direction Nationale de l‚ÄôHydraulique du Mali)"
+
  - name: "~publisher~ nef_usa"
+   new_name: "publisher: nef_usa"
+   description: "Issue concerns data published by Near East Foundation (NEF USA)"
+
  - name: "~publisher~ carter-center"
+   new_name: "publisher: carter-center"
+   description: "Issue concerns data published by The Carter Center"
+
  - name: "~publisher~ icdi"
+   new_name: "publisher: icdi"
+   description: "Issue concerns data published by International Child Development Initiatives"
+
  - name: "~publisher~ hiil_mfa"
+   new_name: "publisher: hiil_mfa"
+   description: "Issue concerns data published by HiiL innovating Justice"
+
  - name: "~publisher~ uawc"
+   new_name: "publisher: uawc"
+   description: "Issue concerns data published by Union of Agricultural Work Committees"
+
  - name: "~publisher~ acwfs_vu"
+   new_name: "publisher: acwfs_vu"
+   description: "Issue concerns data published by Stichting VU Amsterdam - Amsterdam Centre for World Food Studies"
+
  - name: "~publisher~ ehpea"
+   new_name: "publisher: ehpea"
+   description: "Issue concerns data published by Ethiopian Horticulture Producer Exporters Association (EHPEA)"
+
  - name: "~publisher~ ibfd"
+   new_name: "publisher: ibfd"
+   description: "Issue concerns data published by International Bureau of Fiscal Documentation (IBFD)"
+
  - name: "~publisher~ united_work"
+   new_name: "publisher: united_work"
+   description: "Issue concerns data published by United Work"
+
  - name: "~publisher~ unicefnl"
+   new_name: "publisher: unicefnl"
+   description: "Issue concerns data published by UNICEF Netherlands National Committee"
+
  - name: "~publisher~ aics"
+   new_name: "publisher: aics"
+   description: "Issue concerns data published by AICS - Agenzia Italiana per la Cooperazione allo Sviluppo / Italian Agency for Cooperation and Development"
+
  - name: "~publisher~ cpi"
+   new_name: "publisher: cpi"
+   description: "Issue concerns data published by Climate Policy Initiative"
+
  - name: "~publisher~ libymca"
+   new_name: "publisher: libymca"
+   description: "Issue concerns data published by YMCA of Liberia"
+
  - name: "~publisher~ tmea"
+   new_name: "publisher: tmea"
+   description: "Issue concerns data published by TradeMark East Africa"
+
  - name: "~publisher~ ldsps"
+   new_name: "publisher: ldsps"
+   description: "Issue concerns data published by Local Development and Small Projects Support"
+
  - name: "~publisher~ vlir-uos"
+   new_name: "publisher: vlir-uos"
+   description: "Issue concerns data published by Vlaamse Interuniversitaire Raad voor Universitaire Ontwikkelingssamenwerking (VLIR-UOS)"
+
  - name: "~publisher~ fms"
+   new_name: "publisher: fms"
+   description: "Issue concerns data published by Fundaci√≥n Fondo Mujeres del Sur"
+
  - name: "~publisher~ unf"
+   new_name: "publisher: unf"
+   description: "Issue concerns data published by United Nations Foundation"
+
  - name: "~publisher~ idea"
+   new_name: "publisher: idea"
+   description: "Issue concerns data published by International IDEA"
+
  - name: "~publisher~ ihedelft"
+   new_name: "publisher: ihedelft"
+   description: "Issue concerns data published by IHE Delft Institute for Water Education"
+
  - name: "~publisher~ tns"
+   new_name: "publisher: tns"
+   description: "Issue concerns data published by TechnoServe"
+
  - name: "~publisher~ aias"
+   new_name: "publisher: aias"
+   description: "Issue concerns data published by Administra√ß√£o de Infra-Estruturas de √Åguas e Saneamento"
+
  - name: "~publisher~ caribank"
+   new_name: "publisher: caribank"
+   description: "Issue concerns data published by Caribbean Development Bank (CDB)"
+
  - name: "~publisher~ w_r_c"
+   new_name: "publisher: w_r_c"
+   description: "Issue concerns data published by Women's Refugee Commission"
+
  - name: "~publisher~ agencia_do_zambeze"
+   new_name: "publisher: agencia_do_zambeze"
+   description: "Issue concerns data published by Ag√™ncia de Desenvolvimento do Vale do Zambeze"
+
  - name: "~publisher~ cdi"
+   new_name: "publisher: cdi"
+   description: "Issue concerns data published by Conflict Dynamics International"
+
  - name: "~publisher~ leedsuni"
+   new_name: "publisher: leedsuni"
+   description: "Issue concerns data published by University of Leeds"
+
  - name: "~publisher~ mmh"
+   new_name: "publisher: mmh"
+   description: "Issue concerns data published by Mulanje Mission Hospital"
+
  - name: "~publisher~ inso"
+   new_name: "publisher: inso"
+   description: "Issue concerns data published by International NGO Safety Orgnisation"
+
  - name: "~publisher~ pcst"
+   new_name: "publisher: pcst"
+   description: "Issue concerns data published by Palliative Care Support Trust"
+
  - name: "~publisher~ ethiopiaiduk"
+   new_name: "publisher: ethiopiaiduk"
+   description: "Issue concerns data published by Ethiopiaid UK"
+
  - name: "~publisher~ atsf"
+   new_name: "publisher: atsf"
+   description: "Issue concerns data published by Access to Seeds Foundation"
+
  - name: "~publisher~ oxsol"
+   new_name: "publisher: oxsol"
+   description: "Issue concerns data published by Oxfam Solidarit√©-Solidariteit"
+
  - name: "~publisher~ clasp"
+   new_name: "publisher: clasp"
+   description: "Issue concerns data published by CLASP"
+
  - name: "~publisher~ un-environment"
+   new_name: "publisher: un-environment"
+   description: "Issue concerns data published by United Nations Environment Programme (UNEP)"
+
  - name: "~publisher~ atnf"
+   new_name: "publisher: atnf"
+   description: "Issue concerns data published by The Access to Nutrition Foundation"
+
  - name: "~publisher~ inasp"
+   new_name: "publisher: inasp"
+   description: "Issue concerns data published by International Network for Advancing Science and Policy"
+
  - name: "~publisher~ pstc_1102"
+   new_name: "publisher: pstc_1102"
+   description: "Issue concerns data published by Population Services and Training Centre (PSTC)"
+
  - name: "~publisher~ horizons"
+   new_name: "publisher: horizons"
+   description: "Issue concerns data published by Horizons for Green Development"
+
  - name: "~publisher~ hiuk"
+   new_name: "publisher: hiuk"
+   description: "Issue concerns data published by Handicap International UK"
+
  - name: "~publisher~ sacethiopia"
+   new_name: "publisher: sacethiopia"
+   description: "Issue concerns data published by Send a Cow Ethiopia"
+
  - name: "~publisher~ caritas_serbia"
+   new_name: "publisher: caritas_serbia"
+   description: "Issue concerns data published by Caritas Serbia"
+
  - name: "~publisher~ ncea"
+   new_name: "publisher: ncea"
+   description: "Issue concerns data published by Netherlands Commission for Environmental Assessment"
+
  - name: "~publisher~ oxfamus"
+   new_name: "publisher: oxfamus"
+   description: "Issue concerns data published by Oxfam America"
+
  - name: "~publisher~ kesho_kenya"
+   new_name: "publisher: kesho_kenya"
+   description: "Issue concerns data published by Kesho Kenya"
+
  - name: "~publisher~ amurt_kenya"
+   new_name: "publisher: amurt_kenya"
+   description: "Issue concerns data published by Ananda Marga Universal Relief Team (AMURT) Africa"
+
  - name: "~publisher~ pgi_kenya"
+   new_name: "publisher: pgi_kenya"
+   description: "Issue concerns data published by Pastoralist Girls Initiative"
+
  - name: "~publisher~ berytech"
+   new_name: "publisher: berytech"
+   description: "Issue concerns data published by Berytech Foundation"
+
  - name: "~publisher~ nuffic20171017"
+   new_name: "publisher: nuffic20171017"
+   description: "Issue concerns data published by Nuffic"
+
  - name: "~publisher~ alcrer-1"
+   new_name: "publisher: alcrer-1"
+   description: "Issue concerns data published by ONG ALCRER"
+
  - name: "~publisher~ diakonia802017-3517"
+   new_name: "publisher: diakonia802017-3517"
+   description: "Issue concerns data published by Diakonia Sweden"
+
  - name: "~publisher~ swb_1"
+   new_name: "publisher: swb_1"
+   description: "Issue concerns data published by Social Watch Benin"
+
  - name: "~publisher~ beis"
+   new_name: "publisher: beis"
+   description: "Issue concerns data published by UK - Department for Business, Energy and Industrial Strategy (BEIS)"
+
  - name: "~publisher~ populationcouncil"
+   new_name: "publisher: populationcouncil"
+   description: "Issue concerns data published by The Population Council, Inc."
+
  - name: "~publisher~ ipao"
+   new_name: "publisher: ipao"
+   description: "Issue concerns data published by Panos Institute West Africa (PIWA)"
+
  - name: "~publisher~ pcf"
+   new_name: "publisher: pcf"
+   description: "Issue concerns data published by Prince Claus Fund"
+
  - name: "~publisher~ acet"
+   new_name: "publisher: acet"
+   description: "Issue concerns data published by African Center for Economic Transformation (ACET)"
+
  - name: "~publisher~ the_power_of_nutrition"
+   new_name: "publisher: the_power_of_nutrition"
+   description: "Issue concerns data published by The Power of Nutrition"
+
  - name: "~publisher~ drc"
+   new_name: "publisher: drc"
+   description: "Issue concerns data published by Danish Refugee Council"
+
  - name: "~publisher~ aiuk"
+   new_name: "publisher: aiuk"
+   description: "Issue concerns data published by Amnesty International UK Section Charitable Trust"
+
  - name: "~publisher~ universityofbirmingham"
+   new_name: "publisher: universityofbirmingham"
+   description: "Issue concerns data published by University of Birmingham"
+
  - name: "~publisher~ fipag"
+   new_name: "publisher: fipag"
+   description: "Issue concerns data published by Fundo de Investimento e Patrimonio do Abastecimento de √Ågua (FIPAG)"
+
  - name: "~publisher~ ciz"
+   new_name: "publisher: ciz"
+   description: "Issue concerns data published by CARE International in Zimbabwe"
+
  - name: "~publisher~ wri"
+   new_name: "publisher: wri"
+   description: "Issue concerns data published by World Resources Institute"
+
  - name: "~publisher~ udpk"
+   new_name: "publisher: udpk"
+   description: "Issue concerns data published by United Disabled Persons of Kenya"
+
  - name: "~publisher~ memisa"
+   new_name: "publisher: memisa"
+   description: "Issue concerns data published by Memisa"
+
  - name: "~publisher~ wvz-gec"
+   new_name: "publisher: wvz-gec"
+   description: "Issue concerns data published by World Vision Zimbabwe"
+
  - name: "~publisher~ worldwaternet"
+   new_name: "publisher: worldwaternet"
+   description: "Issue concerns data published by World Waternet"
+
  - name: "~publisher~ ecorysnl"
+   new_name: "publisher: ecorysnl"
+   description: "Issue concerns data published by Ecorys Nederland B.V."
+
  - name: "~publisher~ gggi"
+   new_name: "publisher: gggi"
+   description: "Issue concerns data published by Global Green Growth Institute (GGGI)"
+
  - name: "~publisher~ csa"
+   new_name: "publisher: csa"
+   description: "Issue concerns data published by Collectif Strat√©gies Alimentaires"
+
  - name: "~publisher~ uva_org"
+   new_name: "publisher: uva_org"
+   description: "Issue concerns data published by University of Amsterdam"
+
  - name: "~publisher~ thp_org"
+   new_name: "publisher: thp_org"
+   description: "Issue concerns data published by The Hunger Project Netherlands"
+
  - name: "~publisher~ vvsg"
+   new_name: "publisher: vvsg"
+   description: "Issue concerns data published by VVSG - Vereniging van Vlaamse Steden en Gemeenten"
+
  - name: "~publisher~ sosfaim"
+   new_name: "publisher: sosfaim"
+   description: "Issue concerns data published by SOS FAIM - SOS HUNGER"
+
  - name: "~publisher~ woda_0486"
+   new_name: "publisher: woda_0486"
+   description: "Issue concerns data published by Wolayita Development Association"
+
  - name: "~publisher~ vvob"
+   new_name: "publisher: vvob"
+   description: "Issue concerns data published by VVOB Education for Development"
+
  - name: "~publisher~ a-t"
+   new_name: "publisher: a-t"
+   description: "Issue concerns data published by Autre Terre asbl"
+
  - name: "~publisher~ ngo-federatie"
+   new_name: "publisher: ngo-federatie"
+   description: "Issue concerns data published by Ngo-federatie (Vlaamse federatie van ngo's voor ontwikkelingssamenwerking)"
+
  - name: "~publisher~ wcc"
+   new_name: "publisher: wcc"
+   description: "Issue concerns data published by War Child Canada"
+
  - name: "~publisher~ fida"
+   new_name: "publisher: fida"
+   description: "Issue concerns data published by Federation of Women Lawyers Kenya"
+
  - name: "~publisher~ pwcplindia"
+   new_name: "publisher: pwcplindia"
+   description: "Issue concerns data published by PricewaterhouseCoopers Private Limited India"
+
  - name: "~publisher~ orbis_ethiopia"
+   new_name: "publisher: orbis_ethiopia"
+   description: "Issue concerns data published by Orbis Ethiopia"
+
  - name: "~publisher~ ct-admin"
+   new_name: "publisher: ct-admin"
+   description: "Issue concerns data published by Centre Tricontinental - CETRI"
+
  - name: "~publisher~ ef_"
+   new_name: "publisher: ef_"
+   description: "Issue concerns data published by Entraide et Fraternit√©"
+
  - name: "~publisher~ sci"
+   new_name: "publisher: sci"
+   description: "Issue concerns data published by Save the Children International"
+
  - name: "~publisher~ lc"
+   new_name: "publisher: lc"
+   description: "Issue concerns data published by Louvain Coop√©ration"
+
  - name: "~publisher~ brulocalis"
+   new_name: "publisher: brulocalis"
+   description: "Issue concerns data published by Brulocalis"
+
  - name: "~publisher~ cncd"
+   new_name: "publisher: cncd"
+   description: "Issue concerns data published by Centre National de Coop√©ration au D√©veloppement (CNCD-11.11.11)"
+
  - name: "~publisher~ g3w-m3m_admin"
+   new_name: "publisher: g3w-m3m_admin"
+   description: "Issue concerns data published by Viva Salud"
+
  - name: "~publisher~ omdm"
+   new_name: "publisher: omdm"
+   description: "Issue concerns data published by Oxfam-Magasins du monde (omdm)"
+
  - name: "~publisher~ uvcw"
+   new_name: "publisher: uvcw"
+   description: "Issue concerns data published by Union des Villes et Communes de Wallonie (UVCW)"
+
  - name: "~publisher~ unocha-cbpf"
+   new_name: "publisher: unocha-cbpf"
+   description: "Issue concerns data published by OCHA Country Based Pooled Funds"
+
  - name: "~publisher~ actec"
+   new_name: "publisher: actec"
+   description: "Issue concerns data published by Association for Cultural Technical and Educational Cooperation (ACTEC)"
+
  - name: "~publisher~ idp"
+   new_name: "publisher: idp"
+   description: "Issue concerns data published by Iles de Paix"
+
  - name: "~publisher~ crehpa"
+   new_name: "publisher: crehpa"
+   description: "Issue concerns data published by Center for Research on Environment Health and Population Activities (CREHPA)"
+
  - name: "~publisher~ orbis_international"
+   new_name: "publisher: orbis_international"
+   description: "Issue concerns data published by Orbis International"
+
  - name: "~publisher~ africalia"
+   new_name: "publisher: africalia"
+   description: "Issue concerns data published by Africalia"
+
  - name: "~publisher~ tfb_admin1"
+   new_name: "publisher: tfb_admin1"
+   description: "Issue concerns data published by Tearfund VZW (TFBE)"
+
  - name: "~publisher~ wsm"
+   new_name: "publisher: wsm"
+   description: "Issue concerns data published by Wereldsolidariteit-Solidarit√© Mondiale (WSM)"
+
  - name: "~publisher~ ahead"
+   new_name: "publisher: ahead"
+   description: "Issue concerns data published by Academy for Health Development (AHEAD)"
+
  - name: "~publisher~ rkiv"
+   new_name: "publisher: rkiv"
+   description: "Issue concerns data published by Rode Kruis-Vlaanderen Internationaal vzw"
+
  - name: "~publisher~ scibelgium"
+   new_name: "publisher: scibelgium"
+   description: "Issue concerns data published by SCI Projets Internationaux ASBL_Service Civil International branche belge"
+
  - name: "~publisher~ fos"
+   new_name: "publisher: fos"
+   description: "Issue concerns data published by Fonds voor Ontwikkelingssamenwerking - Socialistische Solidariteit VZW"
+
  - name: "~publisher~ iiwe"
+   new_name: "publisher: iiwe"
+   description: "Issue concerns data published by Institute for International Workers Education"
+
  - name: "~publisher~ akf_afghanistan"
+   new_name: "publisher: akf_afghanistan"
+   description: "Issue concerns data published by Aga Khan Foundation Afghanistan"
+
  - name: "~publisher~ ulbcoop"
+   new_name: "publisher: ulbcoop"
+   description: "Issue concerns data published by ULB-Coop√©ration"
+
  - name: "~publisher~ niras"
+   new_name: "publisher: niras"
+   description: "Issue concerns data published by NIRAS A/S"
+
  - name: "~publisher~ gogla"
+   new_name: "publisher: gogla"
+   description: "Issue concerns data published by GOGLA - Global Off-Grid Lighting Association"
+
  - name: "~publisher~ aphrc"
+   new_name: "publisher: aphrc"
+   description: "Issue concerns data published by African Population and Health Research Center"
+
  - name: "~publisher~ etmkdw"
+   new_name: "publisher: etmkdw"
+   description: "Issue concerns data published by Enfance Tiers Monde Kinderen Derde Wereld"
+
  - name: "~publisher~ wag-1983"
+   new_name: "publisher: wag-1983"
+   description: "Issue concerns data published by Women's Action Group"
+
  - name: "~publisher~ svdbskb_admin"
+   new_name: "publisher: svdbskb_admin"
+   description: "Issue concerns data published by SOS Kinderdorpen Belgi√´ / SOS Villages d'Enfants Belgique"
+
  - name: "~publisher~ engenderhealth_eth"
+   new_name: "publisher: engenderhealth_eth"
+   description: "Issue concerns data published by EngenderHealth Ethiopia"
+
  - name: "~publisher~ chemonics"
+   new_name: "publisher: chemonics"
+   description: "Issue concerns data published by Chemonics International Inc."
+
  - name: "~publisher~ fairtrade_be"
+   new_name: "publisher: fairtrade_be"
+   description: "Issue concerns data published by Fairtrade Belgium"
+
  - name: "~publisher~ arcfge"
+   new_name: "publisher: arcfge"
+   description: "Issue concerns data published by ABAAD - Resource Center for Gender Equality"
+
  - name: "~publisher~ shc"
+   new_name: "publisher: shc"
+   description: "Issue concerns data published by Sensorial Handicap Cooperation"
+
  - name: "~publisher~ apefe"
+   new_name: "publisher: apefe"
+   description: "Issue concerns data published by Association pour la Promotion de l'Education et de la Formation √† l'Etranger"
+
  - name: "~publisher~ dba"
+   new_name: "publisher: dba"
+   description: "Issue concerns data published by D√©fi Belgique Afrique"
+
  - name: "~publisher~ cdeb-kvhb_admin"
+   new_name: "publisher: cdeb-kvhb_admin"
+   description: "Issue concerns data published by Cha√Æne de l'Espoir Belgique / Keten van Hoop Belgi√´ / Chain of Hope Belgium"
+
  - name: "~publisher~ hib"
+   new_name: "publisher: hib"
+   description: "Issue concerns data published by Handicap International Belgique"
+
  - name: "~publisher~ mmha"
+   new_name: "publisher: mmha"
+   description: "Issue concerns data published by Miel Maya Honing asbl"
+
  - name: "~publisher~ atmf"
+   new_name: "publisher: atmf"
+   description: "Issue concerns data published by Access to Medicine Foundation"
+
  - name: "~publisher~ vsfbelgium"
+   new_name: "publisher: vsfbelgium"
+   description: "Issue concerns data published by VETERINAIRES SANS FRONTIERES / DIERENARTSEN ZONDER GRENZEN - BELGIUM"
+
  - name: "~publisher~ rc4d"
+   new_name: "publisher: rc4d"
+   description: "Issue concerns data published by Rotary Clubs For Development"
+
  - name: "~publisher~ rcn"
+   new_name: "publisher: rcn"
+   description: "Issue concerns data published by RCN Justice & D√©mocratie"
+
  - name: "~publisher~ medecins"
+   new_name: "publisher: medecins"
+   description: "Issue concerns data published by Medecins du Monde Belgique - Dokters van de Wereld Belg√Øe"
+
  - name: "~publisher~ via-db"
+   new_name: "publisher: via-db"
+   description: "Issue concerns data published by VIA Don Bosco"
+
  - name: "~publisher~ crb-ai_admin"
+   new_name: "publisher: crb-ai_admin"
+   description: "Issue concerns data published by Croix-Rouge de Belgique Communaut√© francophone - Activit√©s internationales ASBL"
+
  - name: "~publisher~ djapo"
+   new_name: "publisher: djapo"
+   description: "Issue concerns data published by Djapo"
+
  - name: "~publisher~ rikolto_belgium"
+   new_name: "publisher: rikolto_belgium"
+   description: "Issue concerns data published by Rikolto in Belgium"
+
  - name: "~publisher~ ub"
+   new_name: "publisher: ub"
+   description: "Issue concerns data published by Unicef Belgium National Committee"
+
  - name: "~publisher~ rikolto"
+   new_name: "publisher: rikolto"
+   description: "Issue concerns data published by Rikolto"
+
  - name: "~publisher~ bd"
+   new_name: "publisher: bd"
+   description: "Issue concerns data published by Broederlijk Delen"
+
  - name: "~publisher~ protos"
+   new_name: "publisher: protos"
+   description: "Issue concerns data published by Protos"
+
  - name: "~publisher~ sg"
+   new_name: "publisher: sg"
+   description: "Issue concerns data published by Studio Globo"
+
  - name: "~publisher~ bismsi"
+   new_name: "publisher: bismsi"
+   description: "Issue concerns data published by Beweging voor Internationale Solidariteit - Mouvement pour la Solidarit√© Internationale"
+
  - name: "~publisher~ bos_plus_tropen"
+   new_name: "publisher: bos_plus_tropen"
+   description: "Issue concerns data published by BOS+ tropen"
+
  - name: "~publisher~ fian-belgium"
+   new_name: "publisher: fian-belgium"
+   description: "Issue concerns data published by FIAN Belgium"
+
  - name: "~publisher~ bac"
+   new_name: "publisher: bac"
+   description: "Issue concerns data published by Benelux Afro Center"
+
  - name: "~publisher~ solsoc"
+   new_name: "publisher: solsoc"
+   description: "Issue concerns data published by Solsoc"
+
  - name: "~publisher~ ada"
+   new_name: "publisher: ada"
+   description: "Issue concerns data published by Auto-D√©veloppement Afrique (ADA)"
+
  - name: "~publisher~ fucid"
+   new_name: "publisher: fucid"
+   description: "Issue concerns data published by Forum Universitaire pour la Coop√©ration Internationale au D√©veloppement -FUCID ASBL"
+
  - name: "~publisher~ cjp"
+   new_name: "publisher: cjp"
+   description: "Issue concerns data published by COMMISSION JUSTICE ET PAIX ASBL (cjp)"
+
  - name: "~publisher~ wwf-be"
+   new_name: "publisher: wwf-be"
+   description: "Issue concerns data published by World Wide Fund for Nature Belgium (WWF-BE)"
+
  - name: "~publisher~ geomoun"
+   new_name: "publisher: geomoun"
+   description: "Issue concerns data published by GEOMOUN ASBL"
+
  - name: "~publisher~ congodorpen"
+   new_name: "publisher: congodorpen"
+   description: "Issue concerns data published by Congodorpen vzw"
+
  - name: "~publisher~ aak"
+   new_name: "publisher: aak"
+   description: "Issue concerns data published by Agulhas Applied Knowledge"
+
  - name: "~publisher~ foncaba"
+   new_name: "publisher: foncaba"
+   description: "Issue concerns data published by FONCABA ASBL KBA VZW"
+
  - name: "~publisher~ eclosio"
+   new_name: "publisher: eclosio"
+   description: "Issue concerns data published by Eclosio"
+
  - name: "~publisher~ ucos"
+   new_name: "publisher: ucos"
+   description: "Issue concerns data published by Universitair Centrum voor Ontwikkelingssamenwerking"
+
  - name: "~publisher~ 111111_publisher"
+   new_name: "publisher: 111111_publisher"
+   description: "Issue concerns data published by Koepel van de Vlaamse Noord-Zuidbeweging 11.11.11 VZW"
+
  - name: "~publisher~ oww"
+   new_name: "publisher: oww"
+   description: "Issue concerns data published by Oxfam Wereldwinkels"
+
  - name: "~publisher~ qrfed"
+   new_name: "publisher: qrfed"
+   description: "Issue concerns data published by Queen Rania Foundation for Education and Development"
+
  - name: "~publisher~ practica"
+   new_name: "publisher: practica"
+   description: "Issue concerns data published by PRACTICA Foundation"
+
  - name: "~publisher~ irex"
+   new_name: "publisher: irex"
+   description: "Issue concerns data published by IREX (International Research and Exchange Board)"
+
  - name: "~publisher~ iom"
+   new_name: "publisher: iom"
+   description: "Issue concerns data published by International Organization for Migration (IOM)"
+
  - name: "~publisher~ kiyo"
+   new_name: "publisher: kiyo"
+   description: "Issue concerns data published by KIYO"
+
  - name: "~publisher~ c40cities"
+   new_name: "publisher: c40cities"
+   description: "Issue concerns data published by C40 Cities Climate Leadership Group"
+
  - name: "~publisher~ baag"
+   new_name: "publisher: baag"
+   description: "Issue concerns data published by British & Irish Agencies Afghanistan Group"
+
  - name: "~publisher~ ares"
+   new_name: "publisher: ares"
+   description: "Issue concerns data published by Acad√©mie de recherche et d'enseignement sup√©rieur"
+
  - name: "~publisher~ dynamo_international"
+   new_name: "publisher: dynamo_international"
+   description: "Issue concerns data published by Dynamo International asbl"
+
  - name: "~publisher~ quinoa"
+   new_name: "publisher: quinoa"
+   description: "Issue concerns data published by Quinoa"
+
  - name: "~publisher~ ec"
+   new_name: "publisher: ec"
+   description: "Issue concerns data published by Echos Communication"
+
  - name: "~publisher~ msv"
+   new_name: "publisher: msv"
+   description: "Issue concerns data published by M√©decins Sans Vacances"
+
  - name: "~publisher~ cadtm"
+   new_name: "publisher: cadtm"
+   description: "Issue concerns data published by Comit√© pour l'abolition des dettes ill√©gitimes"
+
  - name: "~publisher~ iteco"
+   new_name: "publisher: iteco"
+   description: "Issue concerns data published by ITECO - Centre de formation pour le d√©veloppement"
+
  - name: "~publisher~ acfspain"
+   new_name: "publisher: acfspain"
+   description: "Issue concerns data published by ACTION AGAINST HUNGER SPAIN"
+
  - name: "~publisher~ damien-foundation"
+   new_name: "publisher: damien-foundation"
+   description: "Issue concerns data published by Damiaanactie / Action Damien"
+
  - name: "~publisher~ uwezo_youth_empowerment"
+   new_name: "publisher: uwezo_youth_empowerment"
+   description: "Issue concerns data published by UWEZO Youth Empowerment"
+
  - name: "~publisher~ aidenvironment"
+   new_name: "publisher: aidenvironment"
+   description: "Issue concerns data published by Stichting Aidenvironment"
+
  - name: "~publisher~ pib"
+   new_name: "publisher: pib"
+   description: "Issue concerns data published by Plan International Belgium"
+
  - name: "~publisher~ ruaf"
+   new_name: "publisher: ruaf"
+   description: "Issue concerns data published by RUAF Foundation"
+
  - name: "~publisher~ pmc"
+   new_name: "publisher: pmc"
+   description: "Issue concerns data published by Population Media Center"
+
  - name: "~publisher~ mondefemmes"
+   new_name: "publisher: mondefemmes"
+   description: "Issue concerns data published by Le Monde selon les femmes asbl"
+
  - name: "~publisher~ cec"
+   new_name: "publisher: cec"
+   description: "Issue concerns data published by Coop√©ration par l'Education et la Culture"
+
  - name: "~publisher~ danmission"
+   new_name: "publisher: danmission"
+   description: "Issue concerns data published by Danmission"
+
  - name: "~publisher~ needs"
+   new_name: "publisher: needs"
+   description: "Issue concerns data published by Network For Enterprise Enhancement and Development Support"
+
  - name: "~publisher~ orientame"
+   new_name: "publisher: orientame"
+   description: "Issue concerns data published by Fundaci√≥n Ori√©ntame"
+
  - name: "~publisher~ ifac"
+   new_name: "publisher: ifac"
+   description: "Issue concerns data published by International Federation of Accountants"
+
  - name: "~publisher~ chai"
+   new_name: "publisher: chai"
+   description: "Issue concerns data published by Clinton Health Access Initiative"
+
  - name: "~publisher~ aahusa"
+   new_name: "publisher: aahusa"
+   description: "Issue concerns data published by Action Against Hunger USA"
+
  - name: "~publisher~ odi_sales_ltd"
+   new_name: "publisher: odi_sales_ltd"
+   description: "Issue concerns data published by ODI Sales Limited"
+
  - name: "~publisher~ avsi_uganda"
+   new_name: "publisher: avsi_uganda"
+   description: "Issue concerns data published by AVSI FOUNDATION IN UGANDA"
+
  - name: "~publisher~ awdf"
+   new_name: "publisher: awdf"
+   description: "Issue concerns data published by African Women's Development Fund"
+
  - name: "~publisher~ ifoam"
+   new_name: "publisher: ifoam"
+   description: "Issue concerns data published by IFOAM - Organics International"
+
  - name: "~publisher~ the_mentor_initiative"
+   new_name: "publisher: the_mentor_initiative"
+   description: "Issue concerns data published by The MENTOR Initiative"
+
  - name: "~publisher~ bnps"
+   new_name: "publisher: bnps"
+   description: "Issue concerns data published by Bangladesh Nari Progati Sangha"
+
  - name: "~publisher~ ti-uk"
+   new_name: "publisher: ti-uk"
+   description: "Issue concerns data published by Transparency International UK"
+
  - name: "~publisher~ e4i"
+   new_name: "publisher: e4i"
+   description: "Issue concerns data published by Energy 4 Impact"
+
  - name: "~publisher~ civic_admin"
+   new_name: "publisher: civic_admin"
+   description: "Issue concerns data published by Center for Civilians in Conflict"
+
  - name: "~publisher~ raleigh_int"
+   new_name: "publisher: raleigh_int"
+   description: "Issue concerns data published by Raleigh International"
+
  - name: "~publisher~ solidagro_admin"
+   new_name: "publisher: solidagro_admin"
+   description: "Issue concerns data published by Solidagro"
+
  - name: "~publisher~ nlr"
+   new_name: "publisher: nlr"
+   description: "Issue concerns data published by NLR"
+
  - name: "~publisher~ esrf"
+   new_name: "publisher: esrf"
+   description: "Issue concerns data published by Economic and Social Research Foundation (ESRF)"
+
  - name: "~publisher~ rtp"
+   new_name: "publisher: rtp"
+   description: "Issue concerns data published by Right to Play Netherlands Foundation"
+
  - name: "~publisher~ vei_nl"
+   new_name: "publisher: vei_nl"
+   description: "Issue concerns data published by VEI (Vitens-Evides International)"
+
  - name: "~publisher~ ifrcrcs"
+   new_name: "publisher: ifrcrcs"
+   description: "Issue concerns data published by International Federation of the Red Cross and Red Crescent (IFRC)"
+
  - name: "~publisher~ bucksfarm"
+   new_name: "publisher: bucksfarm"
+   description: "Issue concerns data published by Bucks Community NGO"
+
  - name: "~publisher~ imf"
+   new_name: "publisher: imf"
+   description: "Issue concerns data published by International Monetary Fund"
+
  - name: "~publisher~ acu"
+   new_name: "publisher: acu"
+   description: "Issue concerns data published by Association of Commonwealth Universities"
+
  - name: "~publisher~ npm"
+   new_name: "publisher: npm"
+   description: "Issue concerns data published by NpM, Platform for Inclusive Finance"
+
  - name: "~publisher~ tropicalhealth"
+   new_name: "publisher: tropicalhealth"
+   description: "Issue concerns data published by Tropical Health and Education Trust"
+
  - name: "~publisher~ gi-jhu"
+   new_name: "publisher: gi-jhu"
+   description: "Issue concerns data published by Johns Hopkins University"
+
  - name: "~publisher~ mdf"
+   new_name: "publisher: mdf"
+   description: "Issue concerns data published by MDF Global"
+
  - name: "~publisher~ icva"
+   new_name: "publisher: icva"
+   description: "Issue concerns data published by International Council of Voluntary Agencies"
+
  - name: "~publisher~ iraq_foundation"
+   new_name: "publisher: iraq_foundation"
+   description: "Issue concerns data published by Iraq Foundation"
+
  - name: "~publisher~ oxfamintermon"
+   new_name: "publisher: oxfamintermon"
+   description: "Issue concerns data published by Oxfam Interm√≥n"
+
  - name: "~publisher~ unido"
+   new_name: "publisher: unido"
+   description: "Issue concerns data published by United Nations Industrial Development Organization (UNIDO)"
+
  - name: "~publisher~ savsign-org"
+   new_name: "publisher: savsign-org"
+   description: "Issue concerns data published by Savana Signatures"
+
  - name: "~publisher~ dorp-org"
+   new_name: "publisher: dorp-org"
+   description: "Issue concerns data published by Development Organisation of the Rural Poor"
+
  - name: "~publisher~ ifsi_isvi"
+   new_name: "publisher: ifsi_isvi"
+   description: "Issue concerns data published by Institut de Formation Syndical International - Internationaal Syndicaal Vormingsinstituut"
+
  - name: "~publisher~ cavwoc"
+   new_name: "publisher: cavwoc"
+   description: "Issue concerns data published by the center for victimized women and children"
+
  - name: "~publisher~ equileap"
+   new_name: "publisher: equileap"
+   description: "Issue concerns data published by equileap"
+
  - name: "~publisher~ flepuganda"
+   new_name: "publisher: flepuganda"
+   description: "Issue concerns data published by Family Life Education Program"
+
  - name: "~publisher~ ucl"
+   new_name: "publisher: ucl"
+   description: "Issue concerns data published by University College London"
+
  - name: "~publisher~ umati"
+   new_name: "publisher: umati"
+   description: "Issue concerns data published by Chama cha Uzazi na Malezi Bora Tanzania (UMATI)"
+
  - name: "~publisher~ csa-kenya"
+   new_name: "publisher: csa-kenya"
+   description: "Issue concerns data published by Centre for the Study of Adolescence"
+
  - name: "~publisher~ jocc_uk"
+   new_name: "publisher: jocc_uk"
+   description: "Issue concerns data published by Joshua Orphan and Community Care"
+
  - name: "~publisher~ knvb"
+   new_name: "publisher: knvb"
+   description: "Issue concerns data published by Royal Netherlands Football Association"
+
  - name: "~publisher~ lftw-be"
+   new_name: "publisher: lftw-be"
+   description: "Issue concerns data published by Light For The World Belgium"
+
  - name: "~publisher~ wvsyria"
+   new_name: "publisher: wvsyria"
+   description: "Issue concerns data published by World Vision Syria"
+
  - name: "~publisher~ vhai-org"
+   new_name: "publisher: vhai-org"
+   description: "Issue concerns data published by Voluntary Health Association of India"
+
  - name: "~publisher~ adra-dk"
+   new_name: "publisher: adra-dk"
+   description: "Issue concerns data published by ADRA Denmark"
+
  - name: "~publisher~ ads-nyanza"
+   new_name: "publisher: ads-nyanza"
+   description: "Issue concerns data published by ADS-Nyanza"
+
  - name: "~publisher~ solidaridad-ssea"
+   new_name: "publisher: solidaridad-ssea"
+   description: "Issue concerns data published by Solidaridad South & South-East Asia"
+
  - name: "~publisher~ solidaridad-waf"
+   new_name: "publisher: solidaridad-waf"
+   description: "Issue concerns data published by Solidaridad West Africa"
+
  - name: "~publisher~ fiabel"
+   new_name: "publisher: fiabel"
+   description: "Issue concerns data published by Fiabel"
+
  - name: "~publisher~ csom1"
+   new_name: "publisher: csom1"
+   description: "Issue concerns data published by CARE SOMALIA"
+
  - name: "~publisher~ dcapitalpartners"
+   new_name: "publisher: dcapitalpartners"
+   description: "Issue concerns data published by D. Capital Partners"
+
  - name: "~publisher~ paf_2018"
+   new_name: "publisher: paf_2018"
+   description: "Issue concerns data published by The Princess Alia Foundation"
+
  - name: "~publisher~ irise_int"
+   new_name: "publisher: irise_int"
+   description: "Issue concerns data published by Irise International"
+
  - name: "~publisher~ idydc"
+   new_name: "publisher: idydc"
+   description: "Issue concerns data published by Iringa Development of Youth, Disabled and Children Care"
+
  - name: "~publisher~ bawacecy-tz"
+   new_name: "publisher: bawacecy-tz"
+   description: "Issue concerns data published by Babawatoto Centre For Children and Youth"
+
  - name: "~publisher~ rc2africa"
+   new_name: "publisher: rc2africa"
+   description: "Issue concerns data published by Railway Children Africa"
+
  - name: "~publisher~ gdi"
+   new_name: "publisher: gdi"
+   description: "Issue concerns data published by The Global Development Incubator, Inc"
+
  - name: "~publisher~ cst"
+   new_name: "publisher: cst"
+   description: "Issue concerns data published by CHEKA SANA TANZANIA"
+
  - name: "~publisher~ whpca"
+   new_name: "publisher: whpca"
+   description: "Issue concerns data published by Worldwide Hospice Palliative Care Alliance"
+
  - name: "~publisher~ uom"
+   new_name: "publisher: uom"
+   description: "Issue concerns data published by The University of Manchester"
+
  - name: "~publisher~ intersos_main"
+   new_name: "publisher: intersos_main"
+   description: "Issue concerns data published by INTERSOS Onlus"
+
  - name: "~publisher~ dfe"
+   new_name: "publisher: dfe"
+   description: "Issue concerns data published by UK ‚Äì Department for Education"
+
  - name: "~publisher~ givedirectly"
+   new_name: "publisher: givedirectly"
+   description: "Issue concerns data published by GiveDirectly"
+
  - name: "~publisher~ kmss"
+   new_name: "publisher: kmss"
+   description: "Issue concerns data published by Karuna Mission Social Solidarity - KMSS"
+
  - name: "~publisher~ mastercard-foundation"
+   new_name: "publisher: mastercard-foundation"
+   description: "Issue concerns data published by Mastercard Foundation"
+
  - name: "~publisher~ brac_admin2"
+   new_name: "publisher: brac_admin2"
+   description: "Issue concerns data published by BRAC"
+
  - name: "~publisher~ rcgp-international"
+   new_name: "publisher: rcgp-international"
+   description: "Issue concerns data published by Royal College of General Practitioners (RCGP)"
+
  - name: "~publisher~ bwh"
+   new_name: "publisher: bwh"
+   description: "Issue concerns data published by Brigham and Women's Hospital"
+
  - name: "~publisher~ fhi360"
+   new_name: "publisher: fhi360"
+   description: "Issue concerns data published by FHI360"
+
  - name: "~publisher~ icraf_"
+   new_name: "publisher: icraf_"
+   description: "Issue concerns data published by World Agroforestry Centre"
+
  - name: "~publisher~ abtbritain"
+   new_name: "publisher: abtbritain"
+   description: "Issue concerns data published by Abt Britain Limited"
+
  - name: "~publisher~ rcog_resilience_in_obstetric_skills"
+   new_name: "publisher: rcog_resilience_in_obstetric_skills"
+   description: "Issue concerns data published by Royal College of Obstetricians & Gynaecologists"
+
  - name: "~publisher~ nrt-kenya"
+   new_name: "publisher: nrt-kenya"
+   description: "Issue concerns data published by Northern Rangelands Trust"
+
  - name: "~publisher~ alliance_of_religions_and_conservation"
+   new_name: "publisher: alliance_of_religions_and_conservation"
+   description: "Issue concerns data published by Alliance of Religions and Conservation"
+
  - name: "~publisher~ ywcabd"
+   new_name: "publisher: ywcabd"
+   description: "Issue concerns data published by YWCA of Bangladesh"
+
  - name: "~publisher~ concern_worldwide"
+   new_name: "publisher: concern_worldwide"
+   description: "Issue concerns data published by Concern Worldwide"
+
  - name: "~publisher~ sfd-yemen"
+   new_name: "publisher: sfd-yemen"
+   description: "Issue concerns data published by Social Fund for Development, Yemen"
+
  - name: "~publisher~ ifdc-us"
+   new_name: "publisher: ifdc-us"
+   description: "Issue concerns data published by International Fertilizer Development Center"
+
  - name: "~publisher~ fomin"
+   new_name: "publisher: fomin"
+   description: "Issue concerns data published by Multilateral Investment Fund"
+
  - name: "~publisher~ acumen"
+   new_name: "publisher: acumen"
+   description: "Issue concerns data published by Acumen"
+
  - name: "~publisher~ csc"
+   new_name: "publisher: csc"
+   description: "Issue concerns data published by Consortium for Street Children"
+
  - name: "~publisher~ cini_jhk"
+   new_name: "publisher: cini_jhk"
+   description: "Issue concerns data published by CINI"
+
  - name: "~publisher~ afrikagrupperna"
+   new_name: "publisher: afrikagrupperna"
+   description: "Issue concerns data published by Afrikagrupperna Sweden"
+
  - name: "~publisher~ unocha-sdc"
+   new_name: "publisher: unocha-sdc"
+   description: "Issue concerns data published by United Nations Office for the Coordination of Humanitarian Affairs (Specially-Designated Contributions)"
+
  - name: "~publisher~ concordis"
+   new_name: "publisher: concordis"
+   description: "Issue concerns data published by Concordis International"
+
  - name: "~publisher~ fundacion-acceso"
+   new_name: "publisher: fundacion-acceso"
+   description: "Issue concerns data published by Fundacion Acceso"
+
  - name: "~publisher~ _path_"
+   new_name: "publisher: _path_"
+   description: "Issue concerns data published by PATH"
+
  - name: "~publisher~ win"
+   new_name: "publisher: win"
+   description: "Issue concerns data published by Water Integrity Network Association"
+
  - name: "~publisher~ mmr_admin2"
+   new_name: "publisher: mmr_admin2"
+   description: "Issue concerns data published by Musalaha Ministry of Reconciliation"
+
  - name: "~publisher~ ciafg"
+   new_name: "publisher: ciafg"
+   description: "Issue concerns data published by CARE International Afghanistan"
+
  - name: "~publisher~ energy_saving_trust"
+   new_name: "publisher: energy_saving_trust"
+   description: "Issue concerns data published by Energy Saving Trust"
+
  - name: "~publisher~ dkt"
+   new_name: "publisher: dkt"
+   description: "Issue concerns data published by DKT - (Pakistan)"
+
  - name: "~publisher~ m_u"
+   new_name: "publisher: m_u"
+   description: "Issue concerns data published by Mzumbe University"
+
  - name: "~publisher~ aidspan"
+   new_name: "publisher: aidspan"
+   description: "Issue concerns data published by AIDSPAN"
+
  - name: "~publisher~ kmet"
+   new_name: "publisher: kmet"
+   description: "Issue concerns data published by Kisumu Medical and Education Trust"
+
  - name: "~publisher~ itc"
+   new_name: "publisher: itc"
+   description: "Issue concerns data published by International Trade Centre (ITC)"
+
  - name: "~publisher~ oau"
+   new_name: "publisher: oau"
+   description: "Issue concerns data published by Oxfam Australia"
+
  - name: "~publisher~ solidarites-international"
+   new_name: "publisher: solidarites-international"
+   description: "Issue concerns data published by Solidarites International"
+
  - name: "~publisher~ afsc"
+   new_name: "publisher: afsc"
+   description: "Issue concerns data published by American Friends Service Committee"
+
  - name: "~publisher~ bu"
+   new_name: "publisher: bu"
+   description: "Issue concerns data published by BRAC University"
+
  - name: "~publisher~ ti_kenya"
+   new_name: "publisher: ti_kenya"
+   description: "Issue concerns data published by Transparency International Kenya"
+
  - name: "~publisher~ dki1151219"
+   new_name: "publisher: dki1151219"
+   description: "Issue concerns data published by DeafKidz International"
+
  - name: "~publisher~ avt-l"
+   new_name: "publisher: avt-l"
+   description: "Issue concerns data published by AVT-L Association of Victims of Terrorism Lebanon"
+
  - name: "~publisher~ reach-iraq"
+   new_name: "publisher: reach-iraq"
+   description: "Issue concerns data published by Rehabilitation, Education and Community Health (REACH)"
+
  - name: "~publisher~ unhcr"
+   new_name: "publisher: unhcr"
+   description: "Issue concerns data published by United Nations High Commissioner for Refugees (UNHCR)"
+
  - name: "~publisher~ mofa-jpn"
+   new_name: "publisher: mofa-jpn"
+   description: "Issue concerns data published by Ministry of Foreign Affairs of  Japan"
+
  - name: "~publisher~ agresults"
+   new_name: "publisher: agresults"
+   description: "Issue concerns data published by AgResults Initiative"
+
  - name: "~publisher~ ine_benin"
+   new_name: "publisher: ine_benin"
+   description: "Issue concerns data published by Institut National de l'Eau, Benin"
+
  - name: "~publisher~ anaepmr_benin"
+   new_name: "publisher: anaepmr_benin"
+   description: "Issue concerns data published by Agence Nationale d'Approvisionnement en Eau Potable en Milieu Rural du Benin"
+
  - name: "~publisher~ iif"
+   new_name: "publisher: iif"
+   description: "Issue concerns data published by Index Initiative Foundation"
+
  - name: "~publisher~ dangbo"
+   new_name: "publisher: dangbo"
+   description: "Issue concerns data published by Commune de Dangbo - Benin"
+
  - name: "~publisher~ adjarra"
+   new_name: "publisher: adjarra"
+   description: "Issue concerns data published by Commune de Adjarra - B√©nin"
+
  - name: "~publisher~ parakou"
+   new_name: "publisher: parakou"
+   description: "Issue concerns data published by Commune de Parakou - B√©nin"
+
  - name: "~publisher~ toffo"
+   new_name: "publisher: toffo"
+   description: "Issue concerns data published by Commune de Toffo - B√©nin"
+
  - name: "~publisher~ toviklin"
+   new_name: "publisher: toviklin"
+   description: "Issue concerns data published by Commune de Toviklin - B√©nin"
+
  - name: "~publisher~ kpomasse"
+   new_name: "publisher: kpomasse"
+   description: "Issue concerns data published by Commune de Kpomass√® - B√©nin"
+
  - name: "~publisher~ ze"
+   new_name: "publisher: ze"
+   description: "Issue concerns data published by Commune de Z√® - B√©nin"
+
  - name: "~publisher~ allada"
+   new_name: "publisher: allada"
+   description: "Issue concerns data published by Commune de Allada - B√©nin"
+
  - name: "~publisher~ aplahoue"
+   new_name: "publisher: aplahoue"
+   description: "Issue concerns data published by Commune de Aplahou√© - B√©nin"
+
  - name: "~publisher~ lalo"
+   new_name: "publisher: lalo"
+   description: "Issue concerns data published by Commune de Lalo - B√©nin"
+
  - name: "~publisher~ ketou"
+   new_name: "publisher: ketou"
+   description: "Issue concerns data published by Commune de K√©tou - B√©nin"
+
  - name: "~publisher~ adjohoun"
+   new_name: "publisher: adjohoun"
+   description: "Issue concerns data published by Commune de Adjohoun - B√©nin"
+
  - name: "~publisher~ adja-ouere"
+   new_name: "publisher: adja-ouere"
+   description: "Issue concerns data published by Commune de Adja-Ouere - B√©nin"
+
  - name: "~publisher~ pobe"
+   new_name: "publisher: pobe"
+   description: "Issue concerns data published by Commune de Pob√® - B√©nin"
+
  - name: "~publisher~ bopa"
+   new_name: "publisher: bopa"
+   description: "Issue concerns data published by Commune de Bopa - B√©nin"
+
  - name: "~publisher~ akpro-misserete"
+   new_name: "publisher: akpro-misserete"
+   description: "Issue concerns data published by Commune de Akpro-Miss√©r√©t√© - B√©nin"
+
  - name: "~publisher~ come"
+   new_name: "publisher: come"
+   description: "Issue concerns data published by Commune de Com√® - B√©nin"
+
  - name: "~publisher~ avrankou"
+   new_name: "publisher: avrankou"
+   description: "Issue concerns data published by Commune de Avrankou - B√©nin"
+
  - name: "~publisher~ ifangni"
+   new_name: "publisher: ifangni"
+   description: "Issue concerns data published by Commune de Ifangni - B√©nin"
+
  - name: "~publisher~ weeffect"
+   new_name: "publisher: weeffect"
+   description: "Issue concerns data published by We Effect"
+
  - name: "~publisher~ klouekanme"
+   new_name: "publisher: klouekanme"
+   description: "Issue concerns data published by Commune de Klou√©kanm√® - B√©nin"
+
  - name: "~publisher~ nchrdk"
+   new_name: "publisher: nchrdk"
+   description: "Issue concerns data published by National Coalition of Human Rights Defenders - Kenya"
+
  - name: "~publisher~ issafrica"
+   new_name: "publisher: issafrica"
+   description: "Issue concerns data published by Institute for Security Studies"
+
  - name: "~publisher~ dhrc_nepal"
+   new_name: "publisher: dhrc_nepal"
+   description: "Issue concerns data published by Nepal Disabled Human Rights Center"
+
  - name: "~publisher~ dttillp"
+   new_name: "publisher: dttillp"
+   description: "Issue concerns data published by Deloitte Touche Tohmatsu India LLP"
+
  - name: "~publisher~ defenddefenders"
+   new_name: "publisher: defenddefenders"
+   description: "Issue concerns data published by DefendDefenders"
+
  - name: "~publisher~ sac_kenya"
+   new_name: "publisher: sac_kenya"
+   description: "Issue concerns data published by Send a Cow Kenya"
+
  - name: "~publisher~ grc2018"
+   new_name: "publisher: grc2018"
+   description: "Issue concerns data published by Global Rights Compliance"
+
  - name: "~publisher~ ictj"
+   new_name: "publisher: ictj"
+   description: "Issue concerns data published by International Center for Transitional Justice"
+
  - name: "~publisher~ cisu"
+   new_name: "publisher: cisu"
+   description: "Issue concerns data published by CISU"
+
  - name: "~publisher~ mukisa_foundation"
+   new_name: "publisher: mukisa_foundation"
+   description: "Issue concerns data published by Mukisa Foundation"
+
  - name: "~publisher~ nwo"
+   new_name: "publisher: nwo"
+   description: "Issue concerns data published by Netherlands Organisation for Scientific Research (NWO)"
+
  - name: "~publisher~ rainforest-alliance"
+   new_name: "publisher: rainforest-alliance"
+   description: "Issue concerns data published by Rainforest Alliance"
+
  - name: "~publisher~ b_a_t"
+   new_name: "publisher: b_a_t"
+   description: "Issue concerns data published by British Asian Trust"
+
  - name: "~publisher~ edt_rwanda"
+   new_name: "publisher: edt_rwanda"
+   description: "Issue concerns data published by EDUCATION DEVELOPMENT TRUST - RWANDA"
+
  - name: "~publisher~ cbm"
+   new_name: "publisher: cbm"
+   description: "Issue concerns data published by Christian Blind Mission (UK) Ltd."
+
  - name: "~publisher~ uni_of_nottingham"
+   new_name: "publisher: uni_of_nottingham"
+   description: "Issue concerns data published by University of Nottingham"
+
  - name: "~publisher~ wf-asia"
+   new_name: "publisher: wf-asia"
+   description: "Issue concerns data published by Women's Fund Asia"
+
  - name: "~publisher~ seefar"
+   new_name: "publisher: seefar"
+   description: "Issue concerns data published by Seefar"
+
  - name: "~publisher~ child-dot_org"
+   new_name: "publisher: child-dot_org"
+   description: "Issue concerns data published by Child.org"
+
  - name: "~publisher~ dgf"
+   new_name: "publisher: dgf"
+   description: "Issue concerns data published by Democratic Governance Facility"
+
  - name: "~publisher~ ask"
+   new_name: "publisher: ask"
+   description: "Issue concerns data published by Aapasi Sahayog Kendra Syangja Nepal (ASK Nepal)"
+
  - name: "~publisher~ timidria"
+   new_name: "publisher: timidria"
+   description: "Issue concerns data published by Timidria"
+
  - name: "~publisher~ cku"
+   new_name: "publisher: cku"
+   description: "Issue concerns data published by Center for Church-Based Development"
+
  - name: "~publisher~ knust"
+   new_name: "publisher: knust"
+   description: "Issue concerns data published by Kwame Nkrumah University of Science and Technology"
+
  - name: "~publisher~ redbarnet"
+   new_name: "publisher: redbarnet"
+   description: "Issue concerns data published by Save the Children DK"
+
  - name: "~publisher~ globalcanopy"
+   new_name: "publisher: globalcanopy"
+   description: "Issue concerns data published by Global Canopy"
+
  - name: "~publisher~ wff"
+   new_name: "publisher: wff"
+   description: "Issue concerns data published by Water Finance Facility"
+
  - name: "~publisher~ pegasys-eu"
+   new_name: "publisher: pegasys-eu"
+   description: "Issue concerns data published by Pegasys Limited"
+
  - name: "~publisher~ icrc"
+   new_name: "publisher: icrc"
+   description: "Issue concerns data published by International Committee of the Red Cross (ICRC)"
+
  - name: "~publisher~ wwfdk"
+   new_name: "publisher: wwfdk"
+   description: "Issue concerns data published by World Wide Fund for Nature Denmark"
+
  - name: "~publisher~ whh"
+   new_name: "publisher: whh"
+   description: "Issue concerns data published by Welthungerhilfe"
+
  - name: "~publisher~ dps-nampula"
+   new_name: "publisher: dps-nampula"
+   description: "Issue concerns data published by Direc√ß√£o Provincial de Sa√∫de de Nampula"
+
  - name: "~publisher~ icipe"
+   new_name: "publisher: icipe"
+   description: "Issue concerns data published by International Centre of Insect Physiology and Ecology (icipe)"
+
  - name: "~publisher~ 12921047"
+   new_name: "publisher: 12921047"
+   description: "Issue concerns data published by CARE Danmark Fonden for Frivillig Ulandsbistand"
+
  - name: "~publisher~ universiteit_leiden"
+   new_name: "publisher: universiteit_leiden"
+   description: "Issue concerns data published by Universiteit Leiden"
+
  - name: "~publisher~ stichting-subsidiegelden-dra"
+   new_name: "publisher: stichting-subsidiegelden-dra"
+   description: "Issue concerns data published by Stichting Beheer Subsidiegelden DRA"
+
  - name: "~publisher~ fci"
+   new_name: "publisher: fci"
+   description: "Issue concerns data published by Farm Concern International"
+
  - name: "~publisher~ dawuro_da"
+   new_name: "publisher: dawuro_da"
+   description: "Issue concerns data published by Dawuro Development Association"
+
  - name: "~publisher~ loftf"
+   new_name: "publisher: loftf"
+   description: "Issue concerns data published by Danish Trade Union Development Agency (Ulandssekretariatet)"
+
  - name: "~publisher~ aadk"
+   new_name: "publisher: aadk"
+   description: "Issue concerns data published by ActionAid Denmark (Mellemfolkeligt Samvirke)"
+
  - name: "~publisher~ educate"
+   new_name: "publisher: educate"
+   description: "Issue concerns data published by Educate!"
+
  - name: "~publisher~ rmf"
+   new_name: "publisher: rmf"
+   description: "Issue concerns data published by Responsible Mining Foundation"
+
  - name: "~publisher~ missioneast"
+   new_name: "publisher: missioneast"
+   description: "Issue concerns data published by Mission √òst"
+
  - name: "~publisher~ kingscollegelondon"
+   new_name: "publisher: kingscollegelondon"
+   description: "Issue concerns data published by King's College London"
+
  - name: "~publisher~ di"
+   new_name: "publisher: di"
+   description: "Issue concerns data published by Confederation of Danish Industry"
+
  - name: "~publisher~ utwente"
+   new_name: "publisher: utwente"
+   description: "Issue concerns data published by University Twente"
+
  - name: "~publisher~ duf"
+   new_name: "publisher: duf"
+   description: "Issue concerns data published by DUF - The Danish Youth Council"
+
  - name: "~publisher~ fifty_eight"
+   new_name: "publisher: fifty_eight"
+   description: "Issue concerns data published by 50 Eight Limited"
+
  - name: "~publisher~ dfpa"
+   new_name: "publisher: dfpa"
+   description: "Issue concerns data published by Danish Family Planning Association"
+
  - name: "~publisher~ aar"
+   new_name: "publisher: aar"
+   description: "Issue concerns data published by ActionAid Rwanda"
+
  - name: "~publisher~ globaltfokus"
+   new_name: "publisher: globaltfokus"
+   description: "Issue concerns data published by Global Focus"
+
  - name: "~publisher~ gichd"
+   new_name: "publisher: gichd"
+   description: "Issue concerns data published by Geneva International Centre for Humanitarian Demining"
+
  - name: "~publisher~ dpod"
+   new_name: "publisher: dpod"
+   description: "Issue concerns data published by Disabled People's Organisations Denmark"
+
  - name: "~publisher~ oxford"
+   new_name: "publisher: oxford"
+   description: "Issue concerns data published by The University of Oxford"
+
  - name: "~publisher~ comp_uk"
+   new_name: "publisher: comp_uk"
+   description: "Issue concerns data published by Compassion UK"
+
  - name: "~publisher~ intrac"
+   new_name: "publisher: intrac"
+   description: "Issue concerns data published by INTRAC"
+
  - name: "~publisher~ shn"
+   new_name: "publisher: shn"
+   description: "Issue concerns data published by Special Hope Network"
+
  - name: "~publisher~ posneg"
+   new_name: "publisher: posneg"
+   description: "Issue concerns data published by PositiveNegatives"
+
  - name: "~publisher~ d4d"
+   new_name: "publisher: d4d"
+   description: "Issue concerns data published by Data4Development"
+
  - name: "~publisher~ hfc"
+   new_name: "publisher: hfc"
+   description: "Issue concerns data published by Hope for Children"
+
  - name: "~publisher~ wwf-se"
+   new_name: "publisher: wwf-se"
+   description: "Issue concerns data published by WWF Sweden"
+
  - name: "~publisher~ mcg"
+   new_name: "publisher: mcg"
+   description: "Issue concerns data published by Mercy Corps Global"
+
  - name: "~publisher~ africanrevival"
+   new_name: "publisher: africanrevival"
+   description: "Issue concerns data published by African Revival"
+
  - name: "~publisher~ knmi"
+   new_name: "publisher: knmi"
+   description: "Issue concerns data published by Koninklijk Nederlands Meteorologisch Instituut"
+
  - name: "~publisher~ sehatkahanicih"
+   new_name: "publisher: sehatkahanicih"
+   description: "Issue concerns data published by Sehat Kahani (Community Innovation Hub)"
+
  - name: "~publisher~ mcn"
+   new_name: "publisher: mcn"
+   description: "Issue concerns data published by Mercy Corps Netherlands"
+
  - name: "~publisher~ fimi_iiwf_2019"
+   new_name: "publisher: fimi_iiwf_2019"
+   description: "Issue concerns data published by International Indigenous Women Forum"
+
  - name: "~publisher~ acatba"
+   new_name: "publisher: acatba"
+   description: "Issue concerns data published by Association Centrafricaine de Traduction de la Bible et Alphabetisation"
+
  - name: "~publisher~ 1-uz"
+   new_name: "publisher: 1-uz"
+   description: "Issue concerns data published by University Of Zimbabwe"
+
  - name: "~publisher~ interpeace"
+   new_name: "publisher: interpeace"
+   description: "Issue concerns data published by Interpeace"
+
  - name: "~publisher~ danishrc"
+   new_name: "publisher: danishrc"
+   description: "Issue concerns data published by Danish Red Cross"
+
  - name: "~publisher~ pacam"
+   new_name: "publisher: pacam"
+   description: "Issue concerns data published by Palliative Care Association of Malawi"
+
  - name: "~publisher~ nmhiati"
+   new_name: "publisher: nmhiati"
+   description: "Issue concerns data published by NKHOMA MISSION HOSPITAL"
+
  - name: "~publisher~ dgmh"
+   new_name: "publisher: dgmh"
+   description: "Issue concerns data published by David Gordon Memorial Hospital"
+
  - name: "~publisher~ gpsp-org"
+   new_name: "publisher: gpsp-org"
+   description: "Issue concerns data published by Groupe Pivot Sant√© Population"
+
  - name: "~publisher~ plama"
+   new_name: "publisher: plama"
+   description: "Issue concerns data published by Plataforma Mo√ßambicana da √Ågua (PLAMA)"
+
  - name: "~publisher~ solarnowsofa"
+   new_name: "publisher: solarnowsofa"
+   description: "Issue concerns data published by SolarNow Services (U) Ltd"
+
  - name: "~publisher~ zoa_uk"
+   new_name: "publisher: zoa_uk"
+   description: "Issue concerns data published by Zambia Orphans Aid UK"
+
  - name: "~publisher~ ims"
+   new_name: "publisher: ims"
+   description: "Issue concerns data published by International Media Support"
+
  - name: "~publisher~ villageenterprise"
+   new_name: "publisher: villageenterprise"
+   description: "Issue concerns data published by Village Enterprise"
+
  - name: "~publisher~ ww-gvc"
+   new_name: "publisher: ww-gvc"
+   description: "Issue concerns data published by We World - GVC Onlus"
+
  - name: "~publisher~ sr"
+   new_name: "publisher: sr"
+   description: "Issue concerns data published by Syria Relief"
+
  - name: "~publisher~ emissa"
+   new_name: "publisher: emissa"
+   description: "Issue concerns data published by Emissa"
+
  - name: "~publisher~ icnl_org"
+   new_name: "publisher: icnl_org"
+   description: "Issue concerns data published by International Center for Not-for-Profit Law"
+
  - name: "~publisher~ lbg"
+   new_name: "publisher: lbg"
+   description: "Issue concerns data published by WSP USA Solutions Inc."
+
  - name: "~publisher~ opennorth"
+   new_name: "publisher: opennorth"
+   description: "Issue concerns data published by OpenNorth"
+
  - name: "~publisher~ plb"
+   new_name: "publisher: plb"
+   description: "Issue concerns data published by PlanB√∏rnefonden"
+
  - name: "~publisher~ edukans_foundation"
+   new_name: "publisher: edukans_foundation"
+   description: "Issue concerns data published by Edukans Foundation"
+
  - name: "~publisher~ iwpr"
+   new_name: "publisher: iwpr"
+   description: "Issue concerns data published by Institute for War & Peace Reporting"
+
  - name: "~publisher~ nef-uk"
+   new_name: "publisher: nef-uk"
+   description: "Issue concerns data published by Near East Foundation UK (NEF UK)"
+
  - name: "~publisher~ mdm-fr"
+   new_name: "publisher: mdm-fr"
+   description: "Issue concerns data published by Medecins du Monde France"
+
  - name: "~publisher~ clerd-prpi"
+   new_name: "publisher: clerd-prpi"
+   description: "Issue concerns data published by Centre for Legal Research and Development"
+
  - name: "~publisher~ fhfuk"
+   new_name: "publisher: fhfuk"
+   description: "Issue concerns data published by The Fred Hollows Foundation (UK)"
+
  - name: "~publisher~ rlb"
+   new_name: "publisher: rlb"
+   description: "Issue concerns data published by Radio La Benevolencija"
+
  - name: "~publisher~ slf"
+   new_name: "publisher: slf"
+   description: "Issue concerns data published by Stichting Liliane Fonds"
+
  - name: "~publisher~ lpi"
+   new_name: "publisher: lpi"
+   description: "Issue concerns data published by living peace institute"
+
  - name: "~publisher~ ha-i"
+   new_name: "publisher: ha-i"
+   description: "Issue concerns data published by Heartland Alliance International"
+
  - name: "~publisher~ ipe"
+   new_name: "publisher: ipe"
+   description: "Issue concerns data published by Irrawaddy Policy Exchange"
+
  - name: "~publisher~ aaik"
+   new_name: "publisher: aaik"
+   description: "Issue concerns data published by ACTIONAID INTERNATIONAL KENYA"
+
  - name: "~publisher~ instiglio"
+   new_name: "publisher: instiglio"
+   description: "Issue concerns data published by Instiglio"
+
  - name: "~publisher~ ndsicde"
+   new_name: "publisher: ndsicde"
+   description: "Issue concerns data published by Niger Delta Stakeholders Initiative for Community Development and Empowerment"
+
  - name: "~publisher~ fo_germany"
+   new_name: "publisher: fo_germany"
+   description: "Issue concerns data published by Germany - Federal Foreign Office"
+
  - name: "~publisher~ idinsight"
+   new_name: "publisher: idinsight"
+   description: "Issue concerns data published by IDinsight"
+
  - name: "~publisher~ si-mfa"
+   new_name: "publisher: si-mfa"
+   description: "Issue concerns data published by Slovenia - Ministry of Foreign Affairs"
+
  - name: "~publisher~ gfems"
+   new_name: "publisher: gfems"
+   description: "Issue concerns data published by Global Fund to End Modern Slavery"
+
  - name: "~publisher~ namati_inc"
+   new_name: "publisher: namati_inc"
+   description: "Issue concerns data published by Namati, Inc"
+
  - name: "~publisher~ nso"
+   new_name: "publisher: nso"
+   description: "Issue concerns data published by Netherlands Space Office"
+
  - name: "~publisher~ vfi"
+   new_name: "publisher: vfi"
+   description: "Issue concerns data published by VisionFund International"
+
  - name: "~publisher~ ceci"
+   new_name: "publisher: ceci"
+   description: "Issue concerns data published by Center for International Studies and Cooperation"
+
  - name: "~publisher~ agdevco"
+   new_name: "publisher: agdevco"
+   description: "Issue concerns data published by AgDevCo"
+
  - name: "~publisher~ worldveg"
+   new_name: "publisher: worldveg"
+   description: "Issue concerns data published by World Vegetable Center"
+
  - name: "~publisher~ cdacnetwork"
+   new_name: "publisher: cdacnetwork"
+   description: "Issue concerns data published by CDAC Network"
+
  - name: "~publisher~ rains"
+   new_name: "publisher: rains"
+   description: "Issue concerns data published by Regional Advisory Information and Network Systems"
+
  - name: "~publisher~ afelt"
+   new_name: "publisher: afelt"
+   description: "Issue concerns data published by AFELT"
+
  - name: "~publisher~ dri"
+   new_name: "publisher: dri"
+   description: "Issue concerns data published by Democracy Reporting International gGmbH"
+
  - name: "~publisher~ carebenintogo"
+   new_name: "publisher: carebenintogo"
+   description: "Issue concerns data published by CARE BENIN/TOGO"
+
  - name: "~publisher~ wfd"
+   new_name: "publisher: wfd"
+   description: "Issue concerns data published by Westminster Foundation for Democracy"
+
  - name: "~publisher~ umu"
+   new_name: "publisher: umu"
+   description: "Issue concerns data published by Uganda Martyrs University"
+
  - name: "~publisher~ guluuni"
+   new_name: "publisher: guluuni"
+   description: "Issue concerns data published by Gulu University"
+
  - name: "~publisher~ udom"
+   new_name: "publisher: udom"
+   description: "Issue concerns data published by The University of Dodoma (UDOM), Tanzania"
+
  - name: "~publisher~ liwa-admin"
+   new_name: "publisher: liwa-admin"
+   description: "Issue concerns data published by LIWA programme trust"
+
  - name: "~publisher~ nned"
+   new_name: "publisher: nned"
+   description: "Issue concerns data published by Northern Network for Education Development"
+
  - name: "~publisher~ alab"
+   new_name: "publisher: alab"
+   description: "Issue concerns data published by Accountability Lab"
+
  - name: "~publisher~ ifpri"
+   new_name: "publisher: ifpri"
+   description: "Issue concerns data published by International Food Policy Research Institute"
+
  - name: "~publisher~ oisl_gh"
+   new_name: "publisher: oisl_gh"
+   description: "Issue concerns data published by Opportunity International Savings and Loans Ltd"
+
  - name: "~publisher~ silsab1-_"
+   new_name: "publisher: silsab1-_"
+   description: "Issue concerns data published by Silsab Foundation"
+
  - name: "~publisher~ gef"
+   new_name: "publisher: gef"
+   description: "Issue concerns data published by GEF Secretariat"
+
  - name: "~publisher~ ashoka"
+   new_name: "publisher: ashoka"
+   description: "Issue concerns data published by Ashoka East Africa"
+
  - name: "~publisher~ whw2019"
+   new_name: "publisher: whw2019"
+   description: "Issue concerns data published by World Horse Welfare"
+
  - name: "~publisher~ us-imawh"
+   new_name: "publisher: us-imawh"
+   description: "Issue concerns data published by IMA World Health"
+
  - name: "~publisher~ cidr"
+   new_name: "publisher: cidr"
+   description: "Issue concerns data published by Centre International de D√©veloppement et de Recherche"
+
  - name: "~publisher~ zsl"
+   new_name: "publisher: zsl"
+   description: "Issue concerns data published by Zoological Society of London"
+
  - name: "~publisher~ oecd"
+   new_name: "publisher: oecd"
+   description: "Issue concerns data published by OECD"
+
  - name: "~publisher~ ssn"
+   new_name: "publisher: ssn"
+   description: "Issue concerns data published by SouthSouthNorth"
+
  - name: "~publisher~ hqai"
+   new_name: "publisher: hqai"
+   description: "Issue concerns data published by Humanitarian Quality Assurance Initiative"
+
  - name: "~publisher~ hmtfitb"
+   new_name: "publisher: hmtfitb"
+   description: "Issue concerns data published by HM Treasury"
+
  - name: "~publisher~ cepi"
+   new_name: "publisher: cepi"
+   description: "Issue concerns data published by Coalition for Epidemic Preparedness Innovations"
+
  - name: "~publisher~ dit"
+   new_name: "publisher: dit"
+   description: "Issue concerns data published by Department for International Trade"
+
  - name: "~publisher~ cicni"
+   new_name: "publisher: cicni"
+   description: "Issue concerns data published by Children in Crossfire"
+
  - name: "~publisher~ jrf"
+   new_name: "publisher: jrf"
+   description: "Issue concerns data published by Jordan River Foundation"
+
  - name: "~publisher~ ksrelief291"
+   new_name: "publisher: ksrelief291"
+   description: "Issue concerns data published by King Salman Humanitarian Aid and Relief Centre"
+
  - name: "~publisher~ imdmozambique"
+   new_name: "publisher: imdmozambique"
+   description: "Issue concerns data published by IMD Mo√ßambique"
+
  - name: "~publisher~ transafrica19"
+   new_name: "publisher: transafrica19"
+   description: "Issue concerns data published by Transform Africa"
+
  - name: "~publisher~ fh_ch"
+   new_name: "publisher: fh_ch"
+   description: "Issue concerns data published by Fondation Hirondelle"
+
  - name: "~publisher~ oyw"
+   new_name: "publisher: oyw"
+   description: "Issue concerns data published by One Young World"
+
  - name: "~publisher~ dcms"
+   new_name: "publisher: dcms"
+   description: "Issue concerns data published by UK - Department for Digital, Culture, Media and Sport"
+
  - name: "~publisher~ villagewater"
+   new_name: "publisher: villagewater"
+   description: "Issue concerns data published by Village Water Ltd"
+
  - name: "~publisher~ acf-fr"
+   new_name: "publisher: acf-fr"
+   description: "Issue concerns data published by Action Contre la Faim"
+
  - name: "~publisher~ acfshr"
+   new_name: "publisher: acfshr"
+   description: "Issue concerns data published by Action Canada for Sexual Health and Rights"
+
  - name: "~publisher~ cnepal"
+   new_name: "publisher: cnepal"
+   description: "Issue concerns data published by CARE Nepal"
+
  - name: "~publisher~ wei"
+   new_name: "publisher: wei"
+   description: "Issue concerns data published by World Education Inc."
+
  - name: "~publisher~ tkf1234"
+   new_name: "publisher: tkf1234"
+   description: "Issue concerns data published by Tameer-e-Khalaq Foundation"
+
  - name: "~publisher~ adra_nepal"
+   new_name: "publisher: adra_nepal"
+   description: "Issue concerns data published by Adventist Development and Relief Agency, Nepal"
+
  - name: "~publisher~ cesvi"
+   new_name: "publisher: cesvi"
+   description: "Issue concerns data published by Cesvi"
+
  - name: "~publisher~ mrg"
+   new_name: "publisher: mrg"
+   description: "Issue concerns data published by Minority Rights Group"
+
  - name: "~publisher~ promsex"
+   new_name: "publisher: promsex"
+   description: "Issue concerns data published by Centro de Promocion y Defensa de los Derechos Sexuales y Reproductivos"
+
  - name: "~publisher~ cis"
+   new_name: "publisher: cis"
+   description: "Issue concerns data published by CARE international foundation Switzerland in Sudan"
+
  - name: "~publisher~ hdi"
+   new_name: "publisher: hdi"
+   description: "Issue concerns data published by Health Development Initiative"
+
  - name: "~publisher~ kepsa"
+   new_name: "publisher: kepsa"
+   description: "Issue concerns data published by Kenya Private Sector Alliance"
+
  - name: "~publisher~ scm"
+   new_name: "publisher: scm"
+   description: "Issue concerns data published by Syrian Center for Media and Freedom of Expression"
+
  - name: "~publisher~ npss"
+   new_name: "publisher: npss"
+   description: "Issue concerns data published by Nonviolent Peaceforce South Sudan"
+
  - name: "~publisher~ twynstragudde"
+   new_name: "publisher: twynstragudde"
+   description: "Issue concerns data published by Twynstra Gudde"
+
  - name: "~publisher~ elsam"
+   new_name: "publisher: elsam"
+   description: "Issue concerns data published by Institute for Policy Research and Advocacy (ELSAM)"
+
  - name: "~publisher~ cssf"
+   new_name: "publisher: cssf"
+   description: "Issue concerns data published by Conflict, Stability and Security Fund"
+
  - name: "~publisher~ prosperityfund"
+   new_name: "publisher: prosperityfund"
+   description: "Issue concerns data published by Cross-Government Prosperity Fund"
+
  - name: "~publisher~ rcel"
+   new_name: "publisher: rcel"
+   description: "Issue concerns data published by Royal Commonwealth Ex-Sevices League"
+
  - name: "~publisher~ dndi_transparency"
+   new_name: "publisher: dndi_transparency"
+   description: "Issue concerns data published by Drugs for Neglected Diseases initiative"
+
  - name: "~publisher~ gvtc"
+   new_name: "publisher: gvtc"
+   description: "Issue concerns data published by Greater Virunga Transboundary Collaboration"
+
  - name: "~publisher~ sawdf-admin"
+   new_name: "publisher: sawdf-admin"
+   description: "Issue concerns data published by South Asian Women Development Forum"
+
  - name: "~publisher~ acceleratornepal"
+   new_name: "publisher: acceleratornepal"
+   description: "Issue concerns data published by Accelerator Nepal"
+
  - name: "~publisher~ nutritionintl"
+   new_name: "publisher: nutritionintl"
+   description: "Issue concerns data published by Nutrition International"
+
  - name: "~publisher~ hdcentre"
+   new_name: "publisher: hdcentre"
+   description: "Issue concerns data published by Centre for Humanitarian Dialogue (HD Centre)"
+
  - name: "~publisher~ iavi"
+   new_name: "publisher: iavi"
+   description: "Issue concerns data published by International Aids Vaccine Initiative (IAVI)"
+
  - name: "~publisher~ pasgr"
+   new_name: "publisher: pasgr"
+   description: "Issue concerns data published by Partnership for African Social & Governance Research (PASGR)"
+
  - name: "~publisher~ resilience"
+   new_name: "publisher: resilience"
+   description: "Issue concerns data published by Resilience"
+
  - name: "~publisher~ msm-ipd"
+   new_name: "publisher: msm-ipd"
+   description: "Issue concerns data published by Maastricht School of Management"
+
  - name: "~publisher~ carbontrustadvisory"
+   new_name: "publisher: carbontrustadvisory"
+   description: "Issue concerns data published by Carbon Trust Advisory Ltd"
+
  - name: "~publisher~ okapiconsulting"
+   new_name: "publisher: okapiconsulting"
+   description: "Issue concerns data published by Okapi Consulting"
+
  - name: "~publisher~ hif"
+   new_name: "publisher: hif"
+   description: "Issue concerns data published by Health Insurance Fund"
+
  - name: "~publisher~ montrose_llp"
+   new_name: "publisher: montrose_llp"
+   description: "Issue concerns data published by Montrose International LLP"
+
  - name: "~publisher~ chanceforchildhood"
+   new_name: "publisher: chanceforchildhood"
+   description: "Issue concerns data published by Chance for Childhood"
+
  - name: "~publisher~ pri_icf"
+   new_name: "publisher: pri_icf"
+   description: "Issue concerns data published by PRI Association"
+
  - name: "~publisher~ idi"
+   new_name: "publisher: idi"
+   description: "Issue concerns data published by INTOSAI Development Initiative"
+
  - name: "~publisher~ josa"
+   new_name: "publisher: josa"
+   description: "Issue concerns data published by Jordan Open Source Association"
+
  - name: "~publisher~ iw_admin"
+   new_name: "publisher: iw_admin"
+   description: "Issue concerns data published by Impunity Watch"
+
  - name: "~publisher~ neem"
+   new_name: "publisher: neem"
+   description: "Issue concerns data published by Neem Foundation"
+
  - name: "~publisher~ ide"
+   new_name: "publisher: ide"
+   description: "Issue concerns data published by iDE"
+
  - name: "~publisher~ tgh"
+   new_name: "publisher: tgh"
+   description: "Issue concerns data published by Triangle G√©n√©ration Humanitaire"
+
  - name: "~publisher~ lei"
+   new_name: "publisher: lei"
+   description: "Issue concerns data published by Land Equity International"
+
  - name: "~publisher~ r4d"
+   new_name: "publisher: r4d"
+   description: "Issue concerns data published by Results for Development"
+
  - name: "~publisher~ aecid"
+   new_name: "publisher: aecid"
+   description: "Issue concerns data published by Spanish Agency for International Development Cooperation (AECID)"
+
  - name: "~publisher~ aag"
+   new_name: "publisher: aag"
+   description: "Issue concerns data published by ActionAid Ghana"
+
  - name: "~publisher~ cehrd1"
+   new_name: "publisher: cehrd1"
+   description: "Issue concerns data published by Centre for Environment Human Rights and Development"
+
  - name: "~publisher~ wba"
+   new_name: "publisher: wba"
+   description: "Issue concerns data published by World Benchmarking Alliance Foundation"
+
  - name: "~publisher~ transforma"
+   new_name: "publisher: transforma"
+   description: "Issue concerns data published by transforma"
+
  - name: "~publisher~ yffhsd"
+   new_name: "publisher: yffhsd"
+   description: "Issue concerns data published by Yamaan Foundation for Health and Social Development"
+
  - name: "~publisher~ clientearth-1"
+   new_name: "publisher: clientearth-1"
+   description: "Issue concerns data published by ClientEarth"
+
  - name: "~publisher~ tdh_foundation"
+   new_name: "publisher: tdh_foundation"
+   description: "Issue concerns data published by Terre des hommes- Aide √† l'enfance dans le monde- Fondation"
+
  - name: "~publisher~ uodcepmlp"
+   new_name: "publisher: uodcepmlp"
+   description: "Issue concerns data published by University of Dundee"
+
  - name: "~publisher~ yai-hub"
+   new_name: "publisher: yai-hub"
+   description: "Issue concerns data published by Young Africa International HUB"
+
  - name: "~publisher~ cip"
+   new_name: "publisher: cip"
+   description: "Issue concerns data published by International Potato Center"
+
  - name: "~publisher~ trig"
+   new_name: "publisher: trig"
+   description: "Issue concerns data published by Triggerise Ethiopia"
+
  - name: "~publisher~ aab"
+   new_name: "publisher: aab"
+   description: "Issue concerns data published by ActionAid Bangladesh"
+
  - name: "~publisher~ shiftproject"
+   new_name: "publisher: shiftproject"
+   description: "Issue concerns data published by Shift Project Ltd."
+
  - name: "~publisher~ knchr"
+   new_name: "publisher: knchr"
+   description: "Issue concerns data published by Kenya National Commission on Human Rights"
+
  - name: "~publisher~ wjr_001"
+   new_name: "publisher: wjr_001"
+   description: "Issue concerns data published by World Jewish Relief"
+
  - name: "~publisher~ dkt_ethiopia"
+   new_name: "publisher: dkt_ethiopia"
+   description: "Issue concerns data published by DKT Ethiopia"
+
  - name: "~publisher~ uvw"
+   new_name: "publisher: uvw"
+   description: "Issue concerns data published by Unie van Waterschappen"
+
  - name: "~publisher~ msuk"
+   new_name: "publisher: msuk"
+   description: "Issue concerns data published by Mercy Ships UK Limited"
+
  - name: "~publisher~ ran"
+   new_name: "publisher: ran"
+   description: "Issue concerns data published by Rainforest Action Network"
+
  - name: "~publisher~ dspd_unikin"
+   new_name: "publisher: dspd_unikin"
+   description: "Issue concerns data published by University of Kinshasa"
+
  - name: "~publisher~ kidasha"
+   new_name: "publisher: kidasha"
+   description: "Issue concerns data published by kidasha"
+
  - name: "~publisher~ wv_de"
+   new_name: "publisher: wv_de"
+   description: "Issue concerns data published by World Vision Germany"
+
  - name: "~publisher~ cuamm"
+   new_name: "publisher: cuamm"
+   description: "Issue concerns data published by Doctors with Africa CUAMM"
+
  - name: "~publisher~ ground-truth-solutions"
+   new_name: "publisher: ground-truth-solutions"
+   description: "Issue concerns data published by Ground Truth Solutions"
+
  - name: "~publisher~ peacedirect"
+   new_name: "publisher: peacedirect"
+   description: "Issue concerns data published by Peace Direct"
+
  - name: "~publisher~ udsm-cbs"
+   new_name: "publisher: udsm-cbs"
+   description: "Issue concerns data published by University of Dar es Salaam"
+
  - name: "~publisher~ sas_sana"
+   new_name: "publisher: sas_sana"
+   description: "Issue concerns data published by Small Arms Survey"
+
  - name: "~publisher~ fgae_ethiopia"
+   new_name: "publisher: fgae_ethiopia"
+   description: "Issue concerns data published by Family Guidance Association of Ethiopia"
+
  - name: "~publisher~ mofaic_uae"
+   new_name: "publisher: mofaic_uae"
+   description: "Issue concerns data published by Ministry of Foreign Affairs - United Arab Emirates (UAE)"
+
  - name: "~publisher~ pskenya_19"
+   new_name: "publisher: pskenya_19"
+   description: "Issue concerns data published by Population Services Kenya"
+
  - name: "~publisher~ f2a"
+   new_name: "publisher: f2a"
+   description: "Issue concerns data published by Faith to Action Network"
+
  - name: "~publisher~ aipr"
+   new_name: "publisher: aipr"
+   description: "Issue concerns data published by Auschwitz Institute for the Prevention of Genocide and Mass Atrocities"
+
  - name: "~publisher~ hri"
+   new_name: "publisher: hri"
+   description: "Issue concerns data published by Healthright International-Kenya"
+
  - name: "~publisher~ ctbeijing"
+   new_name: "publisher: ctbeijing"
+   description: "Issue concerns data published by Carbon Trust (Beijing) Consulting Limited"
+
  - name: "~publisher~ restartcenter"
+   new_name: "publisher: restartcenter"
+   description: "Issue concerns data published by Restart Center"
+
  - name: "~publisher~ bitc"
+   new_name: "publisher: bitc"
+   description: "Issue concerns data published by Business in the Community"
+
  - name: "~publisher~ bvf"
+   new_name: "publisher: bvf"
+   description: "Issue concerns data published by Balloon Ventures Foundation"
+
  - name: "~publisher~ african_parks"
+   new_name: "publisher: african_parks"
+   description: "Issue concerns data published by African Parks Network"
+
  - name: "~publisher~ isdglobal"
+   new_name: "publisher: isdglobal"
+   description: "Issue concerns data published by The Institute for Strategic Dialogue"
+
  - name: "~publisher~ nef_mali"
+   new_name: "publisher: nef_mali"
+   description: "Issue concerns data published by Near East Foundation Mali (NEF Mali)"
+
  - name: "~publisher~ wecf"
+   new_name: "publisher: wecf"
+   description: "Issue concerns data published by Women Engage for a Common Future"
+
  - name: "~publisher~ crisisgroup"
+   new_name: "publisher: crisisgroup"
+   description: "Issue concerns data published by International Crisis Group"
+
  - name: "~publisher~ bsf1"
+   new_name: "publisher: bsf1"
+   description: "Issue concerns data published by Biblioth√®ques Sans Fronti√®res"
+
  - name: "~publisher~ siwi"
+   new_name: "publisher: siwi"
+   description: "Issue concerns data published by Stockholm International Water Institute"
+
  - name: "~publisher~ ndf_fgm"
+   new_name: "publisher: ndf_fgm"
+   description: "Issue concerns data published by Nature and Development Foundation"
+
  - name: "~publisher~ ciprb"
+   new_name: "publisher: ciprb"
+   description: "Issue concerns data published by Centre for Injury Prevention and Research, Bangladesh (CIPRB)"
+
  - name: "~publisher~ mailman_school_of_public_health"
+   new_name: "publisher: mailman_school_of_public_health"
+   description: "Issue concerns data published by The Mailman School of Public Health"
+
  - name: "~publisher~ bu-carbx-admin"
+   new_name: "publisher: bu-carbx-admin"
+   description: "Issue concerns data published by Boston University"
+
  - name: "~publisher~ rmf-lb"
+   new_name: "publisher: rmf-lb"
+   description: "Issue concerns data published by Rene Moawad Foundation"
+
  - name: "~publisher~ accountablenow"
+   new_name: "publisher: accountablenow"
+   description: "Issue concerns data published by Accountable Now"
+
  - name: "~publisher~ larive"
+   new_name: "publisher: larive"
+   description: "Issue concerns data published by Larive International"
+
  - name: "~publisher~ nacgond-"
+   new_name: "publisher: nacgond-"
+   description: "Issue concerns data published by Environmental Centre for Oil Spills and Gas Flaring (NACGOND)"
+
  - name: "~publisher~ hi_fed"
+   new_name: "publisher: hi_fed"
+   description: "Issue concerns data published by Handicap International Federation"
+
  - name: "~publisher~ agra"
+   new_name: "publisher: agra"
+   description: "Issue concerns data published by Alliance for a Green Revolution for Africa"
+
  - name: "~publisher~ bit"
+   new_name: "publisher: bit"
+   description: "Issue concerns data published by Behavioural Insights Team"
+
  - name: "~publisher~ nnjs_nepal"
+   new_name: "publisher: nnjs_nepal"
+   description: "Issue concerns data published by Nepal Netra Jyoti Sangh"
+
  - name: "~publisher~ ticah"
+   new_name: "publisher: ticah"
+   description: "Issue concerns data published by Trust for Indigenous Culture and Health"
+
  - name: "~publisher~ brujula"
+   new_name: "publisher: brujula"
+   description: "Issue concerns data published by Brujula Comunicaciones Estrategicas SAS"
+
  - name: "~publisher~ maksph"
+   new_name: "publisher: maksph"
+   description: "Issue concerns data published by Makerere University School of Public Health"
+
  - name: "~publisher~ rahuug"
+   new_name: "publisher: rahuug"
+   description: "Issue concerns data published by Reach A Hand Uganda"
+
  - name: "~publisher~ ungc-uk"
+   new_name: "publisher: ungc-uk"
+   description: "Issue concerns data published by UN Global Compact Local Network UK"
+
  - name: "~publisher~ stc-international"
+   new_name: "publisher: stc-international"
+   description: "Issue concerns data published by STC International"
+
  - name: "~publisher~ tlmnepal"
+   new_name: "publisher: tlmnepal"
+   description: "Issue concerns data published by The Leprosy Mission Nepal"
+
  - name: "~publisher~ fiftyfifty-lb"
+   new_name: "publisher: fiftyfifty-lb"
+   description: "Issue concerns data published by Fiftyfifty"
+
  - name: "~publisher~ eap"
+   new_name: "publisher: eap"
+   description: "Issue concerns data published by East African Playgrounds"
+
  - name: "~publisher~ unrwa"
+   new_name: "publisher: unrwa"
+   description: "Issue concerns data published by The United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA)"
+
  - name: "~publisher~ cpd"
+   new_name: "publisher: cpd"
+   description: "Issue concerns data published by Centre for Policy Dialogue"
+
  - name: "~publisher~ femnet"
+   new_name: "publisher: femnet"
+   description: "Issue concerns data published by African Women's Development and Communication Network"
+
  - name: "~publisher~ gi-toc"
+   new_name: "publisher: gi-toc"
+   description: "Issue concerns data published by The Global Initiative Against Transnational Organized Crime"
+
  - name: "~publisher~ al_majmoua"
+   new_name: "publisher: al_majmoua"
+   description: "Issue concerns data published by Al Majmoua"
+
  - name: "~publisher~ esfd"
+   new_name: "publisher: esfd"
+   description: "Issue concerns data published by Economic and Social Fund for Development"
+
  - name: "~publisher~ sqf"
+   new_name: "publisher: sqf"
+   description: "Issue concerns data published by Leaders of Tomorrow"
+
  - name: "~publisher~ altai"
+   new_name: "publisher: altai"
+   description: "Issue concerns data published by Altai Consulting"
+
  - name: "~publisher~ hgc"
+   new_name: "publisher: hgc"
+   description: "Issue concerns data published by Grand Challenges Canada"
+
  - name: "~publisher~ fcdf"
+   new_name: "publisher: fcdf"
+   description: "Issue concerns data published by Family Counseling and Development Foundation"
+
  - name: "~publisher~ gardp"
+   new_name: "publisher: gardp"
+   description: "Issue concerns data published by Global Antibiotic Research and Development Partnership"
+
  - name: "~publisher~ iyafp"
+   new_name: "publisher: iyafp"
+   description: "Issue concerns data published by International Youth Alliance for Family Planning"
+
  - name: "~publisher~ fowode"
+   new_name: "publisher: fowode"
+   description: "Issue concerns data published by forum for women in democracy"
+
  - name: "~publisher~ laf"
+   new_name: "publisher: laf"
+   description: "Issue concerns data published by The Legal Aid Forum"
+
  - name: "~publisher~ palladium_eur"
+   new_name: "publisher: palladium_eur"
+   description: "Issue concerns data published by Palladium Europe"
+
  - name: "~publisher~ bopinc"
+   new_name: "publisher: bopinc"
+   description: "Issue concerns data published by BoP Innovation Center"
+
  - name: "~publisher~ mwatana"
+   new_name: "publisher: mwatana"
+   description: "Issue concerns data published by Mwatana for Human Rights"
+
  - name: "~publisher~ cdp"
+   new_name: "publisher: cdp"
+   description: "Issue concerns data published by CDP Worldwide"
+
  - name: "~publisher~ stichtingfern"
+   new_name: "publisher: stichtingfern"
+   description: "Issue concerns data published by Stichting Fern"
+
  - name: "~publisher~ fca"
+   new_name: "publisher: fca"
+   description: "Issue concerns data published by Finn Church Aid (Kirkon Ulkomaanapu sr)"
+
  - name: "~publisher~ dmi_admin"
+   new_name: "publisher: dmi_admin"
+   description: "Issue concerns data published by Development Media International"
+
  - name: "~publisher~ p-t-f-"
+   new_name: "publisher: p-t-f-"
+   description: "Issue concerns data published by Programming Their Future"
+
  - name: "~publisher~ wcs"
+   new_name: "publisher: wcs"
+   description: "Issue concerns data published by Wildlife Conservation Society"
+
  - name: "~publisher~ nwp"
+   new_name: "publisher: nwp"
+   description: "Issue concerns data published by Netherlands Water Partnership"
+
  - name: "~publisher~ clgf_data"
+   new_name: "publisher: clgf_data"
+   description: "Issue concerns data published by Commonwealth Local Government Forum"
+
  - name: "~publisher~ cfm"
+   new_name: "publisher: cfm"
+   description: "Issue concerns data published by Co√∂peratief Climate Fund Managers U.A."
+
  - name: "~publisher~ ewf"
+   new_name: "publisher: ewf"
+   description: "Issue concerns data published by Earthworm Foundation"
+
  - name: "~publisher~ trf"
+   new_name: "publisher: trf"
+   description: "Issue concerns data published by Thomson Reuters Foundation"
+
  - name: "~publisher~ col-greenfinance"
+   new_name: "publisher: col-greenfinance"
+   description: "Issue concerns data published by City of London Corporation"
+
  - name: "~publisher~ wasteaid"
+   new_name: "publisher: wasteaid"
+   description: "Issue concerns data published by WasteAid UK"
+
  - name: "~publisher~ uol"
+   new_name: "publisher: uol"
+   description: "Issue concerns data published by University Of Liverpool"
+
  - name: "~publisher~ icwrsa"
+   new_name: "publisher: icwrsa"
+   description: "Issue concerns data published by International Campaign Women¬¥s Right to Safe Abortion"
+
  - name: "~publisher~ riia"
+   new_name: "publisher: riia"
+   description: "Issue concerns data published by Royal Institute of International Affairs"
+
  - name: "~publisher~ inhive"
+   new_name: "publisher: inhive"
+   description: "Issue concerns data published by inHive"
+
  - name: "~publisher~ redruk"
+   new_name: "publisher: redruk"
+   description: "Issue concerns data published by RedR UK"
+
  - name: "~publisher~ wbtf"
+   new_name: "publisher: wbtf"
+   description: "Issue concerns data published by World Bank Trust Funds"
+
  - name: "~publisher~ cowateruk"
+   new_name: "publisher: cowateruk"
+   description: "Issue concerns data published by Cowater UK Limited"
+
  - name: "~publisher~ field_ready"
+   new_name: "publisher: field_ready"
+   description: "Issue concerns data published by Field Ready, USA"
+
  - name: "~publisher~ uclan"
+   new_name: "publisher: uclan"
+   description: "Issue concerns data published by University of Central Lancashire"
+
  - name: "~publisher~ caeb_mali"
+   new_name: "publisher: caeb_mali"
+   description: "Issue concerns data published by Conseil et Appui pour l'Education √† la Base Mali"
+
  - name: "~publisher~ medafrica"
+   new_name: "publisher: medafrica"
+   description: "Issue concerns data published by MedicineAfrica Ltd."
+
  - name: "~publisher~ canadem"
+   new_name: "publisher: canadem"
+   description: "Issue concerns data published by CANADEM"
+
  - name: "~publisher~ epha"
+   new_name: "publisher: epha"
+   description: "Issue concerns data published by Ethiopian Public Health Association"
+
  - name: "~publisher~ agri3_fund"
+   new_name: "publisher: agri3_fund"
+   description: "Issue concerns data published by The AGRI3 Fund"
+
  - name: "~publisher~ scss"
+   new_name: "publisher: scss"
+   description: "Issue concerns data published by Sana'a Center for Strategic Studies"
+
  - name: "~publisher~ icm_mx"
+   new_name: "publisher: icm_mx"
+   description: "Issue concerns data published by Iniciativa Climatica de Mexico"
+
  - name: "~publisher~ gwp"
+   new_name: "publisher: gwp"
+   description: "Issue concerns data published by Global Water Partnership"
+
  - name: "~publisher~ pfg"
+   new_name: "publisher: pfg"
+   description: "Issue concerns data published by Entiqal lel Tadreeb \"Partners for Good\""
+
  - name: "~publisher~ nlr_indonesia"
+   new_name: "publisher: nlr_indonesia"
+   description: "Issue concerns data published by NLR Indonesia"
+
  - name: "~publisher~ traffic"
+   new_name: "publisher: traffic"
+   description: "Issue concerns data published by TRAFFIC International"
+
  - name: "~publisher~ ylabs"
+   new_name: "publisher: ylabs"
+   description: "Issue concerns data published by Youth Development Labs Inc"
+
  - name: "~publisher~ epf"
+   new_name: "publisher: epf"
+   description: "Issue concerns data published by Eurasia Partnership Foundation"
+
  - name: "~publisher~ elrha"
+   new_name: "publisher: elrha"
+   description: "Issue concerns data published by Elrha"
+
  - name: "~publisher~ iiss"
+   new_name: "publisher: iiss"
+   description: "Issue concerns data published by The International Institute for Strategic Studies"
+
  - name: "~publisher~ rabo_partnerships"
+   new_name: "publisher: rabo_partnerships"
+   description: "Issue concerns data published by Rabo Partnerships"
+
  - name: "~publisher~ ethiopiaidireland"
+   new_name: "publisher: ethiopiaidireland"
+   description: "Issue concerns data published by Ethiopiaid Ireland"
+
  - name: "~publisher~ fcdo"
+   new_name: "publisher: fcdo"
+   description: "Issue concerns data published by UK - Foreign, Commonwealth and Development Office"
+
  - name: "~publisher~ impact_initiatives"
+   new_name: "publisher: impact_initiatives"
+   description: "Issue concerns data published by IMPACT Initiatives"
+
  - name: "~publisher~ synergiaihr"
+   new_name: "publisher: synergiaihr"
+   description: "Issue concerns data published by Synerg√≠a - Initiatives for Human Rights"
+
  - name: "~publisher~ mdp"
+   new_name: "publisher: mdp"
+   description: "Issue concerns data published by McKinsey Development Partners"
+
  - name: "~publisher~ uct"
+   new_name: "publisher: uct"
+   description: "Issue concerns data published by University of Cape Town"
+
  - name: "~publisher~ khf"
+   new_name: "publisher: khf"
+   description: "Issue concerns data published by King Hussein Foundation"
+
  - name: "~publisher~ imperial"
+   new_name: "publisher: imperial"
+   description: "Issue concerns data published by Imperial College of Science, Technology and Medicine"
+
  - name: "~publisher~ tff"
+   new_name: "publisher: tff"
+   description: "Issue concerns data published by The Freedom Fund"
+
  - name: "~publisher~ oqc"
+   new_name: "publisher: oqc"
+   description: "Issue concerns data published by Oxfam-Quebec"
+
  - name: "~publisher~ gsg"
+   new_name: "publisher: gsg"
+   description: "Issue concerns data published by the global steering group for impact investment"
+
  - name: "~publisher~ kemitraan"
+   new_name: "publisher: kemitraan"
+   description: "Issue concerns data published by Kemitraan Bagi Pembaruan Tata Pemerintahan"
+
  - name: "~publisher~ polea"
+   new_name: "publisher: polea"
+   description: "Issue concerns data published by Soluciones en Legislaci√≥n y Pol√≠tica Ambiental AC"
+
  - name: "~publisher~ uk-med"
+   new_name: "publisher: uk-med"
+   description: "Issue concerns data published by UK-Med"
+
  - name: "~publisher~ sowt"
+   new_name: "publisher: sowt"
+   description: "Issue concerns data published by Sowt podcasting and training L.L.C"
+
  - name: "~publisher~ bylc"
+   new_name: "publisher: bylc"
+   description: "Issue concerns data published by Bangladesh Youth Leadership Center"
+
  - name: "~publisher~ giin"
+   new_name: "publisher: giin"
+   description: "Issue concerns data published by Global Impact Investing Network"
+
  - name: "~publisher~ idom_mx"
+   new_name: "publisher: idom_mx"
+   description: "Issue concerns data published by IDOM INGENIERIA"
+
  - name: "~publisher~ ajar"
+   new_name: "publisher: ajar"
+   description: "Issue concerns data published by Asia Justice and Rights"
+
  - name: "~publisher~ afidep"
+   new_name: "publisher: afidep"
+   description: "Issue concerns data published by African Institute For Development Policy"
+
  - name: "~publisher~ ser"
+   new_name: "publisher: ser"
+   description: "Issue concerns data published by Sociaal-Economische Raad"
+
  - name: "~publisher~ cobracollective"
+   new_name: "publisher: cobracollective"
+   description: "Issue concerns data published by Cobra Collective CIC"
+
  - name: "~publisher~ nico"
+   new_name: "publisher: nico"
+   description: "Issue concerns data published by Northern Ireland Cooperation Overseas Ltd"
+
  - name: "~publisher~ paradigm"
+   new_name: "publisher: paradigm"
+   description: "Issue concerns data published by Paradigm Initiative"
+
  - name: "~publisher~ jowomenomics"
+   new_name: "publisher: jowomenomics"
+   description: "Issue concerns data published by JoWomenomics"
+
  - name: "~publisher~ ac1999"
+   new_name: "publisher: ac1999"
+   description: "Issue concerns data published by Advance Consulting"
+
  - name: "~publisher~ tuos"
+   new_name: "publisher: tuos"
+   description: "Issue concerns data published by The University of Sheffield"
+
  - name: "~publisher~ cgiar"
+   new_name: "publisher: cgiar"
+   description: "Issue concerns data published by CGIAR"
+
  - name: "~publisher~ fsduganda"
+   new_name: "publisher: fsduganda"
+   description: "Issue concerns data published by Financial Sector Deepening Uganda"
+
  - name: "~publisher~ prospero"
+   new_name: "publisher: prospero"
+   description: "Issue concerns data published by Prospero Limited"
+
  - name: "~publisher~ uoy"
+   new_name: "publisher: uoy"
+   description: "Issue concerns data published by University of York"
+
  - name: "~publisher~ undco"
+   new_name: "publisher: undco"
+   description: "Issue concerns data published by United Nations Development Coordination Office"
+
  - name: "~publisher~ globalwitness"
+   new_name: "publisher: globalwitness"
+   description: "Issue concerns data published by Global Witness"
+
  - name: "~publisher~ jpal"
+   new_name: "publisher: jpal"
+   description: "Issue concerns data published by Abdul Latif Jameel Poverty Action Lab at MIT"
+
  - name: "~publisher~ auxfinbi"
+   new_name: "publisher: auxfinbi"
+   description: "Issue concerns data published by AUXFIN Burundi"
+
  - name: "~publisher~ fs"
+   new_name: "publisher: fs"
+   description: "Issue concerns data published by Forever Sabah"
+
  - name: "~publisher~ ces-ua"
+   new_name: "publisher: ces-ua"
+   description: "Issue concerns data published by Centre for Economic Strategy Ukraine"
+
  - name: "~publisher~ afdi-fr"
+   new_name: "publisher: afdi-fr"
+   description: "Issue concerns data published by Association de solidarit√© internationale, Agriculteurs fran√ßais et d√©veloppement international (Afdi) France"
+
  - name: "~publisher~ ejaf"
+   new_name: "publisher: ejaf"
+   description: "Issue concerns data published by Elton John AIDS Foundation"
+
  - name: "~publisher~ sha"
+   new_name: "publisher: sha"
+   description: "Issue concerns data published by Sustainable Hospitality Alliance"
+
  - name: "~publisher~ bvrio"
+   new_name: "publisher: bvrio"
+   description: "Issue concerns data published by Instituto BVRio"
+
  - name: "~publisher~ loop"
+   new_name: "publisher: loop"
+   description: "Issue concerns data published by OurLoop Stitchting"
+
  - name: "~publisher~ pi-uk"
+   new_name: "publisher: pi-uk"
+   description: "Issue concerns data published by The Proforest Initiative UK"
+
  - name: "~publisher~ forest-trends"
+   new_name: "publisher: forest-trends"
+   description: "Issue concerns data published by Forest Trends Association"
+
  - name: "~publisher~ ttf"
+   new_name: "publisher: ttf"
+   description: "Issue concerns data published by Timber Trade Federation Ltd."
+
  - name: "~publisher~ mdif"
+   new_name: "publisher: mdif"
+   description: "Issue concerns data published by Media Development Investment Fund"
+
