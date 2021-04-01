@@ -37,11 +37,11 @@ labels:
 
  - name: "~publisher~ ec-devco"
    new_name: "publisher: ec-devco"
-   description: "Issue concerns data published by European Commission - Directorate-General for International Cooperation and Development"
+   description: "Issue concerns data published by European Commission - Directorate-General for International Coop[…]"
 
  - name: "~publisher~ sida"
    new_name: "publisher: sida"
-   description: "Issue concerns data published by Sweden, through Swedish International Development Cooperation Agency (Sida)"
+   description: "Issue concerns data published by Sweden, through Swedish International Development Cooperation Ag[…]"
 
  - name: "~publisher~ ewb_canada"
    new_name: "publisher: ewb_canada"
@@ -525,7 +525,7 @@ labels:
 
  - name: "~publisher~ dochas"
    new_name: "publisher: dochas"
-   description: "Issue concerns data published by D√≥chas - Irish Association of Non Governmental Development Organisations"
+   description: "Issue concerns data published by D√≥chas - Irish Association of Non Governmental Development Orga[…]"
 
  - name: "~publisher~ wfwiuk"
    new_name: "publisher: wfwiuk"
@@ -565,7 +565,7 @@ labels:
 
  - name: "~publisher~ mfat"
    new_name: "publisher: mfat"
-   description: "Issue concerns data published by New Zealand - Ministry of Foreign Affairs and Trade - New Zealand Aid Programme"
+   description: "Issue concerns data published by New Zealand - Ministry of Foreign Affairs and Trade - New Zealan[…]"
 
  - name: "~publisher~ gac-amc"
    new_name: "publisher: gac-amc"
@@ -733,7 +733,7 @@ labels:
 
  - name: "~publisher~ unocha"
    new_name: "publisher: unocha"
-   description: "Issue concerns data published by United Nations Office for the Coordination of Humanitarian Affairs (OCHA)"
+   description: "Issue concerns data published by United Nations Office for the Coordination of Humanitarian Affai[…]"
 
  - name: "~publisher~ dai-e"
    new_name: "publisher: dai-e"
@@ -1109,7 +1109,7 @@ labels:
 
  - name: "~publisher~ idrccrdi"
    new_name: "publisher: idrccrdi"
-   description: "Issue concerns data published by Canada - International Development Research Centre/Centre de recherches pour le d√©veloppement international"
+   description: "Issue concerns data published by Canada - International Development Research Centre/Centre de rec[…]"
 
  - name: "~publisher~ coda"
    new_name: "publisher: coda"
@@ -1153,7 +1153,7 @@ labels:
 
  - name: "~publisher~ unesco"
    new_name: "publisher: unesco"
-   description: "Issue concerns data published by United Nations Educational, Scientific and Cultural Organization (UNESCO)"
+   description: "Issue concerns data published by United Nations Educational, Scientific and Cultural Organization[…]"
 
  - name: "~publisher~ abaseen"
    new_name: "publisher: abaseen"
@@ -2325,7 +2325,7 @@ labels:
 
  - name: "~publisher~ iucn"
    new_name: "publisher: iucn"
-   description: "Issue concerns data published by International Union for Conservation of Nature and Natural Resources"
+   description: "Issue concerns data published by International Union for Conservation of Nature and Natural Resou[…]"
 
  - name: "~publisher~ soneb-benin"
    new_name: "publisher: soneb-benin"
@@ -2405,7 +2405,7 @@ labels:
 
  - name: "~publisher~ clingendael"
    new_name: "publisher: clingendael"
-   description: "Issue concerns data published by Stichting Nederlands Instituut voor Internationale Betrekkingen 'Clingendael'"
+   description: "Issue concerns data published by Stichting Nederlands Instituut voor Internationale Betrekkingen […]"
 
  - name: "~publisher~ pumnl"
    new_name: "publisher: pumnl"
@@ -2489,7 +2489,7 @@ labels:
 
  - name: "~publisher~ aics"
    new_name: "publisher: aics"
-   description: "Issue concerns data published by AICS - Agenzia Italiana per la Cooperazione allo Sviluppo / Italian Agency for Cooperation and Development"
+   description: "Issue concerns data published by AICS - Agenzia Italiana per la Cooperazione allo Sviluppo / Ital[…]"
 
  - name: "~publisher~ cpi"
    new_name: "publisher: cpi"
@@ -2509,7 +2509,7 @@ labels:
 
  - name: "~publisher~ vlir-uos"
    new_name: "publisher: vlir-uos"
-   description: "Issue concerns data published by Vlaamse Interuniversitaire Raad voor Universitaire Ontwikkelingssamenwerking (VLIR-UOS)"
+   description: "Issue concerns data published by Vlaamse Interuniversitaire Raad voor Universitaire Ontwikkelings[…]"
 
  - name: "~publisher~ fms"
    new_name: "publisher: fms"
@@ -2693,7 +2693,7 @@ labels:
 
  - name: "~publisher~ fipag"
    new_name: "publisher: fipag"
-   description: "Issue concerns data published by Fundo de Investimento e Patrimonio do Abastecimento de √Ågua (FIPAG)"
+   description: "Issue concerns data published by Fundo de Investimento e Patrimonio do Abastecimento de √Ågua (FI[…]"
 
  - name: "~publisher~ ciz"
    new_name: "publisher: ciz"
@@ -2761,7 +2761,7 @@ labels:
 
  - name: "~publisher~ ngo-federatie"
    new_name: "publisher: ngo-federatie"
-   description: "Issue concerns data published by Ngo-federatie (Vlaamse federatie van ngo's voor ontwikkelingssamenwerking)"
+   description: "Issue concerns data published by Ngo-federatie (Vlaamse federatie van ngo's voor ontwikkelingssam[…]"
 
  - name: "~publisher~ wcc"
    new_name: "publisher: wcc"
@@ -2821,7 +2821,7 @@ labels:
 
  - name: "~publisher~ actec"
    new_name: "publisher: actec"
-   description: "Issue concerns data published by Association for Cultural Technical and Educational Cooperation (ACTEC)"
+   description: "Issue concerns data published by Association for Cultural Technical and Educational Cooperation ([…]"
 
  - name: "~publisher~ idp"
    new_name: "publisher: idp"
@@ -2829,7 +2829,7 @@ labels:
 
  - name: "~publisher~ crehpa"
    new_name: "publisher: crehpa"
-   description: "Issue concerns data published by Center for Research on Environment Health and Population Activities (CREHPA)"
+   description: "Issue concerns data published by Center for Research on Environment Health and Population Activit[…]"
 
  - name: "~publisher~ orbis_international"
    new_name: "publisher: orbis_international"
@@ -2857,11 +2857,11 @@ labels:
 
  - name: "~publisher~ scibelgium"
    new_name: "publisher: scibelgium"
-   description: "Issue concerns data published by SCI Projets Internationaux ASBL_Service Civil International branche belge"
+   description: "Issue concerns data published by SCI Projets Internationaux ASBL_Service Civil International bran[…]"
 
  - name: "~publisher~ fos"
    new_name: "publisher: fos"
-   description: "Issue concerns data published by Fonds voor Ontwikkelingssamenwerking - Socialistische Solidariteit VZW"
+   description: "Issue concerns data published by Fonds voor Ontwikkelingssamenwerking - Socialistische Solidarite[…]"
 
  - name: "~publisher~ iiwe"
    new_name: "publisher: iiwe"
@@ -2921,7 +2921,7 @@ labels:
 
  - name: "~publisher~ apefe"
    new_name: "publisher: apefe"
-   description: "Issue concerns data published by Association pour la Promotion de l'Education et de la Formation √† l'Etranger"
+   description: "Issue concerns data published by Association pour la Promotion de l'Education et de la Formation […]"
 
  - name: "~publisher~ dba"
    new_name: "publisher: dba"
@@ -2929,7 +2929,7 @@ labels:
 
  - name: "~publisher~ cdeb-kvhb_admin"
    new_name: "publisher: cdeb-kvhb_admin"
-   description: "Issue concerns data published by Cha√Æne de l'Espoir Belgique / Keten van Hoop Belgi√´ / Chain of Hope Belgium"
+   description: "Issue concerns data published by Cha√Æne de l'Espoir Belgique / Keten van Hoop Belgi√´ / Chain of[…]"
 
  - name: "~publisher~ hib"
    new_name: "publisher: hib"
@@ -2945,7 +2945,7 @@ labels:
 
  - name: "~publisher~ vsfbelgium"
    new_name: "publisher: vsfbelgium"
-   description: "Issue concerns data published by VETERINAIRES SANS FRONTIERES / DIERENARTSEN ZONDER GRENZEN - BELGIUM"
+   description: "Issue concerns data published by VETERINAIRES SANS FRONTIERES / DIERENARTSEN ZONDER GRENZEN - BEL[…]"
 
  - name: "~publisher~ rc4d"
    new_name: "publisher: rc4d"
@@ -2965,7 +2965,7 @@ labels:
 
  - name: "~publisher~ crb-ai_admin"
    new_name: "publisher: crb-ai_admin"
-   description: "Issue concerns data published by Croix-Rouge de Belgique Communaut√© francophone - Activit√©s internationales ASBL"
+   description: "Issue concerns data published by Croix-Rouge de Belgique Communaut√© francophone - Activit√©s int[…]"
 
  - name: "~publisher~ djapo"
    new_name: "publisher: djapo"
@@ -2997,7 +2997,7 @@ labels:
 
  - name: "~publisher~ bismsi"
    new_name: "publisher: bismsi"
-   description: "Issue concerns data published by Beweging voor Internationale Solidariteit - Mouvement pour la Solidarit√© Internationale"
+   description: "Issue concerns data published by Beweging voor Internationale Solidariteit - Mouvement pour la So[…]"
 
  - name: "~publisher~ bos_plus_tropen"
    new_name: "publisher: bos_plus_tropen"
@@ -3021,7 +3021,7 @@ labels:
 
  - name: "~publisher~ fucid"
    new_name: "publisher: fucid"
-   description: "Issue concerns data published by Forum Universitaire pour la Coop√©ration Internationale au D√©veloppement -FUCID ASBL"
+   description: "Issue concerns data published by Forum Universitaire pour la Coop√©ration Internationale au D√©ve[…]"
 
  - name: "~publisher~ cjp"
    new_name: "publisher: cjp"
@@ -3297,7 +3297,7 @@ labels:
 
  - name: "~publisher~ ifsi_isvi"
    new_name: "publisher: ifsi_isvi"
-   description: "Issue concerns data published by Institut de Formation Syndical International - Internationaal Syndicaal Vormingsinstituut"
+   description: "Issue concerns data published by Institut de Formation Syndical International - Internationaal Sy[…]"
 
  - name: "~publisher~ cavwoc"
    new_name: "publisher: cavwoc"
@@ -3501,7 +3501,7 @@ labels:
 
  - name: "~publisher~ unocha-sdc"
    new_name: "publisher: unocha-sdc"
-   description: "Issue concerns data published by United Nations Office for the Coordination of Humanitarian Affairs (Specially-Designated Contributions)"
+   description: "Issue concerns data published by United Nations Office for the Coordination of Humanitarian Affai[…]"
 
  - name: "~publisher~ concordis"
    new_name: "publisher: concordis"
@@ -3601,7 +3601,7 @@ labels:
 
  - name: "~publisher~ anaepmr_benin"
    new_name: "publisher: anaepmr_benin"
-   description: "Issue concerns data published by Agence Nationale d'Approvisionnement en Eau Potable en Milieu Rural du Benin"
+   description: "Issue concerns data published by Agence Nationale d'Approvisionnement en Eau Potable en Milieu Ru[…]"
 
  - name: "~publisher~ iif"
    new_name: "publisher: iif"
@@ -3961,7 +3961,7 @@ labels:
 
  - name: "~publisher~ acatba"
    new_name: "publisher: acatba"
-   description: "Issue concerns data published by Association Centrafricaine de Traduction de la Bible et Alphabetisation"
+   description: "Issue concerns data published by Association Centrafricaine de Traduction de la Bible et Alphabet[…]"
 
  - name: "~publisher~ 1-uz"
    new_name: "publisher: 1-uz"
@@ -4093,7 +4093,7 @@ labels:
 
  - name: "~publisher~ ndsicde"
    new_name: "publisher: ndsicde"
-   description: "Issue concerns data published by Niger Delta Stakeholders Initiative for Community Development and Empowerment"
+   description: "Issue concerns data published by Niger Delta Stakeholders Initiative for Community Development an[…]"
 
  - name: "~publisher~ fo_germany"
    new_name: "publisher: fo_germany"
@@ -4313,7 +4313,7 @@ labels:
 
  - name: "~publisher~ promsex"
    new_name: "publisher: promsex"
-   description: "Issue concerns data published by Centro de Promocion y Defensa de los Derechos Sexuales y Reproductivos"
+   description: "Issue concerns data published by Centro de Promocion y Defensa de los Derechos Sexuales y Reprodu[…]"
 
  - name: "~publisher~ cis"
    new_name: "publisher: cis"
@@ -4581,7 +4581,7 @@ labels:
 
  - name: "~publisher~ aipr"
    new_name: "publisher: aipr"
-   description: "Issue concerns data published by Auschwitz Institute for the Prevention of Genocide and Mass Atrocities"
+   description: "Issue concerns data published by Auschwitz Institute for the Prevention of Genocide and Mass Atro[…]"
 
  - name: "~publisher~ hri"
    new_name: "publisher: hri"
@@ -4717,7 +4717,7 @@ labels:
 
  - name: "~publisher~ unrwa"
    new_name: "publisher: unrwa"
-   description: "Issue concerns data published by The United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA)"
+   description: "Issue concerns data published by The United Nations Relief and Works Agency for Palestine Refugee[…]"
 
  - name: "~publisher~ cpd"
    new_name: "publisher: cpd"
@@ -5085,7 +5085,7 @@ labels:
 
  - name: "~publisher~ afdi-fr"
    new_name: "publisher: afdi-fr"
-   description: "Issue concerns data published by Association de solidarit√© internationale, Agriculteurs fran√ßais et d√©veloppement international (Afdi) France"
+   description: "Issue concerns data published by Association de solidarit√© internationale, Agriculteurs fran√ßai[…]"
 
  - name: "~publisher~ ejaf"
    new_name: "publisher: ejaf"
