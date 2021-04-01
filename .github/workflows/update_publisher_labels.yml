@@ -1,0 +1,28 @@
+name: Update publisher labels
+on:
+  schedule:
+    - cron: '0 5 * * *'
+jobs:
+  update_labels:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - uses: actions/cache@v2
+      name: Cache dependencies
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements_dev.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run script
+      run: python update_publisher_labels.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
