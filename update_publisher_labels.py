@@ -25,8 +25,14 @@ for repo_label in repo_labels:
         continue
     current_label = pub_labels.get(repo_label.name)
     if not current_label:
-        print('Deleting label: "{}"'.format(repo_label.name))
-        repo_label.delete()
+        # # NB: We don’t actually remove the publisher here.
+        # # That’s because more often than not, the publisher
+        # # has disappeared due to some other problem.
+        #
+        # repo_label.delete()
+        #
+        # # Instead, we just make a note.
+        print('Publisher has gone: "{}"'.format(repo_label.name))
         continue
     new_description = current_label.get('description', repo_label.description)
     new_color = current_label.get('color', repo_label.color)
