@@ -6,17 +6,22 @@ from github import Github
 
 pub_label_prefix = 'publisher: '
 pub_labels = []
-j = requests.get("https://iatiregistry.org/publisher/download/json").json()
-for x in j:
+
+url = "https://iatiregistry.org/publisher/download/json"
+print('Fetching publisher data from registry ...')
+publisher_list = requests.get(url).json()
+print('Found {} publishers'.format(len(publisher_list)))
+
+for x in publisher_list:
     desc = "Issue relates to " + x["Publisher"]
     if len(desc) > 100:
         desc = desc[:97] + "[…]"
     publisher_id = x["Datasets Link"].rsplit("/", 1)[-1]
     name = pub_label_prefix + publisher_id
     pub_labels.append({"name": name, "description": desc, "color": "ededed"})
-
 pub_labels = {label["name"]: label for label in pub_labels}
 
+print('Comparing with labels in github repo ...')
 g = Github(getenv('GITHUB_TOKEN'))
 repo = g.get_repo('codeforiati/iati-data-bugtracker')
 repo_labels = list(repo.get_labels())
@@ -32,7 +37,8 @@ for repo_label in repo_labels:
         # repo_label.delete()
         #
         # # Instead, we just make a note.
-        print('Publisher has gone: "{}"'.format(repo_label.name))
+        print('Label doesn’t refer to a publisher ' +
+              'in the registry: "{}"'.format(repo_label.name))
         continue
     new_description = current_label.get('description', repo_label.description)
     new_color = current_label.get('color', repo_label.color)
@@ -46,3 +52,4 @@ for label_name, label_dict in pub_labels.items():
     if label_name not in repo_label_names:
         print('Creating label: {}'.format(label_name))
         repo.create_label(**label_dict)
+print('All done.')
