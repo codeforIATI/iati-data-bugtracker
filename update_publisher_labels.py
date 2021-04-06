@@ -7,16 +7,19 @@ from github import Github
 pub_label_prefix = 'publisher: '
 pub_labels = []
 
-url = "https://iatiregistry.org/publisher/download/json"
-print('Fetching publisher data from registry ...')
-publisher_list = requests.get(url).json()
+url = "https://codelists.codeforiati.org/api/json/en/" + \
+      "ReportingOrganisation.json"
+print('Fetching publisher data ...')
+publisher_list = requests.get(url).json()["data"]
 print('Found {} publishers'.format(len(publisher_list)))
 
 for x in publisher_list:
-    desc = "Issue relates to " + x["Publisher"]
+    desc = "Issue relates to " + x["name"]
     if len(desc) > 100:
         desc = desc[:97] + "[…]"
-    publisher_id = x["Datasets Link"].rsplit("/", 1)[-1]
+    publisher_id = x["codeforiati:registry-identifier"]
+    if not publisher_id:
+        continue
     name = pub_label_prefix + publisher_id
     pub_labels.append({"name": name, "description": desc, "color": "ededed"})
 pub_labels = {label["name"]: label for label in pub_labels}
