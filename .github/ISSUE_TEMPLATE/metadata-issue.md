@@ -1,7 +1,9 @@
 ---
 name: Report an issue with IATI metadata
 about: Did you find an issue with IATI metadata? Please complete the template to make a public record of it.
-labels: 'metadata issue'
+labels:
+ - metadata issue
+ - awaiting triage
 assignees: ''
 
 ---

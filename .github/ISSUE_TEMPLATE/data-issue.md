@@ -1,7 +1,9 @@
 ---
 name: Report an issue with IATI data
 about: Did you find an issue with IATI data? Please complete the template to make a public record of it.
-labels: 'data issue'
+labels:
+ - data issue
+ - awaiting triage
 assignees: ''
 
 ---
