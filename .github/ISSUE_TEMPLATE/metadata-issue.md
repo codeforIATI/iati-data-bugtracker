@@ -24,6 +24,10 @@ Have you contacted the publisher, and/or [IATI Support](mailto:support@iatistand
 
 If not, you can use [this email template](https://github.com/codeforIATI/iati-data-bugtracker/blob/main/email-template.md).
 
+### IATI registry identifier for the publisher
+
+Please enter the registry identifier for the publisher.
+
 ### Additional context
 
  * What were you trying to do when you encountered this issue?
