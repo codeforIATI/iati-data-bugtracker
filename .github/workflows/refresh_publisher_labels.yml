@@ -1,4 +1,4 @@
-name: Update publisher labels
+name: Refresh publisher labels
 on:
   schedule:
     - cron: '0 5 * * *'
@@ -23,6 +23,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run script
-      run: python update_publisher_labels.py
+      run: python -u scripts/update_publisher_labels.py
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
