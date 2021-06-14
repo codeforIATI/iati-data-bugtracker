@@ -25,7 +25,7 @@ for x in publisher_list:
 pub_labels = {label["name"]: label for label in pub_labels}
 
 print('Comparing with labels in github repo ...')
-g = Github(getenv('GITHUB_TOKEN'))
+g = Github(getenv('GH_TOKEN'))
 repo = g.get_repo('codeforiati/iati-data-bugtracker')
 repo_labels = list(repo.get_labels())
 for repo_label in repo_labels:
