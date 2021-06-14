@@ -13,4 +13,4 @@ jobs:
         with:
           project: IATI data bugtracker
           column: Fixed!
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GH_TOKEN }}

@@ -14,4 +14,4 @@ jobs:
         with:
           project: IATI data bugtracker
           column: Long-standing issues
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GH_TOKEN }}

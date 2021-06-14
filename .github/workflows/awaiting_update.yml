@@ -14,5 +14,5 @@ jobs:
         with:
           project: IATI data bugtracker
           column: Awaiting update
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GH_TOKEN }}
 
