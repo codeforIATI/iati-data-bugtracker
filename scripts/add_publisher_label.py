@@ -17,8 +17,11 @@ for idx, line in enumerate(lines):
         label = 'publisher: ' + lines[idx + 1]
         try:
             repo.get_label(label)
-            print(f'Adding label "{label}" to issue {issue.number}')
-            issue.add_to_labels(label)
         except UnknownObjectException:
-            pass
+            print(f'Failed to add label "{label}" to issue {issue.number}')
+            # Give up
+            break
+        print(f'Adding label "{label}" to issue {issue.number}')
+        issue.add_to_labels(label)
+        # we're done
         break
