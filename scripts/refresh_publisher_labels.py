@@ -26,7 +26,7 @@ pub_labels = {label["name"]: label for label in pub_labels}
 
 print('Comparing with labels in github repo ...')
 g = Github(getenv('GITHUB_TOKEN'))
-repo = g.get_repo('codeforiati/iati-data-bugtracker')
+repo = g.get_repo(getenv('GITHUB_REPOSITORY'))
 repo_labels = list(repo.get_labels())
 for repo_label in repo_labels:
     if not repo_label.name.startswith(pub_label_prefix):
