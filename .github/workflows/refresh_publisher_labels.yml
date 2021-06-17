@@ -1,7 +1,9 @@
 name: Refresh publisher labels
+
 on:
   schedule:
     - cron: '0 5 * * *'
+
 jobs:
   update_labels:
     runs-on: ubuntu-latest

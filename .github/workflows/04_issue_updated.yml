@@ -1,0 +1,15 @@
+name: Mark as updated
+
+on:
+  issue_comment:
+    types:
+      - created
+
+jobs:
+  mark-as-updated:
+    if: "contains(github.event.issue.labels.*.name, 'awaiting update') && github.event.issue.user.login != 'codeforIATIbot'"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: andymckay/labeler@master
+        with:
+          remove-labels: "awaiting update"

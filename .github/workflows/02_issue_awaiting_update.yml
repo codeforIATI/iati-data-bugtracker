@@ -1,9 +1,11 @@
-name: Mark as stale
+name: Mark as awaiting update
+
 on:
   schedule:
     - cron: '0 5 * * *'
+
 jobs:
-  mark_as_stale:
+  mark-as-awaiting-update:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
@@ -23,6 +25,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run script
-      run: python -u scripts/mark_as_stale.py
+      run: python -u scripts/mark_as_awaiting_update.py
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

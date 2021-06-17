@@ -1,4 +1,4 @@
-name: Issue created
+name: Add new issues to the board, and add the publisher label
 
 on:
   issues:
@@ -18,7 +18,7 @@ jobs:
 
   add-publisher-label:
     runs-on: ubuntu-latest
-    if: "!contains(github.event.issue.labels.*.name, 'meta')"
+    needs: automate-project-columns
     steps:
       - uses: actions/checkout@v1
       - name: Set up Python 3.7

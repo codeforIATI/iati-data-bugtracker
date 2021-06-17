@@ -1,4 +1,4 @@
-name: Move updated issues to "Long-standing issues"
+name: Move issues to "Long-standing issues" column
 
 on:
   issues:
