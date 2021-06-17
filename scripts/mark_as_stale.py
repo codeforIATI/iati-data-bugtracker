@@ -13,7 +13,7 @@ repo = g.get_repo(getenv('GITHUB_REPOSITORY'))
 
 issues = repo.get_issues(sort='updated', direction='asc')
 for issue in issues:
-    issue_labels = [l.name for l in issue.labels]
+    issue_labels = [label.name for label in issue.labels]
     if any([label in issue_labels for label in exempt_labels]):
         continue
     if issue.updated_at.date() <= stale_before:
@@ -29,5 +29,6 @@ If you’re reading this, would you mind checking to see if the issue is still a
 Thank you!"""
         issue.create_comment(update_message)
     else:
-        if 'awaiting update' in issue_labels:
-            issue.remove_from_labels('awaiting update')
+        # because of the sort order, as soon as we see a more
+        # recently updated issue, we can stop
+        break
