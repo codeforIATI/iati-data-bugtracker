@@ -10,7 +10,8 @@ jobs:
     if: "contains(github.event.issue.labels.*.name, 'awaiting update') && github.event.issue.user.login != 'codeforIATIbot'"
     runs-on: ubuntu-latest
     steps:
-      - uses: andymckay/labeler@1.0.2
+      - uses: actions-ecosystem/action-remove-labels@v1
         with:
-          remove-labels: "awaiting update"
-          repo-token: ${{ secrets.GH_TOKEN }}
+          labels: "awaiting update"
+          github_token: ${{ secrets.GH_TOKEN }}
+          fail_on_error: true

@@ -15,4 +15,3 @@ jobs:
           project: IATI data bugtracker
           column: Awaiting update
           repo-token: ${{ secrets.GH_TOKEN }}
-
