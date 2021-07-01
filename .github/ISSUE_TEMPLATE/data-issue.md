@@ -26,7 +26,9 @@ If not, you can use [this email template](https://github.com/codeforIATI/iati-da
 
 ### IATI registry identifier for the publisher
 
-Please enter the registry identifier for the publisher.
+Please enter the registry identifier for the publisher. You can find this as `Publisher Id` on the publisher page of the dataset or in the url.
+
+For example, `https://iatiregistry.org/publisher/registry_identifier`
 
 ### Additional context
 
